@@ -1,0 +1,585 @@
+@charset "utf-8";
+/* CSS Document */
+
+div, li, td, p, select, input, textarea, a, button, input {
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+color: #505050;
+text-decoration: none;
+}
+div {
+display: block;
+}
+body {
+text-align: left;
+}
+.log{
+	width: 323px;
+	height: 69px;
+	top: 42px;
+	left: 21px;
+	z-index: 3;
+	position:absolute;
+}
+.scd{
+	width: 877px;
+	height: 150px;
+	top: 0px;
+	left: 381px;
+	z-index: 8;
+	position:absolute;
+}
+#dropmenu{	
+margin: 0;
+padding: 0 0 0 2px;
+width:100%;
+height:150px;
+background: url("../img/menubg44.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/menubg44.png*/ no-repeat;
+}
+
+#dropmenu li{	
+float: left;
+list-style: none;
+font: 14px/150px  'microsoft yahei',SimSun,Verdana,Arial;
+
+}
+
+#dropmenu li a{	
+display: block;
+padding: 0px;
+text-align:center;
+text-decoration: none;
+width: 125px;
+color: #fff;
+white-space: nowrap;
+background: url("../img/menu44.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/menu44.png*/ no-repeat;
+font: 14px/150px  'microsoft yahei',SimSun,Verdana,Arial;
+}
+
+#dropmenu li a:hover{	
+color: #fff;
+background: url("../img/menunow44.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/menunow44.png*/ no-repeat;
+font: 14px/150px  'microsoft yahei',SimSun,Verdana,Arial;
+}
+		
+#dropmenu li ul{
+margin: 0 0 0 -1px;
+padding: 10px 0px;
+width: 124px;
+position: absolute;
+visibility: hidden;
+filter:alpha(Opacity=80);
+-moz-opacity:0.5;
+opacity: 0.5;
+background: url("../img/smenubg44.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/smenubg44.png*/ repeat;
+}
+		
+#dropmenu li ul li{
+float: none;
+display: inline;
+width: 124px;
+height:30px;
+font: 12px/30px  SimSun,'microsoft yahei',Verdana,Arial;
+}
+			
+#dropmenu li ul li a{	
+padding: 0px;
+text-align:center;
+color: #fff;
+width: 124px;
+background: url("../img/smenubg44.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/smenubg44.png*/ repeat;
+font: 12px/30px  SimSun,'microsoft yahei',Verdana,Arial;
+}
+			
+#dropmenu li ul li a:hover{	
+padding: 0px;
+color: #fff;
+background: url("../img/smenunow44.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/smenunow44.png*/ repeat;
+font: 12px/30px  SimSun,'microsoft yahei',Verdana,Arial;
+}
+.ggt{
+	width: 1258px;
+	height: 500px;
+	top: 151px;
+	left: 0px;
+	z-index: 1;
+	position:absolute;
+}
+.sleft{
+	width: 423px;
+	top: 32px;
+	left: 25px;
+	z-index: 9;
+	position:absolute;
+}
+.sleftn{
+	width: 428px;
+	height: 197px;
+	top: 58px;
+	position:absolute;
+	z-index: 7;
+}
+.sright{
+	width: 741px;
+	top: 32px;
+	left: 490px;
+	z-index: 6;
+	position:absolute;
+}
+.picwordtext5{
+margin:0;
+padding:0;
+}
+
+.picwordtext5 .pic{
+display:block;
+float:left;
+padding:2px;
+margin:3px 12px 5px 0;
+border:0;
+}
+
+.picwordtext5 .pic img{
+border:0;
+}
+
+.picwordtext5  .memo{
+font:12px/23px simsun,Arial;
+color:#505050;
+text-indent:2em;
+}
+.hxlb{
+	width: 750px;
+	height: 197px;
+	top: 58px;
+	position:absolute;
+	z-index: 5;
+}
+.productlistx {
+	margin:0;
+	padding:0;
+	position: relative;
+	overflow: hidden;
+	width:100%;
+}
+
+
+.blkproductlistx {
+	border:0; 
+	padding:0; 
+	overflow: hidden;
+	position: relative;
+}
+
+.blkproductlistx .LeftButton {
+	background: url("../img/arrow8.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/arrow8.png*/ no-repeat 0px 0px;
+	left:0px;
+	float:left;
+	width:18px;
+	cursor: pointer;
+	position: absolute;
+	height:26px;
+	top:52px;
+}
+
+.blkproductlistx .RightButton {
+	background: url("../img/arrow8.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/arrow8.png*/ no-repeat -18px 0px;
+	right:0px;
+	float:right;
+	width:18px;
+	cursor: pointer;
+	position: absolute;
+	height:26px;
+	top:52px;
+}
+
+.blkproductlistx .Cont {
+	padding:0px;
+	margin:0px 0px 0px 23px; 
+	overflow: hidden;
+}
+
+.blkproductlistx .box {
+	float:left;
+	text-align:center;
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.box .fang{
+	padding:3px;
+	margin:4px;
+	border:1px #ddd solid;
+}
+
+
+.blkproductlistx .box img {
+border:0;
+padding:0;
+}
+
+
+div.box a.prodtitle{
+color:#505050;
+font:12px/36px SimSun,Arial,Sans-Serif;
+text-decoration: none;
+}
+
+div.box a.prodtitle:hover{
+color:#ff6600;
+text-decoration: underline;
+}
+.xcd{
+	width: 1258px;
+	height: 34px;
+	top: 25px;
+	left: 0px;
+	z-index: 4;
+	position:absolute;
+}
+div#bottommenu{
+height: 28px;
+color:#e0e0ef;
+text-align:center;
+}
+
+
+div#bottommenu a:link,div#bottommenu a:visited,div#bottommenu a:active{
+margin:0 16px;
+color:#bbb;
+font:12px/28px 'SimSun',Arial,Sans-Serif;
+text-decoration: none;
+}
+
+div#bottommenu a:hover{
+color:#bbb;
+text-decoration: underline;
+}
+.fleft{
+	float:left;
+	width:219px;
+}
+.fright{
+	float:right;
+	width:1037px;
+}
+div.productclass_dolphin{
+margin:0px;
+padding:15px 0px 0px 0px;
+}
+
+
+a.productclass_dolphin{
+display:block;
+text-decoration: none;
+font:12px/29px simsun,Verdana, Arial, sans-serif;
+height:30px;
+text-align:left;
+background:url("../img/listx.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/listx.png*/ 0px 0px no-repeat;
+color:#505050;
+text-align:center;
+}
+
+a.productclass_dolphin:hover{
+display:block;
+color: #505050; 
+background:url("../img/listx2.png")/*tpa=http://www.chuangyesan.com/images/website/03/img/listx2.png*/ 0px 0px no-repeat;
+text-decoration: none;
+}
+.ssl{
+	width: 219px;
+	height: 196px;
+	top: 314px;
+	left: 0px;
+	z-index: 5;
+	position:absolute;
+}
+div.productsearchformzone{
+	padding:20px 0px 60px 20px;
+	height:100%;
+	margin:0px;
+}
+
+div.productsearchformzone div.productsearchform{
+	height: 22px;
+	line-height:19px;
+	margin-top:1px;
+}
+
+div.productsearchformzone div.productsearchform .inputproduct{
+	border:1px #ddd solid;
+	height:18px;
+	line-height:17px;
+	color:#7e7e7e;
+}
+
+div.productsearchformzone .buttonimage{
+	height:22px;
+	margin-top:4px;
+}
+
+div.productsearchformzone div.productsearchform2{
+	height: 20px;
+	line-height:19px;
+	margin-top:2px;
+	padding:0px;
+}
+
+div.productsearchformzone div.productsearchform .box{
+    BORDER: #e3e9ef 1px solid;
+	FONT-SIZE: 10pt;
+	color:#505050;
+	FONT-FAMILY: "verdna";
+}
+
+div.productsearchformzone div.productsearchform .selectBoxSelectedArea {
+    PADDING-LEFT: 3px;
+	FONT-SIZE: 12px;
+	COLOR: #505050;
+	LINE-HEIGHT: 17px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR:#ffffff;
+}
+div.productsearchformzone div.productsearchform .selectBoxSelectedAreaFocus {
+    PADDING-LEFT: 3px;
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	LINE-HEIGHT: 17px; 
+	PADDING-TOP: 1px;  
+	BACKGROUND-COLOR: #ffffff;
+}
+div.productsearchformzone div.productsearchform .selectBoxOption {
+    PADDING-LEFT: 3px; 
+	FONT-SIZE: 12px; 
+	COLOR: #505050; 
+	LINE-HEIGHT: 17px; 
+	PADDING-TOP: 2px;  
+	BACKGROUND-COLOR: #ffffff;
+}
+div.productsearchformzone div.productsearchform .selectBoxOptionOver {
+    PADDING-LEFT: 3px; 
+	FONT-SIZE: 12px; 
+	COLOR: #333333; 
+	LINE-HEIGHT: 17px; 
+	PADDING-TOP: 2px;  
+	BACKGROUND-COLOR: #ffffff;
+}
+div.productsearchformzone div.productsearchform .selectBoxOptionInnerLayer {
+    BORDER: #e3e9ef 1px solid; 
+	SCROLLBAR-FACE-COLOR: #ffffff; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #b4b4b4; 
+	OVERFLOW: auto;
+	SCROLLBAR-SHADOW-COLOR: #b4b4b4; 
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-ARROW-COLOR: #838383; 
+	SCROLLBAR-TRACK-COLOR: #eaeaea; 
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff; 
+	BACKGROUND-COLOR: #ffffff;
+}
+div#nav {
+color:#505050;
+padding:10px 0px 0px 38px;
+}
+
+div#nav a{
+color:#505050;
+}
+div.page_content {
+font:14px/22px Verdana, Arial, Helvetica, sans-serif;
+color:#494949;
+margin:0px;
+padding-bottom:30px;
+}
+
+div.page_content p,div.page_content a,div.page_content td,div.page_content span,div.page_content li{
+font:14px/22px Verdana, Arial, Helvetica, sans-serif;
+color:#494949;
+}
+.cpzst{
+	border: 1px #ddd solid;
+	margin: 0px;
+	text-align: center;
+	padding: 3px;
+	width: 210px;
+    height: 158px;
+}
+.cpzsw{
+}
+.cpzsw ul li{
+	float:left;
+}
+	
+.cpzsw ul{
+	list-style:none;
+}
+.cpzsz{
+	width: 210px;
+    height: 36px;
+	text-align: center;
+    line-height: 36px;
+	margin: 0px;
+	padding: 0px;
+}
+.cpzsz:hover{
+	color:#FF0000;
+}
+.showpages {
+	clear: both;
+	padding: 0px;
+	margin: 20px 0px;
+	width: 100%;
+	height: 30px;
+	white-space: nowrap;
+}
+.pagesinfo {
+	float: left;
+	padding: 3px 8px;
+	white-space: nowrap;
+}
+.pages {
+	float: right;
+	padding-right: 8px;
+	white-space: nowrap;
+}
+.pages ul li.pagesnow {
+	color: #303030;
+	background-color: #eee;
+	white-space: nowrap;
+	border: 1px #dcd9d4 solid;
+}
+.pages ul li {
+	margin: 3px;
+	padding: 2px 5px;
+	list-style-type: none;
+	float: left;
+	background: #dcd9d4;
+	color: #303030;
+	border: 1px #dcd9d4 solid;
+	white-space: nowrap;
+}
+.pages ul li.pbutton {
+	color: #303030;
+	background-color: #dcd9d4;
+	padding: 3px 5px 1px 5px;
+	white-space: nowrap;
+	border: 1px #dcd9d4 solid;
+}
+
+.pages ul li.opt {
+	color: #303030;
+	padding: 1px;
+	white-space: nowrap;
+	border: 0px;
+}
+div#newsquery {
+margin:0px;
+padding:0px;
+}
+
+div#newsquery ul{
+margin:0;
+padding:0;
+}
+
+div#newsquery li{
+list-style-type: none;
+height:36px;
+font-size: 12px;
+overflow: hidden;
+line-height:28px;
+background:url("../img/line.jpg")/*tpa=http://www.chuangyesan.com/images/website/03/img/line.jpg*/ 0px 0px no-repeat;
+}
+
+div#newsquery a:link,div#newsquery a:visited,div#newsquery a:active{
+text-decoration: none;
+font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+color:#333;
+}
+
+div#newsquery a:hover{
+text-decoration: underline;
+font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+color:#e10000;
+}
+
+
+div#newsquery li.title{
+padding-left:22px;
+}
+
+
+div#newsquery div.title{
+float:left;
+font:12px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#newsquery .time{
+float:right;
+white-space: nowrap;
+overflow: hidden;
+font:12px/22px Verdana, Arial, Helvetica, sans-serif;
+padding-left:5px;
+color:#999;
+}
+#jobquery {margin:0;border-bottom:2px #e8e8e8 solid;}
+#jobquery ul{margin:0;padding:0}
+#jobquery ul.queryul{margin:10px 0px;}
+#jobquery li{list-style-type: none;padding-left:10px;height:35px;}
+#jobquery li.cap{border-bottom:2px #e8e8e8 solid;background:#f5f5f5}
+#jobquery .bt{float:left;line-height:35px;margin-right:20px;}
+#jobquery .bt a{font: 12px/35px Verdana, Arial, Helvetica, sans-serif;}
+#jobquery .bk{float:right;width:130px;line-height:35px;}
+#jobquery .bk a{font: 12px/35px Verdana, Arial, Helvetica, sans-serif;}
+#jobquery .bt a:hover{color:#FF0000;}
+#jobquery .au{float:right;width:90px;line-height:35px;}
+#jobquery .au a{font: 12px/35px Verdana, Arial, Helvetica, sans-serif;}
+#jobquery .cl{float:right;width:50px;line-height:35px;}
+#jobquery .cl a{font: 12px/35px Verdana, Arial, Helvetica, sans-serif;}
+#jobquery .cl a:hover{color:#FF0000;}
+div.page_content {
+font:14px/22px Verdana, Arial, Helvetica, sans-serif;
+color:#494949;
+margin:0px;
+padding-bottom:30px;
+}
+
+div.page_content p,div.page_content a,div.page_content td,div.page_content span,div.page_content li{
+font:14px/22px Verdana, Arial, Helvetica, sans-serif;
+color:#494949;
+}
+form{margin:0;padding:0 0 30px 0}
+
+.formgroup{
+margin-bottom:10px;
+height:28px;
+border-bottom:1px #def solid;
+background:url("../images/icon1.gif")/*tpa=http://www.chuangyesan.com/images/website/03/images/icon1.gif*/ left no-repeat;
+font: 14px/28px Verdana, Arial, Helvetica, sans-serif;
+padding-left:22px;
+font-weight:bold;
+}
+
+
+.formintro{
+border:1px #def solid;
+margin:10px 0px 20px 0px;
+padding:10px;
+background:#f7fbfe;
+}
+
+.formborder{
+margin:0px;
+margin-top:-1px;
+border:1px #e8e8e8 solid;
+padding:12px;
+}
+
+
+.input{border:1px #ddd solid;height:20px;line-height:20px;padding:0px 3px;color:#555;background:#fbfbfb}
+.textarea{border:1px #ddd solid;font-size:12px;padding:3px;color:#555;background:#fbfbfb}
+.button{border:1px #ddd solid;font: 12px Verdana, Arial, Helvetica, sans-serif;height:22px;line-height:20px;padding:0px 3px;background:#f7f7f7;}
+.submit{border:1px #ddd solid;font: 12px Verdana, Arial, Helvetica, sans-serif;height:22px;line-height:20px;padding:0px 3px;background:#f7f7f7;}
+.mustfill{color:#ff0000}
+
+.loginlink{cursor:pointer;text-decoration: underline}
+.logoutlink{cursor:pointer;text-decoration: underline}

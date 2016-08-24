@@ -1,0 +1,680 @@
+@charset "utf-8";
+/* CSS Document */
+.lg{
+	width: 295px;
+	height: 62px;
+	margin-top: -675px;
+	margin-left: 111px;
+	z-index: 3;
+}
+.topbjt{
+	width: 1258px;
+	height: 716px;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+.ssl{
+	width: 329px;
+	height: 26px;
+	margin-top: -45px;
+	margin-left: 806px;
+	z-index: 10;
+	position:relative;
+}
+div.globalsearchformzone{
+	padding:0px;
+	margin:0px;
+	height:24px;
+	background: url("../img/searchl.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/searchl.png*/ 0 0 no-repeat;
+}
+
+
+div.globalsearchformzone div.globalsearchform{
+	float:left;
+	padding:0px 0px 0px 15px;
+	margin:0px;
+	height:22px;
+}
+
+div.globalsearchformzone div.globalsearchform1{
+	float:right;
+	padding:0px;
+	margin:0px;
+}
+
+div.globalsearchformzone div.globalsearchform .input{
+	border:0px;
+	height:24px;
+	padding:0;
+	margin:0px;
+	background:transparent;
+	color:#e6d2dc;
+	width:230px;
+	font:12px/22px Verdana,microsoft yahei,Arial;
+}
+
+div.globalsearchformzone div.globalsearchform1 .imgbutton{
+	padding:0px;
+	margin:0px;
+}
+.flash{
+	width: 200px;
+    height: 200px;
+    margin-left: 480px;
+    margin-top: 70px;
+}
+.dh{
+	width: 1005px;
+	height: 76px;
+	top: 374px;
+	left: 121px;
+	z-index: 8;
+	position:relative;
+}
+#dropmenu{	
+	margin: 0;
+	padding: 0 0 0 30px;
+	width:100%;
+	height:60px;
+	background: url("../img/menubg44.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/menubg44.png*/ no-repeat;
+}
+
+#dropmenu li{	
+	float: left;
+	list-style: none;
+	margin:0;
+}
+
+#dropmenu li a{	
+	display: block;
+	padding: 0px;
+	text-align:center;
+	text-decoration: none;
+	width: 118px;
+	height:41px;
+	color: #fff;
+	white-space: nowrap;
+	background: url("../img/menu44.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/menu44.png*/ repeat-x;
+	font: 14px/40px  'microsoft yahei',SimSun,Verdana,Arial;
+}
+
+#dropmenu li a:hover{	
+	color: #742a44;
+	background: url("../img/menunow44.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/menunow44.png*/ no-repeat;
+	font: 14px/40px  'microsoft yahei',SimSun,Verdana,Arial;
+}
+		
+#dropmenu li ul{
+	margin: 0;
+	padding: 10px 0px;
+	width: 118px;
+	position: absolute;
+	visibility: hidden;
+	filter:alpha(Opacity=80);
+	-moz-opacity:0.5;
+	opacity: 0.5;
+	background: url("../img/smenubg44.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/smenubg44.png*/ repeat;
+}
+		
+#dropmenu li ul li{
+	float: none;
+	display: inline;
+	width: 118px;
+	height:30px;
+	font: 12px/30px  SimSun,'microsoft yahei',Verdana,Arial;
+}
+			
+#dropmenu li ul li a{	
+	padding: 0px;
+	text-align:center;
+	color: #fff;
+	width: 118px;
+	height:30px;
+	background: url("../img/smenubg44.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/smenubg44.png*/ repeat;
+	font: 12px/30px  SimSun,'microsoft yahei',Verdana,Arial;
+}
+			
+#dropmenu li ul li a:hover{	
+	padding: 0px;
+	color: #742a44;
+	background: url("../img/smenunow44.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/smenunow44.png*/ repeat;
+	font: 12px/30px  SimSun,'microsoft yahei',Verdana,Arial;
+}
+.productlistx {
+	margin:0;
+	padding:0;
+	position: relative;
+	overflow: hidden;
+	width:100%;
+	padding-top: 12px;
+}
+
+
+.blkproductlistx {
+	border:0; 
+	padding:0; 
+	overflow: hidden;
+	position: relative;
+}
+
+.blkproductlistx .LeftButton {
+	background: url("../img/arrow.jpg")/*tpa=http://www.chuangyesan.com/images/website/01/img/arrow.jpg*/ no-repeat 0px 0px;
+	left:0px;
+	float:left;
+	width:33px;
+	cursor: pointer;
+	position: absolute;
+	height:31px;
+	top:52px;
+}
+
+.blkproductlistx .RightButton {
+	background: url("../img/arrow.jpg")/*tpa=http://www.chuangyesan.com/images/website/01/img/arrow.jpg*/ no-repeat -33px 0px;
+	right:0px;
+	float:right;
+	width:33px;
+	cursor: pointer;
+	position: absolute;
+	height:31px;
+	top:52px;
+}
+
+.blkproductlistx .Cont {
+	padding:0px;
+	margin:0px 0px 0px 35px; 
+	overflow: hidden;
+}
+
+.blkproductlistx .box {
+	float:left;
+	text-align:center;
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.box .fang{
+	padding:0px;
+	margin:5px;
+	border:1px #f1e2c6 solid;
+}
+
+
+.blkproductlistx .box img {
+border:0;
+padding:0;
+}
+
+
+div.box a.prodtitle{
+color:#2c2008;
+font:12px/36px SimSun,Arial,Sans-Serif;
+text-decoration: none;
+}
+
+div.box a.prodtitle:hover{
+color:#2c2008;
+text-decoration: underline;
+}
+.hxlb{
+	width: 1007px;
+	height: 187px;
+	background:url("../img/1365834464.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/1365834464.png*/;
+	left: 121px;
+    position: relative;
+    top: 20px;
+}
+.synr{
+	width:1007px;
+	height:191px;
+	left:121px;
+	position:relative;
+	top:40px;
+}
+.gsjj{
+	width:386px;
+	height:187px;
+	float:left;
+}
+.gsjjt{
+	border: 0px;
+	height: 34px;
+	padding: 0px;
+	margin: 0px;
+	background-image: url("../img/title.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/title.png*/;
+	background-position: 0px 0px;
+	background-repeat: no-repeat no-repeat;
+}
+.wz{
+	padding-top:10px;
+}
+.pic {
+	display: block;
+	float: left;
+	padding: 2px;
+	margin: 3px 12px 5px 0;
+	border: 0;
+}
+.memo {
+	font: 12px/23px simsun,Arial;
+	color: #2c2008;
+	text-indent: 2em;
+}
+.xwdt{
+	width:319px;
+	height:191px;
+	float:left;
+	margin-left: 30px;
+}
+.xwdtt{
+	border: 0px;
+	height: 34px;
+	padding: 0px;
+	margin: 0px;
+	background-image: url("../img/title1.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/title1.png*/;
+	background-position: 0px 0px;
+	background-repeat: no-repeat no-repeat;
+}
+li.newslist18 {
+	margin: 0;
+	padding-left: 18px;
+	list-style-type: none;
+	background: transparent url("../img/newslist18.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/newslist18.png*/ left no-repeat;
+}
+li.newslist18 .time {
+	float: right;
+	font: 12px/23px Verdana,Arial,simsun;
+	color: #8a7243;
+}
+li.newslist18 a {
+	text-decoration: none;
+	font: 12px/23px simsun, Arial,Verdana;
+	color: #2c2008;
+}
+.lxwm{
+	width:234px;
+	height:191px;
+	float:left;
+	margin-left: 30px;
+}
+.lxwmt{
+	border: 0px;
+	height: 38px;
+	padding: 0px;
+	margin: 0px;
+	background-image: url("../img/title2.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/title2.png*/;
+	background-position: 0px 0px;
+	background-repeat: no-repeat no-repeat;
+}
+.bottommenu{
+	height: 28px;
+	color: #5e4109;
+	width: 500px;
+	margin:auto;
+	top: 39px;
+    position: relative;
+	list-style:none;
+}
+.bottommenu li {
+	margin: 0 10px;
+	color: #5e4109;
+	font: 12px/28px 'SimSun',Arial,Sans-Serif;
+	text-decoration: none;
+	float:left;
+}
+.bottommenu li a{
+	color: #5e4109;
+}
+.fkj{
+	width:1005px;
+	height: 100%;
+    overflow: hidden;
+	margin:auto;
+}
+.fzb{
+	float:left;
+	width:210px;
+	padding-top: 10px;
+}
+.fyb{
+	float:left;
+	width:770px;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+.fzbdyh{
+	border: 0px;
+	height: 38px;
+	padding: 0px;
+	margin: 0px;
+	background-image: url("../img/title3.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/title3.png*/;
+	background-position: 0px 0px;
+	background-repeat: no-repeat no-repeat;
+}
+.fzbdyh a{
+	color: #505050;
+	text-decoration: none;
+}
+.productclass_dolphin {
+	margin: 0px;
+	padding: 2px 0px 0px 0px;
+}
+a.productclass_dolphin {
+	display: block;
+	text-decoration: none;
+	font: 12px/29px simsun,Verdana, Arial, sans-serif;
+	height: 30px;
+	text-align: left;
+	background: url("../img/listx.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/listx.png*/ 0px 0px no-repeat;
+	color: #505050;
+	text-align: center;
+}
+div.productsearchformzone{
+	padding:20px 0px 60px 20px;
+	height:100%;
+	margin:0px;
+}
+
+div.productsearchformzone div.productsearchform{
+	height: 22px;
+	line-height:19px;
+	margin-top:1px;
+}
+
+div.productsearchformzone div.productsearchform .inputproduct{
+	border:1px #ddd solid;
+	height:18px;
+	line-height:17px;
+	color:#7e7e7e;
+}
+
+div.productsearchformzone .buttonimage{
+	height:22px;
+	margin-top:4px;
+}
+
+div.productsearchformzone div.productsearchform2{
+	height: 20px;
+	line-height:19px;
+	margin-top:2px;
+	padding:0px;
+}
+
+div.productsearchformzone div.productsearchform .box{
+    BORDER: #e3e9ef 1px solid;
+	FONT-SIZE: 10pt;
+	color:#505050;
+	FONT-FAMILY: "verdna";
+}
+
+div.productsearchformzone div.productsearchform .selectBoxSelectedArea {
+    PADDING-LEFT: 3px;
+	FONT-SIZE: 12px;
+	COLOR: #505050;
+	LINE-HEIGHT: 17px;
+	PADDING-TOP: 1px;
+	BACKGROUND-COLOR:#ffffff;
+}
+div.productsearchformzone div.productsearchform .selectBoxSelectedAreaFocus {
+    PADDING-LEFT: 3px;
+	FONT-SIZE: 12px;
+	COLOR: #333333;
+	LINE-HEIGHT: 17px; 
+	PADDING-TOP: 1px;  
+	BACKGROUND-COLOR: #ffffff;
+}
+div.productsearchformzone div.productsearchform .selectBoxOption {
+    PADDING-LEFT: 3px; 
+	FONT-SIZE: 12px; 
+	COLOR: #505050; 
+	LINE-HEIGHT: 17px; 
+	PADDING-TOP: 2px;  
+	BACKGROUND-COLOR: #ffffff;
+}
+div.productsearchformzone div.productsearchform .selectBoxOptionOver {
+    PADDING-LEFT: 3px; 
+	FONT-SIZE: 12px; 
+	COLOR: #333333; 
+	LINE-HEIGHT: 17px; 
+	PADDING-TOP: 2px;  
+	BACKGROUND-COLOR: #ffffff;
+}
+div.productsearchformzone div.productsearchform .selectBoxOptionInnerLayer {
+    BORDER: #e3e9ef 1px solid; 
+	SCROLLBAR-FACE-COLOR: #ffffff; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #b4b4b4; 
+	OVERFLOW: auto;
+	SCROLLBAR-SHADOW-COLOR: #b4b4b4; 
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff; 
+	SCROLLBAR-ARROW-COLOR: #838383; 
+	SCROLLBAR-TRACK-COLOR: #eaeaea; 
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff; 
+	BACKGROUND-COLOR: #ffffff;
+}
+.page_content {
+	font: 14px/22px Verdana, Arial, Helvetica, sans-serif;
+	color: #494949;
+	margin: 0px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.cpzst{
+	border: 1px #ddd solid;
+	margin: 0px;
+	text-align: center;
+	padding: 3px;
+	width: 165px;
+    height: 125px;
+}
+.cpzsw{
+	padding-top:20px;
+}
+.cpzsw ul li{
+	float:left;
+}
+	
+.cpzsw ul{
+	list-style:none;
+}
+.cpzsz{
+	width: 173px;
+    height: 36px;
+	text-align: center;
+    line-height: 36px;
+	margin: 0px;
+	padding: 0px;
+}
+.cpzsz:hover{
+	color:#FF0000;
+}
+.showpages {
+	clear: both;
+	padding: 0px;
+	margin: 20px 0px;
+	width: 100%;
+	height: 30px;
+	white-space: nowrap;
+}
+.pagesinfo {
+	float: left;
+	padding: 3px 8px;
+	white-space: nowrap;
+}
+.pages {
+	float: right;
+	padding-right: 8px;
+	white-space: nowrap;
+}
+.pages ul li.pagesnow {
+	color: #303030;
+	background-color: #eee;
+	white-space: nowrap;
+	border: 1px #dcd9d4 solid;
+}
+.pages ul li {
+	margin: 3px;
+	padding: 2px 5px;
+	list-style-type: none;
+	float: left;
+	background: #dcd9d4;
+	color: #303030;
+	border: 1px #dcd9d4 solid;
+	white-space: nowrap;
+}
+.pages ul li.pbutton {
+	color: #303030;
+	background-color: #dcd9d4;
+	padding: 3px 5px 1px 5px;
+	white-space: nowrap;
+	border: 1px #dcd9d4 solid;
+}
+
+.pages ul li.opt {
+	color: #303030;
+	padding: 1px;
+	white-space: nowrap;
+	border: 0px;
+}
+.xwzxul{
+	list-style:none;
+}
+.xwzxli{
+	padding-left: 22px;
+}
+.xwzxul li{
+	list-style-type: none;
+	height: 36px;
+	font-size: 12px;
+	line-height: 28px;
+	background: url("../img/line.jpg")/*tpa=http://www.chuangyesan.com/images/website/01/img/line.jpg*/ 0px 0px no-repeat;
+}
+.time {
+	float: right;
+	white-space: nowrap;
+	font: 12px/22px Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 5px;
+	color: #999;
+}
+
+.title {
+	float: left;
+	font: 12px/24px Verdana, Arial, Helvetica, sans-serif;
+}
+.title a{
+	text-decoration: none;
+	font: 12px/24px Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+.title a:hover{
+	color:#FF0000;
+}
+.fymnk{
+	padding-top:20px;
+}
+a.productclass_dolphin:hover{
+	display:block;
+	color: #505050; 
+	background:url("../img/listx2.png")/*tpa=http://www.chuangyesan.com/images/website/01/img/listx2.png*/ 0px 0px no-repeat;
+	text-decoration: none;
+}
+.ulli{
+	list-style:none;
+}
+.ulli li{
+	float:left;
+}
+.obquery {
+	margin: 0;
+	border-bottom: 2px #e8e8e8 solid;
+}
+.jobquery li {
+	list-style-type: none;
+	padding-left: 10px;
+	height: 35px;
+}
+.jobquery li.cap {
+	border-bottom: 2px #e8e8e8 solid;
+	background: #f5f5f5;
+}
+.bt {
+	float: left;
+	line-height: 35px;
+	margin-right: 20px;
+}
+.cl {
+	float: right;
+	width: 50px;
+	line-height: 35px;
+}
+.au {
+	float: right;
+	width: 90px;
+	line-height: 35px;
+}
+.bk {
+	float: right;
+	width: 130px;
+	line-height: 35px;
+}
+.jobquery ul.queryul {
+	margin: 10px 0px;
+}
+.jobquery .bt a {
+	font: 12px/35px Verdana, Arial, Helvetica, sans-serif;
+}
+.jobquery .bt a:hover {
+	color:#FF0000;
+}
+.jobquery .cl a {
+	font: 12px/35px Verdana, Arial, Helvetica, sans-serif;
+}
+.jobquery .cl a:hover {
+	color:#FF0000;
+}
+.jobquery .au a {
+	font: 12px/35px Verdana, Arial, Helvetica, sans-serif;
+}
+.jobquery .au a:hover {
+	color:#FF0000;
+}
+.jobquery .bk a {
+	font: 12px/35px Verdana, Arial, Helvetica, sans-serif;
+}
+.jobquery .bk a:hover {
+	color:#FF0000;
+}
+.formgroup{
+	margin-bottom:10px;
+	height:28px;
+	border-bottom:1px #def solid;
+	background:url("../images/icon1.gif")/*tpa=http://www.chuangyesan.com/images/website/01/images/icon1.gif*/ left no-repeat;
+	font: 14px/28px Verdana, Arial, Helvetica, sans-serif;
+	padding-left:22px;
+	font-weight:bold;
+}
+
+
+.formintro{
+	border:1px #def solid;
+	margin:10px 0px 20px 0px;
+	padding:10px;
+	background:#f7fbfe;
+}
+
+.formborder{
+	margin:0px;
+	margin-top:-1px;
+	border:1px #e8e8e8 solid;
+	padding:12px;
+}
+
+
+.input{border:1px #ddd solid;height:20px;line-height:20px;padding:0px 3px;color:#555;background:#fbfbfb}
+.textarea{border:1px #ddd solid;font-size:12px;padding:3px;color:#555;background:#fbfbfb}
+.button{border:1px #ddd solid;font: 12px Verdana, Arial, Helvetica, sans-serif;height:22px;line-height:20px;padding:0px 3px;background:#f7f7f7;}
+.submit{border:1px #ddd solid;font: 12px Verdana, Arial, Helvetica, sans-serif;height:22px;line-height:20px;padding:0px 3px;background:#f7f7f7;}
+.mustfill{color:#ff0000}
+
+.loginlink{cursor:pointer;text-decoration: underline}
+.logoutlink{cursor:pointer;text-decoration: underline}

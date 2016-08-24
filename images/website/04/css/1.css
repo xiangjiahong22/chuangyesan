@@ -1,0 +1,469 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+margin: 0;
+padding: 0;
+border: 0;
+height: 100%;
+text-align: left;
+}
+div, li, td, p, select, input, textarea, a, button, input {
+font: 12px Verdana, Arial, Helvetica, sans-serif;
+color: #505050;
+text-decoration: none;
+}
+.log{
+	width: 351px;
+	height: 71px;
+	top: 32px;
+	left: 10px;
+	z-index: 7;
+	position:absolute;
+}
+.ssl{
+	width: 305px;
+	height: 46px;
+	top: 50px;
+	left: 660px;
+	z-index: 8;
+	position:absolute;
+}
+div.globalsearchformzone{
+padding:0px;
+margin:0px;
+height:37px;
+}
+
+div.globalsearchformzone div.globalsearchform{
+float:left;
+margin:0px;
+padding:0px;
+height:37px;
+font:12px/32px simsun;
+color:#ffffff;
+}
+
+div.globalsearchformzone div.globalsearchform1{
+float:right;
+padding:0px;
+margin:0px;
+line-height:37px;
+}
+
+div.globalsearchformzone div.globalsearchform .input{
+border:0px;
+height:37px;
+line-height:34px;
+padding:0px 0px 0px 4px;
+margin:0px;
+background:#dfdfdf;
+color:#767676;
+width:228px;
+}
+
+div.globalsearchformzone div.globalsearchform1 .imgbutton{
+padding:0px;
+margin:0px;
+margin-top:1px\9;
+}
+.scd{
+	width: 984px;
+	top: 130px;
+	left: 18px;
+	z-index: 12;
+	position:absolute;
+}
+.dropdownmenu_dolphin{
+   clear:both;
+   padding:0px;
+   white-space:nowrap;
+   overflow:hidden;
+   width:100%;
+   color:#fff;
+}
+
+
+.dorpmenu_dolphin{
+   float:left;
+   color:#fff;
+   width:134px;
+   height:87px;
+   text-align:center;
+   padding:0px;
+   margin:0px;
+}
+
+.dorpmenu_dolphin_current{
+   float:left;
+   color:#fff;
+   width:134px;
+   height:87px;
+   text-align:center;
+   padding:0px;
+   margin:0px;
+   background:url("../img/menunow.png")/*tpa=http://www.chuangyesan.com/images/website/04/img/menunow.png*/ 0px 0px no-repeat;
+}
+
+a.dorpmenu_dolphin:link,a.dorpmenu_dolphin:visited,a.dorpmenu_dolphin:active {
+   color: #fff;
+   text-decoration: none;
+   height:87px;
+   background:url("../img/menu.png")/*tpa=http://www.chuangyesan.com/images/website/04/img/menu.png*/ 0px 0px no-repeat;
+   font:14px/86px 'SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+a.dorpmenu_dolphin:hover {
+   color: #fff; 
+   text-decoration: none;
+   height:87px;
+   background:url("../img/menunow.png")/*tpa=http://www.chuangyesan.com/images/website/04/img/menunow.png*/ 0px 0px no-repeat;
+   font:14px/86px 'SimSun',Arial,Sans-Serif;
+} 
+
+a.dorpmenu_dolphin_current {
+   display:block;
+   color: #fff; 
+   text-decoration: none;
+   height:87px;
+   background:url("../img/menunow.png")/*tpa=http://www.chuangyesan.com/images/website/04/img/menunow.png*/ 0px 0px no-repeat;
+   font:14px/86px 'SimSun',Arial,Sans-Serif;
+} 
+
+div.subdorpmenu_dolphin{
+   display:none;
+   position:absolute;
+}
+
+div.subdorpmenu_dolphin ul{
+   width:134px;
+   color:#2e2e2e;
+   background:#212121;
+   padding:0px;
+   margin-left:-4px;
+   margin-left:-1px\9;
+}
+
+div.subdorpmenu_dolphin li{
+   padding:0px;
+   list-style-type:none;
+   text-align:center; 
+   height:41px;
+   color:#fff;
+   border:1px #373737 solid;
+   border-bottom:0px;
+}
+
+div.subdorpmenu_dolphin li.current{
+   color:#fff;
+   height:41px;
+   display:block;
+}
+
+a.subdorpmenu_dolphin:link,a.subdorpmenu_dolphin:visited,a.subdorpmenu_dolphin:active{
+   display:block;
+   color:#fff; 
+   text-decoration: none;
+   font:12px/39px 'SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+a.subdorpmenu_dolphin:hover {
+   display:block;
+   color:#fff; 
+   text-decoration: none;
+   font:12px/39px 'SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+.sflash{
+	width: 1002px;
+	height: 492px;
+	top: 234px;
+	left: 0px;
+	z-index: 3;
+	position:absolute;
+}
+.fflash{
+	width: 1002px;
+	height: 246px;
+	top: 234px;
+	left: 0px;
+	z-index: 1;
+	position:absolute;
+}
+.slb{
+	width: 940px;
+	height: 440px;
+	top: 247px;
+	left: 31px;
+	z-index: 8;
+	position:absolute;
+}
+.flb{
+	width: 940px;
+	height: 220px;
+	top: 247px;
+	left: 31px;
+	z-index: 8;
+	position:absolute;
+}
+#advsheadlb{
+margin:0;
+padding:0;
+}
+
+#advsheadlb .advsheadlbpic{
+width:100%;
+border:0px;
+display:none;
+}
+.sdyh{
+	list-style:none;
+}
+.sdyh li{
+	float:left;
+}
+ul.newslist_time_1{
+margin:0px;
+padding:0px;
+}
+
+li.newslist_time_1 {
+margin:0px;
+padding-left:25px;
+list-style-type: none;
+height:24px;
+background: transparent url("../img/li.png")/*tpa=http://www.chuangyesan.com/images/website/04/img/li.png*/ 0px 0px no-repeat;
+width:288px;
+}
+
+li.newslist_time_1 .time{
+float:right;
+font:10px/12px Verdana, Arial, Helvetica, sans-serif;
+color:#5c5c5c;
+padding-right:3px;
+}
+
+a.newslist_time_1:link,a.newslist_time_1:visited,a.newslist_time_1:active{
+color:#555;
+text-decoration: none;
+font:12px/12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.newslist_time_1:hover{
+color:#ff0000;
+font:12px/12px Verdana, Arial, Helvetica, sans-serif;
+}
+.xcd{
+	width: 488px;
+	height: 29px;
+	top: 76px;
+	left: 38px;
+	z-index: 5;
+	position:absolute;
+}
+div#bottommenu{
+margin: 0;
+padding:0;
+border: 0;
+height: 28px;
+color:#cacaca;
+font:11px/28px SimSun;
+text-align:center;
+}
+
+div#bottommenu a:link,div#bottommenu a:visited,div#bottommenu a:active{
+margin:0px 5px 0px 2px;
+color:#cacaca;
+font:12px/28px 'SimSun',Arial,Sans-Serif;
+text-decoration: none;
+}
+
+div#bottommenu a:hover{
+margin:0px 5px 0px 2px;
+color:#cacaca;
+font:12px/28px 'SimSun',Arial,Sans-Serif;
+text-decoration: underline;
+}
+.dbxx{
+	width: 390px;
+	height: 26px;
+	top: 78px;
+	left: 590px;
+	z-index: 13;
+	position:absolute;
+}
+.fleft{
+	width: 201px;
+	
+	top: 0px;
+	left: 18px;
+	z-index: 7;
+	position:absolute;
+}
+.fright{
+	width: 728px;
+	top: 18px;
+	left: 254px;
+	z-index: 9;
+	position:absolute;
+}
+div.titlemenu_dolphin{
+margin:0px;
+padding:10px 38px 40px;
+background-color:#fff;
+}
+
+div.titlemenu_dolphin a.titlemenu_dolphin:link,div.titlemenu_dolphin a.titlemenu_dolphin:visited,div.titlemenu_dolphin a.titlemenu_dolphin:active{
+display:block;
+text-decoration: none;
+font:12px/35px Verdana, Arial, Helvetica, sans-serif;
+text-align:left;
+background:url("../img/dot2.png")/*tpa=http://www.chuangyesan.com/images/website/04/img/dot2.png*/ 0px 0px no-repeat;
+padding-left:38px;
+margin:0px;
+color:#585656;
+}
+
+div.titlemenu_dolphin a.titlemenu_dolphin:hover{
+display:block;
+color:#ff5900; 
+text-decoration: none;
+font:12px/35px Verdana, Arial, Helvetica, sans-serif;
+}
+div#nav {
+color:#5c5c5c;
+padding:2px 0px 0px 22px;
+}
+
+div#nav a{
+color:#5c5c5c;
+}
+div.page_content {
+font:12px/22px Verdana, Arial, Helvetica, sans-serif;
+color:#838393;
+padding-bottom:30px;
+}
+
+div.page_content p,div.page_content a,div.page_content td,div.page_content span,div.page_content li{
+font:12px/22px Verdana, Arial, Helvetica, sans-serif;
+color:#838393;
+padding-bottom:30px;
+
+}
+div#newsquery {
+margin:0px;
+padding:0px;
+}
+
+div#newsquery ul{
+margin:0;
+padding:0;
+}
+
+div#newsquery li{
+list-style-type: none;
+height:36px;
+overflow: hidden;
+line-height:36px;
+background:url("../img/line.png")/*tpa=http://www.chuangyesan.com/images/website/04/img/line.png*/ 0px 2px no-repeat;
+}
+
+div#newsquery a:link,div#newsquery a:visited,div#newsquery a:active{
+text-decoration: none;
+font:12px/15px Verdana, Arial, Helvetica, sans-serif;
+color:#333;
+}
+
+div#newsquery a:hover{
+text-decoration: underline;
+font:12px/15px Verdana, Arial, Helvetica, sans-serif;
+color:#ff6600;
+}
+
+
+div#newsquery li.title{
+padding-left:20px;
+}
+
+
+div#newsquery div.title{
+float:left;
+}
+
+div#newsquery .time{
+float:right;
+white-space: nowrap;
+overflow: hidden;
+font:10px/16px Verdana, Arial, Helvetica, sans-serif;
+padding-right:5px;
+color:#999;
+}
+div#showpages {
+clear:both;
+padding:0px;
+margin:20px 0px;
+width:100%;
+height:30px;
+white-space: nowrap;
+}
+
+div#pagesinfo {
+float:left;
+padding:3px 8px;
+white-space: nowrap;
+}
+
+div#pages {
+float:right;
+padding-right:8px;
+white-space: nowrap;
+}
+
+div#pages ul{
+margin:0;
+padding:0;
+}
+
+div#pages a:link,div#pages a:visited,div#pages a:active{
+color:#303030;
+text-decoration: none;
+}
+
+div#pages a:hover{
+color:#ff0000;
+text-decoration: none;
+}
+
+div#pages li{
+margin:3px;
+padding:2px 5px;
+list-style-type: none;
+float:left;
+background:#dcd9d4;
+color:#303030;
+border:1px #dcd9d4 solid;
+white-space: nowrap;
+}
+
+div#pages li.pagesnow{
+color:#303030;
+background-color:#eee;
+white-space: nowrap;
+border:1px #dcd9d4 solid;
+}
+
+div#pages li.pbutton{
+color:#303030;
+background-color:#dcd9d4;
+padding:3px 5px 1px 5px;
+white-space: nowrap;
+border:1px #dcd9d4 solid;
+}
+
+div#pages li.opt{
+color:#303030;
+padding:0px;
+white-space: nowrap;
+background:#fff;
+}

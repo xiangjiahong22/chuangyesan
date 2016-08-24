@@ -1,0 +1,643 @@
+@charset "utf-8";
+/* CSS Document */
+.log{
+	width: 262px;
+	height: 52px;
+	top: 38px;
+	left: 20px;
+	z-index: 6;
+	position:absolute;
+}
+.scd{
+	width: 721px;
+	height: 523px;
+	top: 0px;
+	left: 274px;
+	z-index: 13;
+	position:absolute;
+}
+.dropdownmenu_dolphin{
+   clear:both;
+   padding:0px;
+   white-space:nowrap;
+   overflow:hidden;
+   width:100%;
+   color:#000;
+}
+
+
+.dorpmenu_dolphin{
+   float:left;
+   color:#bababa;
+   width:100px;
+   height:121px;
+   text-align:center;
+   padding:0px;
+   margin:0px;
+   background:url("../img/menu.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/menu.png*/ right 0px no-repeat;
+}
+
+.dorpmenu_dolphin_current{
+   float:left;
+   color:#ea7526;
+   width:100px;
+   height:121px;
+   text-align:center;
+   padding:0px;
+   margin:0px;
+   background:url("../img/menu.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/menu.png*/ 0px 0px no-repeat;
+}
+
+a.dorpmenu_dolphin:link,a.dorpmenu_dolphin:visited,a.dorpmenu_dolphin:active {
+   color: #bababa;
+   text-decoration: none;
+   height:121px;
+   font:14px/121px 'SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+a.dorpmenu_dolphin:hover {
+   color: #ea7526; 
+   text-decoration: none;
+   height:121px;
+   background:url("../img/menunow.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/menunow.png*/ 0px 0px no-repeat;
+   font:14px/121px 'SimSun',Arial,Sans-Serif;
+} 
+
+a.dorpmenu_dolphin_current {
+   display:block;
+   color: #ea7526; 
+   text-decoration: none;
+   height:121px;
+   background:url("../img/menunow.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/menunow.png*/ 0px 0px no-repeat;
+   font:14px/121px 'SimSun',Arial,Sans-Serif;
+} 
+
+div.subdorpmenu_dolphin{
+   display:none;
+   position:absolute;
+}
+
+div.subdorpmenu_dolphin ul{
+   color:#717171;
+   background-color:#e4e4e3;
+   padding:17px 20px;
+   margin-left:-3px;
+   margin-left:0px\9;
+   min-width:58px;
+   opacity:0.88;
+   filter:alpha(opacity=88);
+}
+
+div.subdorpmenu_dolphin li{
+   padding:0px;
+   list-style-type:none;
+   text-align:left; 
+   height:28px;
+   color:#fff;
+}
+
+div.subdorpmenu_dolphin li.current{
+   color:#717171;
+   height:28px;
+   display:block;
+}
+
+a.subdorpmenu_dolphin:link,a.subdorpmenu_dolphin:visited,a.subdorpmenu_dolphin:active{
+   display:block;
+   color:#717171; 
+   text-decoration: none;
+   font:12px/30px 'SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+
+a.subdorpmenu_dolphin:hover {
+   display:block;
+   color:#717171; 
+   text-decoration: none;
+   font:12px/30px 'SimSun',Arial,Sans-Serif;
+   margin:0px;
+}
+.lb{
+	width: 1001px;
+	height: 431px;
+	top: 115px;
+	left: 0px;
+	z-index: 12;
+	position:absolute;
+}
+#s1_container {
+	width:970px;
+	padding:10px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+
+#s1_example {
+	width:990px;
+	height:380px;
+	position:relative;
+}
+
+#s1_ribbon {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
+
+#s1_frame {
+	position:absolute;
+	z-index:0;
+	width:1002px;
+	height:431px;
+	top:-3px;
+	left:-17px;
+}
+
+
+#s1_slides {
+	position:absolute;
+	top:15px;
+	left:4px;
+	z-index:100;
+}
+
+
+.slides_container {
+	width:960px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+.slides_container a {
+	width:960px;
+	height:360px;
+	border:0;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+	border:0;
+}
+
+
+.pagination {
+	margin:26px auto 0;
+	width:100px;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+	border:0;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	border:0;
+	padding-top:12px;
+	background-image:url("../img/s1-pagination.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/s1-pagination.png*/;
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+	border:0;
+}
+.hlbt{
+	width: 722px;
+	top: 289px;
+	left: 21px;
+	z-index: 14;
+	position:absolute;
+}
+
+.photox a:link {
+	color: #432121;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.photox a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.photox a:hover {
+	color: #666666;
+}
+
+.photox a:active {
+    color: #666666;
+	text-decoration: none;
+}
+
+.photox {
+	visibility:visible;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+	color: #000000;
+	font-size: 12px;
+	overflow: hidden;
+}
+
+.rollphotos {
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	width:100%;
+}
+
+body:nth-of-type(1) .blkphotox{
+padding:0px;
+} 
+
+.blkphotox {
+	border:0px; 
+	padding:0px;
+	overflow: hidden;
+	ZOOM: 1; 
+	position: relative;
+}
+
+.blkphotox .LeftButton {
+	background: url("../img/roll.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/roll.png*/ no-repeat 0px 0px;
+	left:0px;
+	float:left;
+	width:12px;
+	cursor: pointer;
+	position: absolute;
+	height:115px;
+	top:0px;
+}
+
+.blkphotox .RightButton {
+	background: url("../img/roll.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/roll.png*/ no-repeat -12px 0px;
+	right:1px;
+	float:right;
+	width:12px;
+	cursor: pointer;
+	position: absolute;
+	height:115px;
+	top:0px;
+}
+
+.blkphotox .Cont {
+	padding:0px 0px 0px 21px;
+	margin:0px;
+	text-align:center;
+	overflow: hidden;
+}
+
+.blkphotox .box {
+	float:left;
+	text-align:left;
+	margin:0px;
+	padding:0px;
+	width:174px;
+}
+
+.box .fang{
+	padding:0px;
+	margin:0px;
+}
+
+.box .picFit{
+	overflow:hidden;
+}
+
+.blkphotox .box img {
+}
+
+div.box div.title{
+text-align:center;
+overflow: hidden;
+white-space:nowrap;
+width:160px;
+}
+
+div.title a:link,div.title a:visited,div.title a:active{
+color:#4b4b4b;
+font:12px/35px SimSun,Arial,Sans-Serif;
+text-decoration: none;
+}
+
+div.title a:hover{
+color:#ff0000;
+text-decoration: underline;
+font:12px/35px SimSun,Arial,Sans-Serif;
+}
+div.photoclass_cyrano{
+	margin:0;
+	padding:10px 0px 45px 4px;
+}
+
+
+a.photoclass_cyrano:link,a.photoclass_cyrano:visited,a.photoclass_cyrano:active{
+	display:block;
+	text-decoration: none;
+	font:12px/16px Verdana, Arial, Helvetica, sans-serif;
+	height:24px;
+	text-align:left;
+	background:url("../img/dot2.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/dot2.png*/ 0px 0px no-repeat;
+	padding-left:31px;
+	color:#4c4c4c;
+}
+
+a.photoclass_cyrano:hover{
+	display:block;
+	color: #f96125; 
+	text-decoration: none;
+	background:url("../img/dot2now.png")/*tpa=http://www.chuangyesan.com/images/website/10/img/dot2now.png*/ 0px 0px no-repeat;
+}
+.xcdt{
+	width: 1002px;
+	height: 97px;
+	top: 32px;
+	left: 0px;
+	z-index: 1;
+	position:absolute;
+	background-color: rgb(54, 54, 54);
+}
+.xcd{
+	width: 355px;
+	height: 32px;
+	top: 69px;
+	left: 39px;
+	z-index: 11;
+	position:absolute;
+}
+div#bottommenu{
+margin: 0;
+padding:0;
+border: 0;
+height: 28px;
+color:#fff;
+font:11px/28px SimSun;
+text-align:center;
+}
+
+
+div#bottommenu a:link,div#bottommenu a:visited,div#bottommenu a:active{
+margin:0px 5px 0px 2px;
+color:#fff;
+font:12px/28px 'SimSun',Arial,Sans-Serif;
+text-decoration: none;
+}
+
+div#bottommenu a:hover{
+margin:0px 5px 0px 2px;
+color:#fff;
+font:12px/28px 'SimSun',Arial,Sans-Serif;
+text-decoration: underline;
+}
+
+.dxx{
+	width: 405px;
+	height: 38px;
+	top: 67px;
+	left: 563px;
+	z-index: 7;
+	position:absolute;
+}
+div#nav {
+	color:#4b4b4b;
+	padding:0px 0px 0px 26px;
+}
+
+div#nav a{
+	color:#4b4b4b;
+}
+div.page_content {
+font:12px/22px Verdana, Arial, Helvetica, sans-serif;
+color:#333;
+margin:0px;
+}
+
+div.page_content p,div.page_content a,div.page_content td,div.page_content span,div.page_content li{
+font:12px/22px Verdana, Arial, Helvetica, sans-serif;
+color:#333;
+}
+div#newsquery {
+margin:0px;
+padding:0px;
+}
+
+div#newsquery ul{
+margin:0;
+padding:0;
+}
+
+div#newsquery li{
+list-style-type: none;
+height:37px;
+font-size: 12px;
+overflow: hidden;
+line-height:37px;
+background:url("../img/line.gif")/*tpa=http://www.chuangyesan.com/images/website/10/img/line.gif*/ 0px 0px no-repeat;
+}
+
+div#newsquery a:link,div#newsquery a:visited,div#newsquery a:active{
+text-decoration: none;
+font:12px/25px Verdana, Arial, Helvetica, sans-serif;
+color:#333;
+}
+
+div#newsquery a:hover{
+text-decoration: underline;
+font:12px/25px Verdana, Arial, Helvetica, sans-serif;
+color:#ff6600;
+}
+
+
+div#newsquery li.title{
+padding-left:22px;
+}
+
+
+div#newsquery div.title{
+float:left;
+font:12px/25px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div#newsquery .time{
+float:right;
+white-space: nowrap;
+overflow: hidden;
+font:10px/21px Verdana, Arial, Helvetica, sans-serif;
+padding-right:3px;
+color:#999;
+}
+div#showpages {
+clear:both;
+padding:0px;
+margin:20px 0px;
+width:100%;
+height:30px;
+white-space: nowrap;
+}
+
+div#pagesinfo {
+float:left;
+padding:3px 8px 3px 20px;
+white-space: nowrap;
+}
+
+div#pages {
+float:right;
+padding-right:20px;
+white-space: nowrap;
+}
+
+div#pages ul{
+margin:0;
+padding:0;
+}
+
+div#pages a:link,div#pages a:visited,div#pages a:active{
+color:#303030;
+text-decoration: none;
+}
+
+div#pages a:hover{
+color:#ff0000;
+text-decoration: none;
+}
+
+div#pages li{
+margin:3px;
+padding:2px 5px;
+list-style-type: none;
+float:left;
+background:#dcd9d4;
+color:#303030;
+border:1px #dcd9d4 solid;
+white-space: nowrap;
+}
+
+div#pages li.pagesnow{
+color:#303030;
+background-color:#eee;
+white-space: nowrap;
+border:1px #dcd9d4 solid;
+}
+
+div#pages li.pbutton{
+color:#303030;
+background-color:#dcd9d4;
+padding:3px 5px 1px 5px;
+white-space: nowrap;
+border:1px #dcd9d4 solid;
+}
+
+div#pages li.opt{
+color:#303030;
+padding:0px;
+white-space: nowrap;
+background:#fff;
+}
+div#photoquery {
+	margin:0px;
+}
+
+div#photoquery ul{
+	margin:0px;
+	padding:0px;
+}
+
+div#photoquery li{
+	float:left;
+	list-style-type: none;
+	margin:0px 30px 24px 0px;
+	text-align:center;
+}
+
+div#photoquery div.fang{
+	padding:0px;
+	text-align:center;
+}
+
+div#photoquery div.picFit{
+	overflow: hidden;
+}
+
+div#photoquery div.title{
+	height:35px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align:center;
+}
+
+div#photoquery a:link,div#photoquery a:visited,div#photoquery a:active{
+	font:12px/35px simsun;
+	color:#4c4c4c;
+	text-decoration: none;
+}
+
+div#photoquery a:hover{
+	font:12px/35px simsun;
+	color:#ff6600;
+	text-decoration: underline;
+}
+form{margin:0;padding:0}
+
+.formgroup{
+margin-bottom:10px;
+height:28px;
+border-bottom:1px #def solid;
+background:url("../images/icon1.gif")/*tpa=http://www.chuangyesan.com/images/website/10/images/icon1.gif*/ left no-repeat;
+font: 14px/28px Verdana, Arial, Helvetica, sans-serif;
+padding-left:22px;
+font-weight:bold;
+}
+
+
+.formintro{
+border:1px #def solid;
+margin:10px 0px 20px 0px;
+padding:10px;
+background:#f7fbfe;
+}
+
+.formborder{
+margin:0px;
+margin-top:-1px;
+border:1px #e8e8e8 solid;
+padding:12px;
+}
+
+
+.input{border:1px #ddd solid;height:20px;line-height:20px;padding:0px 3px;color:#555;background:#fbfbfb}
+.textarea{border:1px #ddd solid;font-size:12px;padding:3px;color:#555;background:#fbfbfb}
+.button{border:1px #ddd solid;font: 12px Verdana, Arial, Helvetica, sans-serif;height:22px;line-height:20px;padding:0px 3px;background:#f7f7f7;}
+.submit{border:1px #ddd solid;font: 12px Verdana, Arial, Helvetica, sans-serif;height:22px;line-height:20px;padding:0px 3px;background:#f7f7f7;}
+.mustfill{color:#ff0000}
+
+.loginlink{cursor:pointer;text-decoration: underline}
+.logoutlink{cursor:pointer;text-decoration: underline}
+#jobquery {margin:0;border-bottom:2px #e8e8e8 solid;}
+#jobquery ul{margin:0;padding:0}
+#jobquery ul.queryul{margin:10px 0px;}
+#jobquery li{list-style-type: none;padding-left:10px;height:35px;}
+#jobquery li.cap{border-bottom:2px #e8e8e8 solid;background:#f5f5f5}
+#jobquery .bt{float:left;line-height:35px;margin-right:20px;}
+#jobquery .bt a{font: 12px/35px Verdana, Arial, Helvetica, sans-serif;}
+#jobquery .bt a:hover{color:#FF0000}
+#jobquery .bk{float:right;width:130px;line-height:35px;}
+#jobquery .bk a{font: 12px/35px Verdana, Arial, Helvetica, sans-serif;}
+#jobquery .au{float:right;width:90px;line-height:35px;}
+#jobquery .au a{font: 12px/35px Verdana, Arial, Helvetica, sans-serif;}
+#jobquery .cl{float:right;width:50px;line-height:35px;}
+#jobquery .cl a{font: 12px/35px Verdana, Arial, Helvetica, sans-serif;}
+#jobquery .cl a:hover{color:#FF0000}
