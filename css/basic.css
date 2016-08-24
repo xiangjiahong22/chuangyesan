@@ -1,0 +1,20 @@
+.service form dd {overflow:hidden;width:150px;height:40px;margin-bottom:10px;background-color:#FFF;padding-left:15px;border:3px solid #ccc;float:left;margin-right:3px;margin-left:0;line-height:auto;text-align:left;}
+.service form dd  a{display:block;background-color:#FFF;position:relative;}
+.service form dd a span.glyphicon-ok{display:none;padding:2px;position:absolute;top:auto;right:0;bottom:0;width:18px;height:18px;background-color:#4e627b;}
+.service form dd.cur a span.glyphicon-ok{display:block;}
+.service form dd.cur{background-color:#FFF;border:3px solid #4e627b;}
+.service form dt{height:200px;}
+.content em{float:none;text-align:center;width:100%;}
+.content .container>div{float:none;width:100%;}
+.content p{font-size:24px;color:#373737;width:710px;height:75px;line-height:75px;border:2px solid #595959;margin:auto;text-align:center;}
+.translate em{display:block;color:4f4f4f;font-size:40px;text-align:center;padding-top:50px;padding-bottom:60px;}
+.translate {background-color:#f5f6f7;}
+.translate ul{width:800px;margin:auto;overflow:hidden;margin-bottom:90px;}
+.translate li{float:left;width:180px;height:180px;margin-left:20px;background:url("../images/basic/basic_44.jpg")/*tpa=http://www.chuangyesan.com/images/basic/basic_44.jpg*/ 0 0 no-repeat , url("../images/basic/basic0_03.jpg")/*tpa=http://www.chuangyesan.com/images/basic/basic0_03.jpg*/ 0 0 no-repeat ;}
+.translate li:last-child{padding-left:0;}
+.translate img{padding:15px;}
+.translate p{font-size:22px;line-height:36px;text-align:center;color:#373737;}
+.translate li:hover{background:url("../images/basic/basic_42.jpg")/*tpa=http://www.chuangyesan.com/images/basic/basic_42.jpg*/ ;}
+.translate li:hover p,.translate li:hover span{color:#559b0d;}
+.translate span{font-size:14px;display:block;text-align:center;}
+ul.process{width:1000px;}

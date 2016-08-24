@@ -1,0 +1,14 @@
+.service form dt{height:100px;}
+.service form dd {margin-right:1px;margin-bottom:10px;width:auto!important;}
+.service form dd a{padding:0 15px;display:block;}
+.service form div.form-group textarea{width:55%;}
+.translation .container .middle{width: 800px;
+padding: 35px 35px;float:left;}
+.translation .container .middle p{font-size:16px;line-height:32px;color:#373737;}
+.translation .container{padding-bottom:0;margin-bottom:50px;background:#FFF url("../images/carve/carve_25.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve_25.jpg*/ 100% 100% no-repeat;}
+.translation{padding:50px 0;}
+ul.process{width:1000px;}
+.step .container>p {margin-top:0!important;line-height:30px;}
+ul.process{margin-bottom:100px!important;}
+ul.min b{line-height:28px;margin-top:15px;}
+.none {height:auto!important;margin-bottom:0!important;}

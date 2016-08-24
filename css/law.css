@@ -1,0 +1,105 @@
+ul.process{/*width:996px;*/width:1206px;}
+ul.process_1200{width:1200px;}
+.include .container>p{font-size:40px;text-align:center;padding:80px 0 40px;clear:both;}
+.include{overflow:hidden;}
+.include .left{float:left;}
+.include .right{float:left;width:81%;padding:60px 45px;border:1px solid #d6d6d6;}
+.include a{display:block;position:relative;width:223px;height:224px;background:#ededed ;}
+.include a p{width:100%;height:100%;background:url("../images/law/law0_03.png")/*tpa=http://www.chuangyesan.com/images/law/law0_03.png*/ center 40% no-repeat;padding-top:130px;text-align:center;font-size:24px;font-weight:bold;color:#4f4f4f;}
+.include a.cur p{color:#fff;background-image:url("../images/law/law_07.png")/*tpa=http://www.chuangyesan.com/images/law/law_07.png*/;}
+.include em{font-size:24px;margin-bottom:35px;color:#559b0d;display:block;}
+.include .right p{font-size:18px;color:#373737;line-height:36px;}
+.include .right div{padding-bottom:30px;}
+.include a.cur{background:#ededed url("../images/law/law_03.jpg")/*tpa=http://www.chuangyesan.com/images/law/law_03.jpg*/ center center no-repeat;}
+/*.include a:first-child p{color:#fff;}*/
+.include .left a:last-child.cur p{background-image:url("../images/law/law0_06.png")/*tpa=http://www.chuangyesan.com/images/law/law0_06.png*/;color:#fff;}
+.include .left a:last-child p{background-image:url("../images/law/law_15.png")/*tpa=http://www.chuangyesan.com/images/law/law_15.png*/;}
+.include a p:before{position:absolute;right:-21px;top:40%;width:21px;height:36px;background:url("../images/law/law_10.png")/*tpa=http://www.chuangyesan.com/images/law/law_10.png*/
+0 0 no-repeat;content:'';display:none;}
+.include a.cur p:before{display:block;}
+.include .right li{display:none;}
+.include .right li.cur{display:block;}
+.lawer >p{font-size:40px;color:#4f4f4f;padding:90px 0 40px 0;text-align:center;}
+
+/*轮播*/
+		.carousel{width: 1365px;  height:335px;margin: 100px auto; position: relative; overflow: hidden; }
+		.carousel ul.imageslist{position: absolute;top:0;left:0;list-style: none; width: 9000px;}
+		.carousel ul.imageslist li{float: left; width: 203px;margin:0 35px; height: 300px; }
+		.lawer .buttons a{display: block; cursor: pointer;}
+		.lawer .buttons a{position:absolute;width:36px;height:40px;top:-317px;}
+		.lawer .buttons .leftBtn{left:-200px; background:url("../images/law/left_03.jpg")/*tpa=http://www.chuangyesan.com/images/law/left_03.jpg*/;width:38px;height:48px;top:-309px;}
+		.lawer .buttons .rightBtn{right:-200px;background:url("../images/law/law_35.png")/*tpa=http://www.chuangyesan.com/images/law/law_35.png*/; }
+.carousel em{display:block;margin-top:30px;font-size:24px;line-height:30px;text-align:center;color:#262626;}
+.carousel p{font-size:16px;line-height:30px;text-align:center;color:#262626;}
+.lawer .container{position:relative;}
+.cover li{display:none;position:fixed;top:0;left:0;background:rgba(0,0,0,0.8);z-index:100000;width:100%;height:100%;}
+.cover  li .fix {width:800px;height:600px;position:absolute;top:100px;left:50%;margin-left:-400px;padding:30px;border:5px solid #ccc;background-color:#FFF;}
+.fix img{float:left;}
+.fix .text{padding-left:30px;float:left;width:78%;}
+.fix .up{overflow:hidden;padding-bottom:20px;border-bottom:3px solid #559b0d;}
+.fix .up em{display:block;font-size:24px;color:#000;margin-top:30px;margin-bottom:20px;}
+.fix .up p{font-size:16px;color:#5f5f5f;line-height:20px;}
+.fix .down{height:360px;overflow-y:scroll;clear:both;}
+.fix .down .scroll .part{padding-top:20px;}
+.fix .part p{font-size:16px;line-height:25px;color:#5f5f5f;}
+.fix span{position:absolute;top:25px;right:25px;color:#5f5f5f;font-size:16px;text-decoration:underline;cursor:pointer;}
+/*2015.11.17*/
+.case .carousel{width: 1224px;  height:230px;margin:80px auto; position: relative; overflow: hidden; margin-bottom:30px;}
+.case .carousel ul.imageslist li{float: left; width: 160px;margin:0;margin-right:50px;height: 230px;padding-top:5px; }
+.case .carousel ul.imageslist li p{font-size:18px;color:#000;padding-top:25px;text-align:center;}
+.case .buttons a{top:-190px!important;}
+
+
+
+.method{overflow:hidden;}
+.contents ul{overflow:hidden;width:50%;float:left;}
+.contents ul li{float:left;width:100%;}
+.contents ul li a {display:block;font-size:18px;color:#373737;height:90px;padding-top:20px;}
+.contents em{float:none;text-align:center;font-size: 40px;
+color: #353535;
+display: block;
+padding-bottom: 60px;}
+.contents ul li  img{margin-right:30px;}
+.contents .container>div{margin-left:200px;float:none;width:844px;margin:auto;margin-bottom:100px;}
+.contents{margin-top:100px;}
+.nva{border-bottom:2px solid #ccc;}
+.contents ul:last-child li a{padding-left:25%;} 
+
+.carousel li div{position:relative;display:block;}
+.carousel li div:before{width:203px;height:203px;background-color:#569b0d;border-radius:50%;position:absolute;top:0;left:0;content:' + ';text-align:center;line-height:203px;color:#fff;font-size:60px;opacity:0;transition:all .5s;}
+.carousel li:hover div:before{opacity:1;}
+
+
+/*2015.11.17*/
+.case .carousel li div:before{width:162px;height:162px;border-radius:50%;position:absolute;top:-3px;left:-2px;content:'  ';text-align:center;line-height:203px;color:#fff;font-size:60px;opacity:0;transition:all .5s;border:4px solid #559b0d;background-color:transparent;}
+.case .carousel li:hover div:before{opacity:1;}
+.text li{width:100%;background:#559b0d url("../images/specail/triangel_03.jpg")/*tpa=http://www.chuangyesan.com/images/specail/triangel_03.jpg*/ 5% 0 no-repeat;padding:40px;display:none;}
+.text li em{display:block;font-size:18px;font-weight:bold;color:#fff;margin-bottom:25px;}
+.text li p{font-size:16px;line-height:30px;color:#fff;}
+
+.banner0{height:392px;background:#f2f2f2 url("../images/specail/spcail_02.jpg")/*tpa=http://www.chuangyesan.com/images/specail/spcail_02.jpg*/ center center no-repeat;overflow:hidden;}
+.banner0 .container{height:100%;}
+.banner0 .inner{padding:45px 60px;padding-bottom:20px;background-color:#FFF;float:right;margin-top:50px;}
+.banner0 form dt,.service form label,.service form p span{width:10%;font-weight:normal;margin-right:5%;text-align:right;padding-top:9px;font-size:14px;color:#5b5b5b;}
+.banner0 form  select{width:40%;}
+.banner0 form  div.form-group select:last-child{margin-left:5%;}
+.banner0 form  div.form-group,.service form dl,.service form p{width:100%;overflow:hidden;}
+.banner0 form  div.form-group>*,.service form dt{float:left;}
+.banner0 form dd{width:110px;height:35px;background-color:#ccc;float:left;margin-left:2px;line-height:35px;text-align:center;}
+.banner0 form dd a{display:block;color:#fff;}
+.banner0 form dd.cur {background-color:#4e627b;}
+.banner0 form p span{float:left;margin-top:7px;}
+.banner0 form p em{float:left;font-size:36px;color:#f3565d;margin-bottom:10px;}
+.banner0 form  .checkbox label{width:100%;text-align:left;margin-left:3%;color:#000;}
+.banner0 form  .checkbox label span{color:#559b0d;}
+.banner0 form .choose {margin-top:25px;overflow:hidden;}
+.banner0 form  .choose a {float:left;width:196px;height:40px;border-radius:20px;text-align:center;line-height:40px;margin-right:20px;background-color:#f3565d;color:#fff;}
+.banner0 form  .choose a:last-child{background-color:#559b0d;}
+.banner0 form>*{margin-bottom:16px;}
+.banner0 form em{font-size:30px;color:#559b0d;font-weight:bold;margin-bottom:25px;display:block;}
+
+
+/*2015.11.17*/
+.require em{display:block;font-size:40px;color:#353535;text-align:center;padding-top:75px;padding-bottom:20px;}
+.require ul{border-left:4px solid #559b0d;padding-left:20px;}
+.require li{font-size:18px;color:#515151;line-height:42px;}

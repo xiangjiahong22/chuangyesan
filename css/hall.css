@@ -1,0 +1,31 @@
+.navs .control {display:none;}
+.wrap{background-color:#fff;margin-top:1px;}
+dl.navigation{margin-top:40px;overflow:hidden;margin-bottom:20px;}
+dl.navigation dt,dl.navigation dd,dl.navigation dd a{float:left;font-size:12px;color:#7e7e7e;font-family:'宋体';font-weight:normal;line-height:20px;}
+dl.navigation dt {padding-left:25px;background:url("../images/financial/financial_03.png")/*tpa=http://www.chuangyesan.com/images/financial/financial_03.png*/ 3% center no-repeat;}
+dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
+dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
+dl.navigation dd:last-child a:before{display:none;}
+dl.navigation dd.cur a{color:#559b0d;}
+ul.main{padding-top:50px;overflow:hidden;}
+
+.area .form-group{padding-bottom:15px;overflow:hidden;float:left;width:30%;margin:0 1.5%;border-bottom:1px solid #eeeeee;}
+.area .form-group>*{float:left;}
+.area label{font-size:14px;width:20%;border:none;padding-top:5px;outline:none;font-weight:normal;text-align:center;}
+.area select{width:34%;margin:0 3%;}
+.area form{overflow:hidden;padding-top:50px;padding-bottom:15px;}
+.area p{padding-top:30px;font-size:33px;font-weight:300;padding-bottom:15px;color:#3e4d5c;border-bottom:1px solid #eeeeee;}
+.area form .form-group:nth-child(2) select{width:74%;}
+.choose{margin-top:20px;background-color:#f5f5f5;height:75px;border-top:3px solid #e5e5e5;}
+.choose a{/*display:block;width:56px;height:34px;background-color:#559b0d;font-size:16px;color:#fff;text-align:center;line-height:34px;margin-left:20%;margin-top:15px;*/display:block;width: 196px;
+height: 40px;
+border-radius: 20px;
+text-align: center;
+line-height: 40px;
+background-color: #559b0d;
+color: #fff;font-size:16px;margin-left:21%;margin-top:15px;}
+.message{overflow:hidden;margin-top:40px;}
+.message table{width:48%;float:left;}
+.message table:last-child{margin-left:4%;}
+.message caption{font-size:27px;font-weight:300;margin-bottom:10px;color:#333;border-bottom:1px solid #eeeeee;}
+.message th,.message td{font-size:14px;font-weight:600;}

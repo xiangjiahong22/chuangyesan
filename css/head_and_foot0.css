@@ -1,0 +1,206 @@
+`.head .logo,.head .search,.head .login{float:left;}
+.head .logo{width:330px;}
+.head .logo img{max-width:100%;}
+.head{padding-top:27px;}
+.head form select{width:98px;-webkit-appearance:none;appearance:none;background-image:url("../images/index/index_1000.jpg")/*tpa=http://www.chuangyesan.com/images/index/index_1000.jpg*/;background-repeat:no-repeat;background-position:95% center;border-radius:0;}
+.head form>*{float:left;border-radius:0;height:100%;border:none;height:40px;}
+.head form{overflow:hidden;height:42px;border:2px solid #519911;}
+.head .search{width:50%;}
+.head form input{width:292px;}
+.head form select{width:98px;border:none;border-right:1px solid #cdcdcd;box-shadow:none;color:#555;}
+.head form button[type='submit']{width:64px;margin-left:14px;height:40px;border-radius:0;border:none;background-color:#519911;color:#fff;}
+.head form{width:456px;margin-left:111px;margin-top:10px;}
+.head .login{float:right;}
+.head .login img{ width:330px; height:60px;}
+.head .login a,.head .login a:hover{color:#4f4f4f;}
+.head .login li{float:left;padding-left:20px;margin-left:20px;color:#4f4f4f;font-size:14px;margin-top:21px;background:url("../images/index/index_03.jpg")/*tpa=http://www.chuangyesan.com/images/index/index_03.jpg*/ 0% center no-repeat;}
+.head .login li:last-child{background-image:url("../images/scroll/index_05.jpg")/*tpa=http://www.chuangyesan.com/images/scroll/index_05.jpg*/;}
+
+.navs{margin-top:40px;height:50px;border-bottom:1px solid #dedede;}
+.navs .container{position:relative;background-color:#FFF;z-index:10000;/*border-bottom:1px solid #dedede;*/}
+.navs .left{width:235px;position:relative;}
+.navs .left .control{position:absolute;top:50px;left:0;z-index:1000;width:235px;display:none;}
+/*.navs .container{overflow:hidden;}*/
+
+.navs .container>*{float:left;}
+.navs .left .top a,.navs .center li a{display:block;height:50px;line-height:50px;font-size:16px;color:#fff;padding-left:30%;padding-right:10%;background:#358101 url("../images/index/index_10001.jpg")/*tpa=http://www.chuangyesan.com/images/index/index_10001.jpg*/ 15% center no-repeat;}
+.navs .center li a{background-color:#559b0d;background-image:url("../images/index/index-icon_01.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_01.png*/;transition:all .3s;font-size:14px;height:40px;line-height:40px;}
+.navs span.glyphicon-chevron-right{float:right;margin-top:12px;transition:all .3s;}
+.navs .center li:hover a{background-color:#FFF;background-image:url("../images/index/index-icon_001.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_001.png*/;color:#559b0d;}
+.navs .center li:hover  span.glyphicon-chevron-right{color:#559b0d;}
+.navs .center li:nth-child(2):hover  a{background-image:url("../images/index/index-icon_002.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_002.png*/;}
+.navs .center li:nth-child(3):hover  a{background-image:url("../images/index/index-icon_003.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_003.png*/;}
+.navs .center li:nth-child(4):hover  a{background-image:url("../images/index/index-icon_004.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_004.png*/;}
+.navs .center li:nth-child(5):hover  a{background-image:url("../images/index/index-icon_005.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_005.png*/;}
+.navs .center li:nth-child(6):hover  a{background-image:url("../images/index/index-icon_006.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_006.png*/;}
+.navs .center li:nth-child(7):hover  a{background-image:url("../images/index/index-icon_007.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_007.png*/;}
+.navs .center li:nth-child(8):hover  a{background-image:url("../images/index/index-icon_008.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_008.png*/;}
+.navs .center li:nth-child(9):hover  a{background-image:url("../images/index/index-icon_009.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_009.png*/;}
+.navs .center li:nth-child(10):hover  a{background-image:url("../images/index/index-icon_010.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_010.png*/;}
+.navs .center li:nth-child(11):hover  a{background-image:url("../images/index/index-icon_011.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_011.png*/;}
+.navs .center li:nth-child(2) a{background-image:url("../images/index/index-icon_02.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_02.png*/;}
+.navs .center li:nth-child(3) a{background-image:url("../images/index/index-icon_03.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_03.png*/;}
+.navs .center li:nth-child(4) a{background-image:url("../images/index/index-icon_04.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_04.png*/;}
+.navs .center li:nth-child(5) a{background-image:url("../images/index/index-icon_05.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_05.png*/;}
+.navs .center li:nth-child(6) a{background-image:url("../images/index/index-icon_06.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_06.png*/;}
+.navs .center li:nth-child(7) a{background-image:url("../images/index/index-icon_07.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_07.png*/;}
+.navs .center li:nth-child(8) a{background-image:url("../images/index/index-icon_08.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_08.png*/;}
+.navs .center li:nth-child(9) a{background-image:url("../images/index/index-icon_09.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_09.png*/;}
+.navs .center li:nth-child(10) a{background-image:url("../images/index/index-icon_10.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_10.png*/;}
+.navs .center li:nth-child(11) a{background-image:url("../images/index/index-icon_11.png")/*tpa=http://www.chuangyesan.com/images/index/index-icon_11.png*/;}
+
+.navs .center{padding:5px 0;background-color:#559b0d;border-bottom:1px solid #75ae3b;}
+.navs .bottom li{width:50%;float:left;padding:6%;background-color:#559b0d;}
+.navs .bottom li a{display:block;text-align:center;}
+.navs .bottom li p{font-size:14px;line-height:40px;color:#fff;}
+.navs .bottom li:nth-child(1) a,.bottom li:nth-child(4) a{position:relative;}
+.navs .bottom li:nth-child(1) a:before{content:'';width:1px;height:100%;position:absolute;right:-20%;background-color:#5fa11b;}
+.navs .bottom li:nth-child(1) a:after{content:'';width:100%;height:1px;position:absolute;bottom:-20%;background-color:#5fa11b;left:-1%;}
+.navs .bottom li:nth-child(4) a:before{content:'';width:1px;height:100%;position:absolute;left:-13%;background-color:#5fa11b;}
+.navs .bottom li:nth-child(4) a:after{content:'';width:100%;height:1px;position:absolute;top:-27%;left:0;background-color:#5fa11b;}
+.navs .navs .middle {/*margin-left:235px;*/}
+.navs .navs .middle li{float:left;padding-top:17px;}
+.navs .middle li a{display:block;padding:0 30px;border-right:1px solid #ebebeb;font-size:16px;color:#979797;}
+/*.navs .middle li:last-child a{border:none;}
+.navs .middle li:last-child a:before{display:block;content:'';contain;width:100%;height:18px;position:absolute;left:73%;top:0;}*/
+.navs .phone{float:right;font-family:'Arial';font-size:20px;color:#559b0d;margin-top:17px;padding-left:4%;background:url("../images/index/index_10.jpg")/*tpa=http://www.chuangyesan.com/images/index/index_10.jpg*/ 10% center no-repeat;}
+
+
+.footer>.container{padding:0!important;padding-bottom:105px!important;}
+.footer{padding-top:73px;background-color:#383838;}
+.footer table th,.foorter td{width:172px;font-size:16px;padding-bottom:30px;}
+.footer td,.footer td a{color:#6f6f6f;font-size:12px;height:30px;}
+.footer table th a{color:#fff;}
+.footer .container>*{float:left;}
+.footer .container{overflow:hidden;padding-bottom:105px;}
+.footer .code{margin-left:20px;padding:9px;border:1px solid #525252;}
+.footer .phone{margin-left:100px;background:url("../images/index/index5_05.png")/*tpa=http://www.chuangyesan.com/images/index/index5_05.png*/ 0 8px no-repeat;}
+.footer .phone p{padding-left:60px;font-size:14px;color:#fff;}
+.footer .phone p:first-child{font-size:30px;font-family:'Arial';}
+.footer .phone a{display:block;margin-top:38px;height:38px;width:165px;border-radius:19px;background-color:#559b0d;font-size:14px;line-height:38px;text-align:center;color:#fff;}
+.tip{border-top:1px solid #4a4a4a;padding-top:25px;background-color:#383838;}
+.tip li {width:74px;font-size:14px;float:left;}
+.tip li a{color:#fff;}
+.tip ul{margin:0 auto;overflow:hidden;text-align:center;width:370px;}
+.tip p{font-size:12px;line-height:50px;text-align:center;color:#fff;}
+
+
+.navs .middle li a{transition:all .3s;}
+.navs .middle li:hover a{color:#559b0d;font-weight:bold;}
+ .container{width:1226px;padding:0;}
+
+
+/*侧边栏*/
+.sidebar{position: fixed;
+right: 0;
+top: 50%;
+z-index: 50;
+width: 77px;
+height: 230px;
+margin-top: -115px; z-index:10000;}
+.sidebar ul li{position: relative;
+width: 77px;
+height: 57px;
+margin-bottom: 1px;
+line-height: 27px;
+color: #fff;
+text-align: center;transition:all .3s;position:relative;}
+.sidebar ul li:hover{margin-left:-10px;}
+.sidebar ul li a{width: 77px;/*background-color:#0ebaeb;*/
+height: 57px;
+padding: 30px 0 0 0;
+box-sizing:none!important;
+display:inline-block;
+color: #fff;background:#25b6a6 url("../images/index/qq.png")/*tpa=http://www.chuangyesan.com/images/index/qq.png*/  center 22% no-repeat;font-size:12px;}
+.sidebar div.content{position:absolute;height:57px;width:10px;top:0;left:77px;background-color:#25b6a6;display:block;position:absolute;}
+
+/*.sidebar ul li:hover div.content{display:block;}*/
+.sidebar ul li:nth-child(2) a{background-image:url("../images/sidebar/sidebar_05.jpg")/*tpa=http://www.chuangyesan.com/images/sidebar/sidebar_05.jpg*/;}
+.sidebar ul li:nth-child(1) a{background-color:#ef9c05;} 
+.sidebar ul li:nth-child(2) div.content{position: absolute;
+left: 77px;
+top: 0;
+z-index: 1;
+width: 184px;
+height: 57px;
+font: 24px/57px Arial;
+color: #fff;
+cursor: pointer;}
+.sidebar ul li:nth-child(3) div.content:before,.sidebar ul li:nth-child(4) div.content:before{content:'';position:absolute;left:10px;top:5px;height:47px;width:1px;background-color:#FFF;}
+.sidebar ul li:nth-child(3){tansition:all .6s;}
+/*.sidebar ul li:nth-child(3):hover{margin-left:-184px;}*/
+.sidebar ul li:nth-child(2) a{background-image:url("../images/index/qq.png")/*tpa=http://www.chuangyesan.com/images/index/qq.png*/;}
+.sidebar ul li:nth-child(1) a{background-image:url("../images/index/weixin.gif")/*tpa=http://www.chuangyesan.com/images/index/weixin.gif*/;}
+.sidebar ul li:nth-child(3) a{background-image:url("../images/index/jiaoliu.png")/*tpa=http://www.chuangyesan.com/images/index/jiaoliu.png*/;}
+.sidebar ul li:nth-child(1) div.content{z-index: 1;width:92px;height:93px;cursor:pointer;margin-top:-36px;}
+.sidebar ul li:nth-child(1):hover{margin-left:-92px;}
+.sidebar ul li:nth-child(4) a{background-image:url("../images/index/top.png")/*tpa=http://www.chuangyesan.com/images/index/top.png*/;}
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+　　color: #333;
+　　}
+
+.home div>a,.home li a {transition:all 0s;}
+.home li a:hover, .home div>a:hover{color:#569b0d;font-weight:bold;}
+/*2015.11.17*/
+body{overflow-x:hidden;}
+
+
+
+.under>div img{position:absolute;bottom:-2px;right:0;z-index: 1;}
+.under>div{padding:40px 45px;overflow:hidden;width:690px;height:450px;position:absolute;top:1px;left:235px;z-index:10000;background-color:#FFF;border:2px solid #559b0d;display:none;border-left:none;}
+.under ul{overflow:hidden;padding-bottom:25px;border-bottom:1px dashed #dfdfdf;}
+.under ul li{float:left;margin-right:40px;font-size:16px;color:#358000;}
+.under ul li a{display:block;padding-left:25px;background:url("../images/index/under0_03.jpg")/*tpa=http://www.chuangyesan.com/images/index/under0_03.jpg*/ 0 center no-repeat;color:#358000;font-size:16px;}
+.under ul li:nth-child(2) a{background:url("../images/index/under0_06.jpg")/*tpa=http://www.chuangyesan.com/images/index/under0_06.jpg*/ 0  center no-repeat;}
+.under ul li:nth-child(3) a{background:url("../images/index/under0_08.jpg")/*tpa=http://www.chuangyesan.com/images/index/under0_08.jpg*/ 0  center no-repeat;}
+.under ol{overflow:hidden;padding-top:25px;width:85%;}
+.under ol li{float:left;margin-bottom:25px;padding-top:2px;}
+.under ol li a{display:block;padding:0 25px;color:#7f7f7f;border-right:1px solid #dfdfdf;transition:all .3s;}
+.under ol li:hover a{color:#559b0d;font-weight:bold;}
+.under>div.cur{display:block;}
+.control>div{position:relative;}
+
+
+/*2015.11.24*/
+.under ol li a{position:relative;}
+.under ol li a img{position:absolute;right:0;top:-100%;}
+
+
+/*2015.12.8*/
+.footer .link{width:190px!important;}
+.footer .link .code{margin-left:0;width:112px;margin:auto;}
+.footer .link .phone{margin-left:0;margin-top:40px;
+background: url("../images/index/index5_05.png")/*tpa=http://www.chuangyesan.com/images/index/index5_05.png*/ center 0px no-repeat;
+padding-top: 51px;}
+.footer .link .phone p{padding-left:0;text-align:center;
+font-size: 14px;
+color: #fff;line-height:30px;}
+.footer .link .phone p:nth-child(2){font-size:30px;font-family:'Arial';line-height:50px;}
+.footer .link a{margin:auto;}
+.footer table th, .foorter td{width:148px;}
+.footer table th a{font-size:16px;}
+.footer table table th {padding:0;padding-top:30px;}
+.footer .container>table{width:1036px;}
+
+/**/
+.service form dd.cur input{background:url("../images/carve/right_03.jpg")/*tpa=http://www.chuangyesan.com/images/carve/right_03.jpg*/ left center no-repeat;}
+
+
+/*2016.1.20*/
+.navs{width:100%;margin-top:0;position:fixed;top:0;left:0;z-index:1000000;background-color:#FFF;display:none;box-shadow:2px 1px 3px #ccc;}
+.nvas.show{display:block!important;}
+.navs .left{height:auto;width:250px;}
+.navs .left .logo{position:static;}
+.navs .middle li a{display:block;padding:0 30px;border-right:1px solid #ebebeb;font-size:16px;color:#979797;}
+.navs .middle li:last-child a{border:none;}
+.navs .middle li a{transition:all .3s;}
+.navs .middle li:hover a{color:#559b0d;font-weight:bold;}
+.navs .middle li{float:left;}
+.navs .middle {margin-top:10px;}
+.navs .login{float:right;}
+.navs .login img{ width:330px; height:60px;}
+.navs .login a,.head .login a:hover{color:#4f4f4f;}
+.navs .login li{padding-left:20px;margin-left:20px;color:#4f4f4f;font-size:14px;margin-top:14px;background:url("../images/scroll/index_03.jpg")/*tpa=http://www.chuangyesan.com/images/scroll/index_03.jpg*/ 0% center no-repeat;}
+.footer .container{width:1226px;}

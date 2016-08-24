@@ -1,0 +1,66 @@
+.navs .control {display:none;}
+.wrap{background-color:#f7f7f7;margin-top:1px;}
+dl.navigation{margin-top:40px;overflow:hidden;}
+dl.navigation dt,dl.navigation dd,dl.navigation dd a{float:left;font-size:12px;color:#7e7e7e;font-family:'宋体';font-weight:normal;line-height:20px;}
+dl.navigation dt {padding-left:25px;background:url("../images/financial/financial_03.png")/*tpa=http://www.chuangyesan.com/images/financial/financial_03.png*/ 3% center no-repeat;}
+dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
+dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
+dl.navigation dd:last-child a:before{display:none;}
+dl.navigation dd.cur a{color:#559b0d;}
+div.main{padding-top:50px;overflow:hidden;}
+.prompt{padding:40px 0;width:700px;margin:auto;height:134px;}
+.prompt li{float:left;}
+.prompt li span{display:block;width:25px;height:25px;background-color:#b7b7b7;border-radius:50%;color:#fff;line-height:25px;text-align:center;margin:auto;}
+.prompt li p{color:#6a6a6a;margin-top:15px;text-align:center;}
+.prompt li:nth-child(even){width:230px;height:3px;background-color:#eee;margin-top:10px;}
+.prompt li.cur span{background-color:#559b0d;}
+.prompt li.cur p{color:#559b0d;}
+
+.prompt li:nth-child(2){background-color:#559b0d;}
+.prompt li:nth-child(4){background-color:#559b0d;}
+.wrap{padding-bottom:90px;}
+.wrap .inner{padding:35px 25px;background-color:#FFF;width:100%;}
+.inner>p{font-size:18px;font-weight:bold;color:#559b0d;margin-bottom:35px;}
+.style>P{font-size:18px;padding-bottom:5px;border-bottom:2px solid #b4b4b4;color:#565656;margin-bottom:20px;}
+div.form-group{width:100%;}
+.style form{padding-bottom:40px;}
+.form-group label{width:8%;font-size:16px;font-weight:normal;color:#656565;}
+.form-group input{width:25%;height:35px;padding-left:25px;}
+.form-group label u{text-decoration:none;color:#559b0d;}
+.style ul{overflow:hidden;margin-bottom:90px;}
+.style ul li{float:left;padding-right:25px;}
+.style ul li a{display:block;padding:8px 30px;padding-left:40px;background-color:#FFF;border:2px solid #b4b4b4;color:#656565;}
+.style li.cur a {border:2px solid #559b0d;color:#559b0d;font-weight:bold;}
+.style li:first-child a{background:url("../images/specail/logo_03.jpg")/*tpa=http://www.chuangyesan.com/images/specail/logo_03.jpg*/ 5px center no-repeat;}
+.style li:nth-child(2) a{background:url("../images/specail/logo_05.jpg")/*tpa=http://www.chuangyesan.com/images/specail/logo_05.jpg*/ 5px center no-repeat;}
+.style li:last-child a{background:url("../images/specail/logo_08.jpg")/*tpa=http://www.chuangyesan.com/images/specail/logo_08.jpg*/ 5px center no-repeat;}
+.radio label{color:#656565;font-size:16px;}
+.radio input[type=radio]{margin-right:15px;}
+.radio{margin-bottom:25px;}
+.inner input[placeholder="请输入发票抬头"]{height:40px;padding-left:7px;width:275px;}
+.inner table thead tr{background-color:#f3f3f3;border:1px solid #d2d2d2;background-color:#f3f3f3;height:50px;line-height:50px;}
+.inner table{width:100%;}
+.inner table thead tr th{font-size:16px;color:#484848;width:12.25%;text-align:center;}
+.inner table thead tr th:first-child{text-align:left;padding-left:25px;}
+.inner tr td:first-child{width:50%;}
+.inner tr td{width:12.25%;text-align:center;font-size:16px;color:#000;}
+.inner table tr td:first-child{padding:25px;}
+.inner table tbody tr{height:115px;border-bottom:1px solid #d8d8d8;}
+.inner table tbody tr:last-child{border:none;}
+.inner td img,.inner td p{float:left;}
+.inner td p{font-size:20px;padding:16px;color:#474747;}
+.inner table input[type='button']{width:17px;height:22px;color:#b5b5b5;font-size:12px;background-color:#FFF;border:1px solid #cacbcb;float:left;}
+.inner  table form input[type='text']{width:45px;height:22px;float:left;border:1px solid #cacbcb;text-align:center;font-size:14px;}
+/*.inner form input:last-child{color:#b5b5b5;font-size:32px;line-height:30px;}*/
+.inner table  form {margin-left:34px;}
+.inner table{margin-bottom:40px;}
+
+.style .checkbox label b,.style .checkbox label u{float:left;margin-right:80px;margin-bottom:15px;font-weight:normal;font-style:normal;text-decoration:none;font-size:12px;color:#999999;}
+.text{border-top:1px solid #d8d8d8;padding-top:25px;}
+.text p{font-size:18px;color:#565656;padding-bottom:25px;text-align:right;}
+.all div{float:right;padding-top:20px;padding-bottom:40px;}
+.all p ,.all em ,.all a{float:left;}
+.all p{font-size:16px;color:#484848;line-height:50px;}
+.all em{font-size:30px;font-weight:bold;color:#f2565a;line-height:50px;margin-right:35px;}
+.all a {display:block;width:170px;height:50px;background-color:#559b0d;color:#fff;line-height:50px;text-align:center;}
+.all {overflow:hidden;border-top:1px solid #d8d8d8;border-bottom:2px solid #d6d6d6;}

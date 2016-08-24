@@ -1,0 +1,29 @@
+.navs .control {display:none;}
+.wrap{background-color:#f7f7f7;margin-top:1px;}
+dl.navigation{margin-top:40px;overflow:hidden;}
+dl.navigation dt,dl.navigation dd,dl.navigation dd a{float:left;font-size:12px;color:#7e7e7e;font-family:'宋体';font-weight:normal;line-height:20px;}
+dl.navigation dt {padding-left:25px;background:url("../images/financial/financial_03.png")/*tpa=http://www.chuangyesan.com/images/financial/financial_03.png*/ 3% center no-repeat;}
+dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
+dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
+dl.navigation dd:last-child a:before{display:none;}
+dl.navigation dd.cur a{color:#559b0d;}
+ul.main{padding-top:50px;overflow:hidden;}
+
+.main li{float:left;width:595px;height:428px;padding:32px 30px;background-color:#FFF;border:1px solid #ccc;margin-bottom:36px;transition:all .3s;}
+.main li:hover{box-shadow:-1px 3px 5px 2px #ccc;}
+.main li a{display:block;}
+.main li:nth-child(even){margin-left:26px;}
+.main li:nth-child(odd){margin-left:3px;}
+.main  .bottom{padding:14px 0;position:relative;}
+.bottom p{font-size:18px;color:#6c6c6c;margin-top:33px;font-size:18px;color:#6c6c6c;}
+.bottom em{position:absolute;top:-23px;left:109px;padding:12px 20px;background-color:rgba(102,204,51,0.8);font-size:18px;color:#fff;}
+.banner{width:100%;text-align:center;}
+.banners{height:320px;}
+
+/*2015.11.24*/
+.choice{overflow:hidden;padding:50px 0;}
+.choice li {width:25%;float:left;}
+.choice a{display:block;text-align:center;padding:18px 0;background-color:#FFF;
+transition: all .3s;margin-right:10px;}
+/*.choice li:nth-child(1) a{margin-left:0;}*/
+.choice li:hover a  {box-shadow: -1px 3px 5px 2px #ccc;border: 1px solid #ccc;}

@@ -1,0 +1,203 @@
+/* CSS Document */
+body{/*overflow-x:hidden;*/min-width:1024px;}
+.mouse{width:143px;height:45px;background-image:url("../images/scroll/bg_scroll01.png")/*tpa=http://www.chuangyesan.com/images/scroll/bg_scroll01.png*/;position:fixed;bottom:20px;right:100px;z-index:1000;}
+.mouse img{position:absolute;left:49.5%;top:20px;}
+.floor1 .banner{width:100%;height:100%;z-index:2;position:absolute;top:0;left:0;z-index:2;}
+.floor1 .banner img{width:100%;height:100%;}
+.floor1{position:relative;overflow:hidden;}
+ .logo{position:absolute;left:5%;top:7%;z-index:100;padding:5px 0;box-sizing:border-box;}
+ .navs .logo{height:45px;}
+ .logo img{width:330px;height:auto;}
+ .navs .logo img{height:100%;width:auto;}
+.floor1:before{width:100%;height:100%;background-color:#ccc;position:absolute;top:0;left:0;content:'';z-index:1;-webkit-animation:move 1s   linear;animation:move 1s  linear;}
+.floor1 .content{position:absolute;top:35%;left:0;z-index:3;width:435px;opacity:0;}
+.floor1 .content em{display:block;font-size:30px;color:#333;margin-bottom:25px;padding-top:5px;}
+.floor1 .content p{font-size:16px;color:#343434;line-height:28px;}
+.floor1 .content a{display:block;width:140px;height:40px;border:1px solid #ccc;text-align:center;font-size:16px;color:#ccc;line-height:40px;background:url("../images/scroll/bg_sign12.png")/*tpa=http://www.chuangyesan.com/images/scroll/bg_sign12.png*/ 25px 0 no-repeat;transition:all 0.3s;margin-top:25px;}
+ .content a:hover{background-position: 25px -38px;background-color: #fff;
+color: #000;}
+ div.vedio .poa-f {
+position: absolute;
+left: 50%;
+top: 50%;
+/*width: 80%;
+height: 80%;*/
+width:1000px;
+height:667px;
+
+}
+ div.vedio{position:absolute;top:50%;left:50%;z-index:101;width:100%;height:100%;display:none;}
+ div.closed{width:40px;height:40px;background:url("../images/scroll/close01.jpg")/*tpa=http://www.chuangyesan.com/images/scroll/close01.jpg*/ no-repeat;position:absolute;top:70px;right:20px;cursor:pointer;}
+div.floor2{width:100%;overflow:hidden;background-color:#eeeeee;}
+.floor2 .big_img{width:65%;float:left;opacity:0;}
+.floor2 .big_img img{width:100%;height:auto;}
+.floor2 .text{width:35%;float:right;padding:0 5%;box-sizing:border-box;opacity:0;}
+.floor2 .text em{display:block;color:#8f725a;font-size:34px;margin-top:30%;margin-bottom:10%;}
+.floor2 .text span{display:block;font-size:22px;color:#545454;margin-bottom:10px;line-height:36px;}
+.floor2 .text p{font-size:16px;color:#6c6c6c;line-height:28px;}
+.mg_l{margin-left:-2000px;}
+.mg_r{margin-right:-2000px;}
+/*.opacity{opacity:0.4;}*/
+
+/**/
+.title{/*background:url(../images/scroll/title_03.png) center 0 no-repeat;*/margin:100px 0;padding-top:12px;font-size:48px;color:#8f725a;text-align:center;}
+.floor3 .bottom{width:100%;overflow:hidden;background-color:#f3f3f3;position:relative;}
+.floor3 .date{width:30%;float:left;padding-top:8%;padding-left:7%;}
+.floor3 .photo{width:70%;float:left;overflow:hidden;}
+.floor3 .photo img{width:100%;/*-webkit-transform: scale(1.1, 1.1);*/}
+.floor3  .year li{font-size:16px;color:#333333;font-style:italic;padding-bottom:40px;position:relative;}
+.floor3  .year li span{position:relative;cursor:pointer;}
+.floor3  .year span:before{content:'';width:15px;height:1px;position:absolute;top:10px;left:-30px;background-color:#000;display:none;}
+.floor3  .year span:after{content:'';width:15px;height:1px;position:absolute;top:10px;right:-30px;background-color:#000;display:none;}
+.floor3  .year li.cur span:before,.floor3  .year li.cur span:after{display:block;}
+.floor3  .bottom .message{position:absolute;left:30%;top:150px;width:250px;background-color:#FFF;margin-left:-122px;padding:0 20px;padding-top:40px;}
+.floor3  .bottom .message em{display:block;font-size:22px;color:#8f725a;text-align:center;margin-bottom:20px;opacity:0;margin-top:50px;}
+.floor3  .bottom .message p{color:#8f725a;font-size:16px;line-height:30px;opacity:0;margin-top:50px;}
+.floor3  .bottom .message li span{font-size:16px;text-align:center;display:block;color:#000;padding-top:15px;margin-bottom:10px;opacity:0;}
+.floor3  .bottom .message .arrow .go_l,.floor3  .bottom .message .arrow .go_r{float:left;width:50%;height:50px;padding:0 7%;box-sizing:border-box;}
+.floor3  .bottom .message .arrow .go_l{text-align:right;border-right:1px solid #ccc;user-select:none;-webkit-user-select:none;}
+.floor3  .bottom .message .arrow .go_r{text-align:left;user-select:none;-webkit-user-select:none;}
+.floor3  .bottom .message .arrow{overflow:hidden;}
+.floor3  .bottom .message .arrow  span{font-size:24px;color:#333;font-weight:bold;line-height:50px;cursor:pointer;}
+.floor3  .bottom .message li{display:none;}
+/*.floor3  .bottom .message ul li.cur >*{margin-top:0;}*/
+.floor3  .bottom .message li.cur{display:block;}
+.floor3  .bottom .photo li{display:none;}
+.floor3  .bottom .photo li.cur{display:block;}
+.floor3 .bottom .message ul{overflow:hidden;height:250px;}
+.floor3 .bottom .photo{position:relative;}
+.floor3 .bottom .photo li {transition: -webkit-transform 1s linear;transition: -moz-transform 1s linear;transition: -ms-transform 1s linear;transition:transform 1s linear;position:absolute;top:0;left:0;width:100%;height:100%;}
+.go{-webkit-transform: scale(1.1, 1.1);transform: scale(1.1, 1.1);-moz-transform: scale(1.1, 1.1);-ms-transform: scale(1.1, 1.1);}
+/*.floor4 .title{background-image:url(../images/scroll/title.png);}*/
+.floor4 .wrap{overflow:hidden;width:100%;padding:3% 8%;background-color:#f7f7f8;}
+.wrap ul{overflow:hidden;width:100%;}
+.wrap li{width:33.333%;float:left;padding:0 3%;box-sizing:border-box;margin-left:2000px;opacity:1;}
+/*.wrap li:nth-child(2){margin-left:1500px;}
+.wrap li:nth-child3){margin-left:1000px;}*/
+.wrap li div img{width:100%;}
+.wrap li a{display:block;color:#606060;background-color:#FFF;padding-top:20px;transition:all 0.5s;overflow:hidden;}
+.wrap li a:hover{background-color:#b1d190;}
+.wrap li a:hover em{color:#fff;}
+.wrap li a:hover p{color:#fff;}
+.wrap li a p{transition:all 0.5s;font-size:16px;line-height:28px;padding:0 20%;height:135px;overflow:hidden;margin-bottom:20px;}
+.wrap li a div img{/*transition: -webkit-transform 1s linear;transition: -moz-transform 1s linear;transition: -ms-transform 1s linear;*/transition:all 1s linear;position:relative;}
+.wrap li a div {overflow:hidden;}
+.wrap li a:hover div img{-webkit-transform: scale(1.1, 1.1);transform: scale(1.1, 1.1);-moz-transform: scale(1.1, 1.1);-ms-transform: scale(1.1, 1.1);}
+
+.floor3 .bottom .photo li,.floor3 .bottom .photo ul{overflow:hidden;}
+.wrap li a span{display:block;height: 96px;
+background:url("../images/scroll/bg_sign01.png")/*tpa=http://www.chuangyesan.com/images/scroll/bg_sign01.png*/ no-repeat center top;
+transition: background 0.5s;}
+.wrap li a:hover span{background-position: center -96px;}
+.wrap li:nth-child(2) a span{background-image:url("../images/scroll/bg_sign02.png")/*tpa=http://www.chuangyesan.com/images/scroll/bg_sign02.png*/;}
+.wrap li:nth-child(3) a span{background-image:url("../images/scroll/bg_sign03.png")/*tpa=http://www.chuangyesan.com/images/scroll/bg_sign03.png*/;}
+.wrap li a em{display:block;font-size:24px;color:#333333;text-align:center;margin:50px 0;}
+
+/*2016.1.19*/
+.floor1 .banners img{height:100%;width:100%;}
+.floor1 .banners {float:left;width:60%;height:100%;}
+.floor1 .word{float:left;padding:0 6%;width:40%;box-sizing:border-box;}
+.floor1:before{display:none;}
+.floor1 .word em{display:block;font-size:32px;color:#696868;line-height:46px;/*text-shadow:4px 2px 3px #ccc;*/margin-bottom:25px;}
+.floor1 .word p{color:#7b7a7a;line-height:32px;font-size:18px;/*text-shadow:4px 1px 3px #ccc;*/}
+.carousel-indicators li{border:1px solid #006835;}
+.carousel-indicators .active{background-color:#006835;}
+/*.floor5 .title{background-image:url(../images/scroll/product_03.png);}*/
+.sub_title {font-size:20px;color:#948174;text-align:center;padding-top:10px;}
+.floor5 .contain ul{overflow:hidden;width:100%;}
+.floor5 .contain ul li{overflow:hidden;width:14.285%;float:left;padding:0 30px;}
+.floor5 .contain ul li p{font-size:16px;line-height:35px;color:#7c6c63;margin-top:30px;min-height:135px;}
+.floor5 .contain ul li em{font-size:30px;color:#8f725a;margin-top:25px;opacity:0;transition:all 0.5s;}
+.floor5 .contain ul li:hover em{opacity:1;}
+.floor5 .contain ul li a{display:block;max-width:210px;margin:auto;text-align:center;}
+.floor5 .contain ul li img{max-width:100%;}
+.floor5 .contain ul li i{font-style:normal;font-size:24px;color:#8f725a;margin-top:-5px;}
+.floor5 .contain{background-color:#f3f3f3;padding:8% 0;}
+/*滚动*/
+.product-item{background-repeat:no-repeat;background-size:cover;background-position:center center;}
+
+.product-item .control{padding:10%;}
+.control .title0 em{display:block;font-size:40px;color:#fff;float:left;}
+.title0 ul{overflow:hidden;float:left;margin-left:20px;margin-top:15px;}
+.title0 ul li{float:left;padding:0 6px;}
+.title0 ul a{display:block;border:1px solid #fff;font-size:14px;line-height:25px;padding:0 10px;border-radius:13px;background-color:#d7797d;color:#fff;}
+.title0 ul li.bg1 a{background-color:#d7797d;}
+.title0 ul li.bg2 a{background-color:#9ccb60;}
+.title0 ul li.bg3 a{background-color:#62d4aa;}
+.title0 ul li.bg4 a{background-color:#cd5fa5;}
+/*.title0 ul li:nth-child(2) a{background-color:#9ccb60;}
+.title0 ul li:nth-child(3) a{background-color:#cd5fa5;}
+.title0 ul li:nth-child(4) a{background-color:#62d4aa;}*/
+.control .title0{overflow:hidden;clear:both;}
+.control .text_book{font-size:16px;line-height:35px;margin-top:20px;color:#fff;}
+.link_to{padding:25px 0;border-bottom:1px solid #fff;width:100%;}
+.link_to ul{overflow:hidden;}
+.link_to li{padding-right:10px;float:left;}
+.link_to li a{border:1px solid #fff;padding:10px 3px;display:block;height:97px;width:78px;padding-top:45px;background:url("../images/detail/icon_03.png")/*tpa=http://www.chuangyesan.com/images/detail/icon_03.png*/ no-repeat center 12px;}
+.link_to li a p{font-size:14px;text-align:center;color:#fff;}
+.link_to li.ved a{background-image:url("../images/detail/icon_03.png")/*tpa=http://www.chuangyesan.com/images/detail/icon_03.png*/;}
+.link_to li.img a{background-image:url("../images/detail/icon_06.png")/*tpa=http://www.chuangyesan.com/images/detail/icon_06.png*/;}
+.link_to li.tex a{background-image:url("../images/detail/icon_08.png")/*tpa=http://www.chuangyesan.com/images/detail/icon_08.png*/;}
+
+/*.link_to li:nth-child(2) a{background-image:url(../images/detail/icon_06.png);}
+.link_to li:nth-child(3) a{background-image:url(../images/detail/icon_08.png);}*/
+.price{margin:25px 0;overflow:hidden;}
+.price em{font-size:48px;color:#fff;float:left;}
+.price i{font-style:normal;font-size:24px;color:#fff;float:left;margin-right:5px;margin-top:27px;font-weight:bold;}
+.buy button{display:block;width:200px;height:40px;font-size:16px;color:#fff;text-align:center;line-height:40px;background-color:#559b0d/*rgba(0,204,51,0.8)*/;border-radius:22px;float:left;margin-right:30px;border:none;}
+.buy button:last-child{background-color:#666/*rgba(0,0,0,0.8)*/;}
+.section2 .buy a:last-child{background-color:#666;}
+.alert>div{position:absolute;top:50px;left:0;width:100%;height:100%;z-index:100000;display:none;background-color:rgba(0,0,0,0.8);}
+/*.alert{position:absolute;top:0;left:0;z-index:101;}
+*/
+/*轮播*/
+		.carousel{width: 100%; height: 100%;position: relative; overflow: hidden; }
+		.carousel ul.imageslist{position: absolute;top:0;left:0;list-style: none; width: 9000px;}
+		.carousel ul.imageslist li{float: left;}
+		.carousel .buttons a{display: block; width: 20%; height:100%; cursor: pointer;}
+		.carousel .buttons .leftBtn{position: absolute; top: 0 ; left:0; }
+		.carousel .buttons .rightBtn{position: absolute; top: 0 ; right:0; }
+		.carousel .bg{position: absolute; bottom: 0 ; left: 0; width: 100%; height: 50px; background-color: black; opacity: 0.6; _filter:alpha(opacity=60);}
+		.carousel .num{position: absolute; bottom: 0 ; right:0; width:100%;text-align:center;height:30px; cursor:pointer;}
+		.carousel .num span{display:inline-block;border-radius:50%; margin-right: 6px; width: 12px; height: 12px; background: white; }
+		.carousel .num span.cur{background-color:#4f901a;}
+/*轮播停止*/
+.poa-f h5{font-size:36px;color:#fff;text-align:center;margin-bottom:25px;padding-top:10px;}
+.poa-f p{font-size:16px;color:#000;line-height:28px;}
+.poa-f em{color:#F00;color:#333;}
+.poa-f i{font-style:normal;}
+.poa-f .inner{width:100%;height:110%;padding:10px;box-sizing:border-box;margin:auto;}
+.poa-f .inner>p{width:40%;float:left;margin:0 5%;}
+/*.section8 .fp-tableCell{vertical-align:top;background-color:#383838;}*/
+
+/*2016.1.22*/
+	product-item	.carousel ul.imageslist {
+			top: 0;
+			left: 0;
+			list-style: none;
+		}
+
+	product-item	.carousel ul.imageslist li {
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: none;
+			
+		}
+
+@-webkit-keyframes  move{
+	0%{top:100%;}
+	100%{top:0;}
+	}
+@keyframes  move{
+	0%{top:100%;}
+	100%{top:0;}
+	}
+
+
+@media (max-width:1200){
+	
+	}
+	
+	
+	

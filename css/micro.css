@@ -1,0 +1,71 @@
+.navs .control {display:none;}
+.wrap{background-color:#f7f7f7;margin-top:1px;}
+dl.navigation{margin-top:40px;overflow:hidden;margin-bottom:20px;}
+dl.navigation dt,dl.navigation dd,dl.navigation dd a{float:left;font-size:12px;color:#7e7e7e;font-family:'宋体';font-weight:normal;line-height:20px;}
+dl.navigation dt {padding-left:25px;background:url("../images/financial/financial_03.png")/*tpa=http://www.chuangyesan.com/images/financial/financial_03.png*/ 3% center no-repeat;}
+dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
+dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
+dl.navigation dd:last-child a:before{display:none;}
+dl.navigation dd.cur a{color:#559b0d;}
+ul.main{padding-top:50px;overflow:hidden;}
+
+.big_img{height:392px;background:url("../images/construct/construct_02.jpg")/*tpa=http://www.chuangyesan.com/images/construct/construct_02.jpg*/ center center no-repeat;padding-top:35px;}
+.big_img p{font-size:36px;line-height:50px;color:#559b0d;text-align:center;}
+.select{padding:35px 15px;}
+.index{width:100%;height:60px;border:1px solid #c9c9c9;border-radius:4px;box-shadow:0px 1px 1px 0px #c9c9c9;overflow:hidden;padding:7px 0;}
+.index>*{width:33.333%;float:left;border-left:1px solid #ccc;height:100%;padding-left:45px;}
+.index .choose{border-left:none;}
+.index label,.index dt{font-size:18px;color:#559b0d;font-weight:bold;line-height:46px;margin-right:35px;}
+.choose select{outline:none;box-shadow:none;border:none;width:60%;height:100%;font-size:14px;color:999999;-webkit-appearance:none;appearance:none;-moz-appearance:none;-ms-appearance:none;background:url("../images/message/advise_03.png")/*tpa=http://www.chuangyesan.com/images/message/advise_03.png*/ 100% center no-repeat;}
+.color dt,.color dd{float:left;}
+.color dd a{width:14px;height:14px;background-color:#ff0000;display:block;margin-right:3px;}
+.color dl{overflow:hidden;}
+.color dd:last-child a{background:transparent url("../images/construct/color_03.jpg")/*tpa=http://www.chuangyesan.com/images/construct/color_03.jpg*/ 0 0;}
+.color dd {margin-top:17px;}
+.search input{width:100%;outline:none;box-shadow:none;border:none;font-size:14px;color:999999;background:url("../images/construct/search_06.jpg")/*tpa=http://www.chuangyesan.com/images/construct/search_06.jpg*/ 3% 75% no-repeat;height:46px;padding-left:46px;}
+.select ul{overflow:hidden;height:420px;}
+.select ul li{width: 210px;margin-left:43px;margin-top:15px;margin-bottom:15px;float:left;border:1px solid #e5e5e5;border-radius:4px;}
+.select ul li:first-child{margin-left:0;}
+/*.select ul li img{padding:5px;}*/
+.select ul li p{overflow:hidden;padding:0 10px;padding-top:15px;border-top:1px solid #d5d5d5;}
+.select ul li p span{float:left;font-size:14px;color:#646464;}
+.select ul li p span i{font-style:normal;color:#f3565d;font-weight:bold;}
+.select ul li p em{font-size:18px;float:right;color:#f3565d;font-weight:bold;}
+.select ul li div:last-child{height:0;transition:all .3s;overflow:hidden;margin-top:10px;padding:0 10px;margin-bottom:10px;}
+.select li div:last-child a {/*width:120px;height:30px;*/border-radius:4px;background-color:#f3565d;line-height:30px;text-align:center;color:#fff;font-size:16px;float:left;padding:0 7px;}
+.select li div:last-child a:last-child{margin-left:16px;background-color:#559b0d;}
+.select li>a{display:block;}
+.select ul li div:first-child{position:relative;margin:15px 10px;}
+.select ul li div:first-child a{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5) url("../images/micro/sweep_03.jpg")/*tpa=http://www.chuangyesan.com/images/micro/sweep_03.jpg*/ center center no-repeat;border-radius:0;font-size:18px;font-weight:bold;text-align:center;padding-top:20%;color:#fff;transition:all .3s;opacity:0;}
+.select ul li:hover div:first-child a{opacity:1;}
+.select ul li:hover div:last-child{height:100%;}
+
+div.type,div.type2,div.type3{padding:70px 0;background-color:#FFF;font-size:36px;color:#434343;margin-bottom:45px;background-color:#f5f6f7;}
+.type em,.type2 em,div.type3 em{display:block;font-size:36px;text-align:center;color:#434343;padding-bottom:45px;}
+.type p{font-size:16px;line-height:36px;text-align:center;}
+.type2 div,div.type3{text-align:center;}
+.type2 ul {overflow:hidden;width:98%;margin-top:15px;}
+.type2 ul li{float:left;width:20%;text-align:center;}
+div.type2,div.type3  {background-color:#FFF;}
+div.type2 p,div.type3 ul li{font-size:18px;line-height:30px;text-align:center;}
+.type2 ul li:last-child{width:18%;}
+.notice{height:528px;background:url("../images/construct/construct_25.jpg")/*tpa=http://www.chuangyesan.com/images/construct/construct_25.jpg*/ center center no-repeat;}
+.notice .inner{padding:45px 30px;margin-top:80px;background-color:#FFF;width:82%;}
+.notice em{font-size:36px;color:#434343;margin-bottom:40px;display:block;}
+.notice p{font-size:18px;line-height:30px;color:#434343;}
+div.type3 ul{overflow:hidden;width:102%;margin-top:15px;}
+div.type3 ul li{float:left;width:14.285%;text-align:center;font-size:16px;}
+div.type3 em{margin-bottom:60px;}
+
+
+.color dd:nth-child(3) a{background-color:#ff6600;}
+.color dd:nth-child(4) a{background-color:#ffff00;}
+.color dd:nth-child(5) a{background-color:#007500;}
+.color dd:nth-child(6) a{background-color:#01d8da;}
+.color dd:nth-child(7) a{background-color:#0033ff;}
+.color dd:nth-child(8) a{background-color:#fe68ff;}
+.color dd:nth-child(9) a{background-color:#990099;}
+.color dd:nth-child(10) a{background-color:#ffffff;border:1px solid #ccc;}
+.color dd:nth-child(11) a{background-color:#999999;}
+.color dd:nth-child(12) a{background-color:#974b00;}
+.color dd:nth-child(13) a{background-color:#000000;}

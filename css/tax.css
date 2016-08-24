@@ -1,0 +1,56 @@
+form textarea.form-control{height:45px;width:80%;float:left;resize:none;}
+.method{overflow:hidden;}
+.content ul{overflow:hidden;width:50%;float:left;}
+.content ul li{float:left;width:100%;margin-bottom:20px;}
+.content ul li a {display:block;overflow:hidden;color:#373737;height:90px;padding-top:20px;}
+.content em{float:none;text-align:center;}
+.content ul li  img{margin-right:30px;float:left;}
+.content ul li  p{float:left;margin-top:5px;width:67%;height:72px;overflow:hidden;font-size:18px;}
+.content .container>div{margin-left:200px;float:none;width:844px;margin:auto;margin-bottom:100px;}
+.material{/*height:814px;*/background:url("../images/tax/tax_06.jpg")/*tpa=http://www.chuangyesan.com/images/tax/tax_06.jpg*/ center center;overflow:hidden;padding-bottom:25px;}
+.material em{display:block;font-size:40px;text-align:center;color:#fff;padding-top:80px;padding-bottom:50px;}
+.tree{width:1040px;/*height:520px;*/margin:auto;}
+.tree>div{float:left;width:50%;height:100%;}
+
+.tree .left{border-right:1px dashed #c1c1c1;padding-right:35px;}
+.tree p{font-size:16px;line-height:32px;color:#fff;position:relative;}
+.tree .left p{text-align:right;margin-top:100px;}
+.tree .right p{text-align:left;}
+.tree .right{padding-left:35px;border-left:1px dashed #c1c1c1;margin-left:-1px;}
+.tree p:before{content:'';width:17px;height:17px;border:1px solid #fff;background-color:#559b0d;position:absolute;right:-44px;top:35%;border-radius:50%;}
+.tree .right p:last-child:before{top:50%;}
+.tree .left p:last-child:before{top:50%;}
+.tree .left p:first-child:before{top:35%;}
+
+.tree .left p:first-child{margin-top:-11px;}
+.tree .right p:before{left:-44px;}
+.tree .right p{margin-top:100px;}
+.tree .right p:first-child{margin-top:31px;}
+ul.process{width:1020px!important;}
+.content ul:last-child li a{padding-left:25%;} 
+
+.material div.index{margin:0 auto;text-align:center;margin-bottom: 50px;margin-top: -20px;}
+.index li{padding:5px 15px;background-color:#FFF;border:1px solid #fff;font-size:20px;color:#559b0d;float:left;margin-right:10px;text-align:center;min-width:112px;cursor:pointer;}
+.index ul{overflow:hidden;display:inline-block;} 
+.index li:last-child{margin:0;}
+.index li.cur{background-color:#559b0d;color:#fff;}
+.all li{width:1040px;/*overflow:hidden;height:520px;*/margin:auto;display:none;}
+.all li.cur{display:block;}
+.all li>div{float:left;width:50%;/*height:100%;*/}
+
+.all li .left{border-right:1px dashed #c1c1c1;padding-right:35px;}
+.all li p{font-size:16px;line-height:32px;color:#fff;position:relative;}
+.all li .left p{text-align:right;margin-top:100px;}
+.all li .right p{text-align:left;}
+.all li .right{padding-left:35px;margin-left:-1px;}
+.all li p:before{content:'';width:17px;height:17px;border:1px solid #fff;background-color:#559b0d;position:absolute;right:-44px;top:35%;border-radius:50%;}
+.all li .left p:first-child{margin-top:-11px;}
+.all li .right p:before{left:-43px;}
+.all li .right p{margin-top:100px;}
+.all li .right p:first-child{margin-top:31px;}
+.all .right p:last-child:before{top:50%;}
+.all .left p:last-child:before{top:50%;}
+.all .left p:first-child:before{top:35%;}
+.method.more ul{width:100%;}
+.method.more ul a{padding-left:0!important;height:auto;}
+.method.more ul p{width:85%;height:auto;}

@@ -1,0 +1,56 @@
+.service form dt{height:100px;}
+.service form dd {margin-right:1px;margin-bottom:10px;width:auto;/*padding:0 15px;*/padding:0 8px;}
+.translation .container{padding-bottom:0;margin-bottom:50px;background:#FFF url("../images/carve/carve_25.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve_25.jpg*/ 100% 100% no-repeat;}
+.translation .container .left{background-color:#559b0d;background-image:none;}
+.translation .container .left em {
+display:block;
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin-bottom:40px;
+}
+.translation .container .left p {
+font-size: 40px;
+text-align: center;
+color: #fff;
+margin-bottom:15px;
+	}
+	.translation .container .left p:last-child span{background-color:#77af3d;
+border:1px solid #fff;color:#fff;	}
+.translation .container .middle{width: 560px;
+height: 390px;}
+.translation .middle li{padding: 0 30px;padding-top:40px;display:none;}
+.translation .middle li.cur{display:block;}
+.translation li em{font-size:20px;display:block;padding-bottom:30px;color:#559b0d;}
+.translation li p{font-size:16px;line-height:30px;color:#353535;}
+.translation .container .left p:last-child{padding:0;float:right;}
+.translation .container .right p:last-child{padding:0;float:left;}
+.translation .container .left p span {margin-bottom:20px;cursor:pointer;
+width: 190px;margin-left:-1px;
+height: 50px;
+text-align: center;
+font-size: 20px;
+line-height: 50px;
+float: right;
+background-color: #77af3d;
+display: block;
+color: #fff;border:1px solid #fff;	
+}
+.translation .container .right{float:right;background-color:rgba(57, 138, 17, 0.9);}
+.translation .container .right p span{float:left;}
+.translation .container .right p:nth-child(2) span{width:250px;}
+.translation .container .left p.cur span{background-color:#FFF;color:#559b0d;}
+.translation .container .lefts p span{margin-right:-1px;}
+ul.process li:nth-child(odd){width:82px;}
+ul.process{width:1215px;margin-bottom:100px;}
+ul.process b {
+margin-top: 15px;
+display: block;
+font-weight: normal;
+font-size: 12px;
+line-height: 24px;
+text-align: center;
+}
+.step .container>p {margin-top:0;line-height:30px;}
+.step .container>h5 {line-height:30px;font-size:16px;font-weight:bold;}
+.translation {padding:50px 0;}

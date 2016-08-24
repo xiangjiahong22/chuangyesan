@@ -1,0 +1,18 @@
+.wrap{width:100%;height:523px;background:url("../images/login/login_02.jpg")/*tpa=http://www.chuangyesan.com/images/login/login_02.jpg*/ center center no-repeat;}
+.head p{float:left;line-height:68px;font-size:16px;padding-left:50px;}
+.head{height:116px;}
+.wrap .container{padding:1px 97px;overflow:hidden;}
+.wrap .left{float:left;width:530px;padding-top:86px;}
+.wrap .right{float:left;}
+.left p{font-size:18px;line-height:60px;color:#fff;}
+.right{/*height:370px;*/width:355px;padding:26px 30px;background-color:#FFF;border:1px solid #e5e5e5;}
+.title{overflow:hidden;border-bottom:1px solid #d7d7d7;}
+
+.title span{float:left;font-size:24px;color:#569b0d;padding-bottom:18px;border-bottom:3px solid #569b0d;}
+.title a{display:block;float:right;font-size:16px;color:#626262;line-height:50px;}
+.right form{margin-top:26px;}
+form input[type='text']{height:34px;margin-bottom:22px;}
+.choice label{font-size:14px;color:#626262;float:left;font-weight:normal;}
+.choice a{display:block;text-decoration:underline;font-size:14px;color:#777777;float:right;}
+form button{width:100%;height:50px;color:#fff;font-size:24px;text-align:center;background-color:#569b0d;border:none;margin-top:15px;}
+form input[type='submit']{width:100%;height:50px;color:#fff;font-size:24px;text-align:center;background-color:#569b0d;border:none;margin-top:15px;}

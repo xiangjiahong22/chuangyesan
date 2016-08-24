@@ -1,0 +1,69 @@
+.navs .control {display:none;}
+.wrap{background-color:#f7f7f7;margin-top:1px;}
+dl.navigation{margin-top:40px;overflow:hidden;margin-bottom:20px;}
+dl.navigation dt,dl.navigation dd,dl.navigation dd a{float:left;font-size:12px;color:#7e7e7e;font-family:'宋体';font-weight:normal;line-height:20px;}
+dl.navigation dt {padding-left:25px;background:url("../images/financial/financial_03.png")/*tpa=http://www.chuangyesan.com/images/financial/financial_03.png*/ 3% center no-repeat;}
+dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
+dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
+dl.navigation dd:last-child a:before{display:none;}
+dl.navigation dd.cur a{color:#559b0d;}
+ul.main{padding-top:50px;overflow:hidden;}
+
+div.big_img{height:547px;width:100%;background: url("../images/web/website_02.jpg")/*tpa=http://www.chuangyesan.com/images/web/website_02.jpg*/ center center no-repeat;}
+.big_img p:first-child{margin-top:140px;font-size:48px;color:#fff;font-weight:bold;margin-bottom:20px;text-align:center;}
+.big_img p:nth-child(2){font-size:30px;color:#fff;text-align:center;margin-bottom:20px;}
+.big_img p:nth-child(3){font-size:12px;font-family:'Arial';text-align:center;color:#fff;}
+.big_img ul{width:430px;height:70px;border:2px solid #fff;overflow:hidden;border-radius:8px;margin:auto;margin-top:50px;}
+.big_img ul li{float:left;width:50%;height:100%;}
+.big_img ul li:last-child {background-color:#75ae3b;}
+.big_img ul li a{display:block;background:url("../images/web/web_03.png")/*tpa=http://www.chuangyesan.com/images/web/web_03.png*/ 6% center no-repeat;color:#fff;font-size:24px;line-height:70px;text-align:center;}
+.big_img ul li:last-child a{background-image:url("../images/web/web_05.png")/*tpa=http://www.chuangyesan.com/images/web/web_05.png*/;}
+.type{margin-top:80px;background-color:#FFF;}
+.type div{text-align:center;}
+.type p{font-size:26px;text-align:center;color:#272727;margin-bottom:20px;padding-top:40px;}
+.type em{display:block;font-size:16px;color:#707070;margin-bottom:15px;text-align:center;}
+.type span{display:block;font-size:16px;color:#000;text-align:center;}
+.service ul{overflow:hidden;padding:40px 70px;}
+.service ul li{width:33.333%;padding:5px;float:left;}
+.service li a {display:block;background:#f6f6f6 url("../images/web/icon1-1.png")/*tpa=http://www.chuangyesan.com/images/web/icon1-1.png*/ center center no-repeat;height:155px;padding-top:110px;text-align:center;font-size:16px;transition:all .3s;}
+.service li:nth-child(2) a{background-image:url("../images/web/icon2-2.png")/*tpa=http://www.chuangyesan.com/images/web/icon2-2.png*/;} 
+.service li:nth-child(2):hover a{background-image:url("../images/web/icon2.png")/*tpa=http://www.chuangyesan.com/images/web/icon2.png*/;} 
+.service li:nth-child(3) a{background-image:url("../images/web/icon3-3.png")/*tpa=http://www.chuangyesan.com/images/web/icon3-3.png*/;} 
+.service li:nth-child(3):hover a{background-image:url("../images/web/icon3.png")/*tpa=http://www.chuangyesan.com/images/web/icon3.png*/;} 
+.service li:nth-child(4) a{background-image:url("../images/web/icon4-4.png")/*tpa=http://www.chuangyesan.com/images/web/icon4-4.png*/;} 
+.service li:nth-child(4):hover a{background-image:url("../images/web/icon4.png")/*tpa=http://www.chuangyesan.com/images/web/icon4.png*/;} 
+.service li:nth-child(5) a{background-image:url("../images/web/icon5-5.png")/*tpa=http://www.chuangyesan.com/images/web/icon5-5.png*/;} 
+.service li:nth-child(5):hover a{background-image:url("../images/web/icon5.png")/*tpa=http://www.chuangyesan.com/images/web/icon5.png*/;} 
+.service li:nth-child(6) a{background-image:url("../images/web/icon6-6.png")/*tpa=http://www.chuangyesan.com/images/web/icon6-6.png*/;} 
+.service li:nth-child(6):hover a{background-image:url("../images/web/icon6.png")/*tpa=http://www.chuangyesan.com/images/web/icon6.png*/;} 
+.service li:hover a{background:#559b0d url("../images/web/icon1.png")/*tpa=http://www.chuangyesan.com/images/web/icon1.png*/ center center no-repeat;color:#fff;} 
+.solution ul{overflow:hidden;padding:0 25px;padding-top:50px;}
+.solution ul li{float:left;width:16.666%;height:155px;background:url("../images/web/bg-nowness.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-nowness.jpg*/ center center no-repeat;}
+.solution ul li a{background:rgba(0,0,0,0.8);color:#707070;font-size:16px;line-height:155px;text-align:center;display:block;transition:all .3s;}
+.solution ul li:hover a {background-color:rgba(0,102,0,0.8);color:#fff;font-weight:bold;}
+.clients  ul{overflow:hidden;padding:35px 115px;} 
+.clients  ul li{width:23.8%;margin:5px;height:120px;float:left;overflow:hidden;background:#f7f7f7 url("../images/web/dell.png")/*tpa=http://www.chuangyesan.com/images/web/dell.png*/ center center no-repeat;transition:all .3s;}
+.clients  li a {display:block;height:100%;background:rgba(0,102,0,0.8) url("../images/web/bluefocus.png")/*tpa=http://www.chuangyesan.com/images/web/bluefocus.png*/ center 200%;opacity:0;transition:all .3s;}
+.clients ul li:hover{background-position:0 300%;}
+.clients ul li:hover a{background-position:center center;opacity:1;}
+.solution ul li:nth-child(2){background-image:url("../images/web/bg-snapwire.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-snapwire.jpg*/;}
+.solution ul li:nth-child(3){background-image:url("../images/web/bg-heytaxi.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-heytaxi.jpg*/;}
+.solution ul li:nth-child(4){background-image:url("../images/web/bg-renderly.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-renderly.jpg*/;}
+.solution ul li:nth-child(5){background-image:url("../images/web/bg-allmand.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-allmand.jpg*/;}
+.solution ul li:nth-child(6){background-image:url("../images/web/bg-cksource.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-cksource.jpg*/;}
+.solution ul li:nth-child(7){background-image:url("../images/web/bg-betegy.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-betegy.jpg*/;}
+.solution ul li:nth-child(8){background-image:url("../images/web/bg-boopsie.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-boopsie.jpg*/;}
+.solution ul li:nth-child(9){background-image:url("../images/web/bg-gifyo.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-gifyo.jpg*/;}
+.solution ul li:nth-child(10){background-image:url("../images/web/bg-koloid.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-koloid.jpg*/;}
+.solution ul li:nth-child(11){background-image:url("../images/web/bg-moment.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-moment.jpg*/;}
+.solution ul li:nth-child(12){background-image:url("../images/web/bg-spiralscout.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-spiralscout.jpg*/;}
+
+.clients ul li:nth-child(2){background-image:url("../images/web/lenovo.png")/*tpa=http://www.chuangyesan.com/images/web/lenovo.png*/;}
+.clients ul li:nth-child(2) a{background-image:url("../images/web/lenovo.png")/*tpa=http://www.chuangyesan.com/images/web/lenovo.png*/;}
+.clients li:nth-child(1) a{background-image:url("../images/web/dell.png")/*tpa=http://www.chuangyesan.com/images/web/dell.png*/;}
+.clients ul li:nth-child(3),.clients ul li:nth-child(3) a{background-image:url("../images/web/sdic.png")/*tpa=http://www.chuangyesan.com/images/web/sdic.png*/;}
+.clients ul li:nth-child(4),.clients ul li:nth-child(4) a{background-image:url("../images/web/anzeel.png")/*tpa=http://www.chuangyesan.com/images/web/anzeel.png*/;}
+.clients ul li:nth-child(5),.clients ul li:nth-child(5) a{background-image:url("../images/web/bluefocus.png")/*tpa=http://www.chuangyesan.com/images/web/bluefocus.png*/;}
+.clients ul li:nth-child(6),.clients ul li:nth-child(6) a{background-image:url("../images/web/senova.png")/*tpa=http://www.chuangyesan.com/images/web/senova.png*/;}
+.clients ul li:nth-child(7),.clients ul li:nth-child(7) a{background-image:url("../images/web/xmbt.png")/*tpa=http://www.chuangyesan.com/images/web/xmbt.png*/;}
+.clients ul li:nth-child(8),.clients ul li:nth-child(8) a{background-image:url("../images/web/org.png")/*tpa=http://www.chuangyesan.com/images/web/org.png*/;}

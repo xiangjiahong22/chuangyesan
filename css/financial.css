@@ -1,0 +1,43 @@
+.navs .control {display:none;}
+.wrap{background-color:#f7f7f7;margin-top:1px;background:url("../images/financial/company_002.jpg")/*tpa=http://www.chuangyesan.com/images/financial/company_002.jpg*/ center center no-repeat;height:749px;background-size:cover;}
+dl.navigation{margin-top:40px;overflow:hidden;}
+dl.navigation dt,dl.navigation dd,dl.navigation dd a{float:left;font-size:12px;color:#7e7e7e;font-family:'宋体';font-weight:normal;line-height:20px;}
+dl.navigation dt {padding-left:25px;background:url("../images/financial/position_03.png")/*tpa=http://www.chuangyesan.com/images/financial/position_03.png*/ 3% center no-repeat;}
+dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
+dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
+dl.navigation dd:last-child a:before{display:none;}
+dl.navigation dd.cur a{color:#559b0d;}
+div.main{padding-top:50px;overflow:hidden;}
+.main .left,.main .right1{width:516px;margin-left:182px;float:left;}
+.left p,.right1 p{font-size:32px;color:#7d7d7d;line-height:64px;text-align:center;}
+.left>p:nth-child(2),.right1>p:nth-child(2){font-size:20px;color:#a0a0a0;margin-bottom:30px;}
+.left select,.right1 select{height:55px;width:100%;margin-bottom:20px;background:#fff url("../images/financial/financial1_14.jpg")/*tpa=http://www.chuangyesan.com/images/financial/financial1_14.jpg*/  4% center no-repeat;text-indent:3em;border-radius:4px;}
+.right,.left1{float:left;padding-left:52px;padding-top:160px;}
+.left button,.right1 button{line-height:42px;font-size:24px;color:#fff;height:56px;background-color:#559b0d;border-radius:4px;}
+form a,form a:hover{font-size:18px;line-height:84px;text-align:right;color:#939393;text-decoration:underline;display:block;}
+.left1{padding-top:125px;display:none;}
+.left select:nth-child(2){background-image:url("../images/financial/company_09.jpg")/*tpa=http://www.chuangyesan.com/images/financial/company_09.jpg*/;}
+.left select:nth-child(3){background-image:url("../images/financial/financial1_20.jpg")/*tpa=http://www.chuangyesan.com/images/financial/financial1_20.jpg*/;}
+.left select:nth-child(4){background-image:url("../images/financial/financial1_23.jpg")/*tpa=http://www.chuangyesan.com/images/financial/financial1_23.jpg*/;}
+.left select:nth-child(5){background-image:url("../images/financial/financial1_25.png")/*tpa=http://www.chuangyesan.com/images/financial/financial1_25.png*/;}
+.right1 select:nth-child(2){background-image:url("../images/financial/company_033.jpg")/*tpa=http://www.chuangyesan.com/images/financial/company_033.jpg*/;}
+.right1 select:nth-child(3){background-image:url("../images/financial/company_07.jpg")/*tpa=http://www.chuangyesan.com/images/financial/company_07.jpg*/;}
+.right1 select:nth-child(4){background-image:url("../images/financial/company_09.jpg")/*tpa=http://www.chuangyesan.com/images/financial/company_09.jpg*/;}
+/**/
+dl.navigation dt {padding-left:25px;background:url("../images/financial/position_03.png")/*tpa=http://www.chuangyesan.com/images/financial/position_03.png*/ 3% center no-repeat;}
+.wrap{background-color:#f7f7f7;margin-top:1px;background:url("../images/financial/company0_02.jpg")/*tpa=http://www.chuangyesan.com/images/financial/company0_02.jpg*/ center center no-repeat;height:749px;background-size:cover;}
+.left1,.right{display:none;}
+div.main{padding-top:80px;}
+.main .right1,.main .left{width:610px;margin:auto;float:none;padding: 40px;background-color:rgba(0,0,0,0.7);border-radius:8px;}
+.main .right1 p,.main .left p{font-size:36px;color:#fff;text-align:left;}
+.main .right1 p em,.main .left p em{font-size:48px;}
+.main .right1 p span,.main .left p span{float:right;font-size:20px;margin-top:13px;}
+.main .right1 form div button.form-control,.main .left form div button.form-control{width:70%;border:none;float:left;}
+.main .right1 form div,.main .left form div{width:100%;overflow:hidden;}
+.main .right1 form div a,.main .left form div a{width:27%;margin-left:3%;float:left;border:1px solid #559b0d;line-height:54px;text-align:center;text-decoration:none;border-radius:4px;color:#559b0d;}
+.left select,.right1 select{font-size:18px;color:#559b0d;}
+.footer table th, .foorter td{padding-bottom:15px;}
+
+
+/**/
+.main .right1 form div button.form-control, .main .left form div button.form-control{width:100%;}

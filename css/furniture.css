@@ -1,0 +1,176 @@
+.mouse{width:143px;height:45px;background-image:url("../images/furniture/bg_scroll01.png")/*tpa=http://www.chuangyesan.com/images/furniture/bg_scroll01.png*/;position:fixed;bottom:20px;right:100px;z-index:1000;}
+.mouse img{position:absolute;left:49.5%;top:20px;}
+.banner{position:relative;}
+body{overflow-x:visible;}
+
+/*nav*/
+ .logo{position:absolute;left:5%;top:7%;z-index:100;padding:5px 0;box-sizing:border-box;}
+ .navs .logo{height:45px;}
+ .logo img{width:330px;height:auto;}
+ .navs .logo img{height:100%;width:auto;}
+.navs .login li{background-image:url("../../test.chuangyesan.com/images/index/index_03.jpg")/*tpa=http://test.chuangyesan.com/images/index/index_03.jpg*/;}
+.carousel .carousel-indicators li { background: white; }
+.carousel .carousel-indicators li.active{background-color:#4f901a;border:1px solid #4f901a;}
+.type .title{text-align:center;margin-top:70px;margin-bottom:10px;}
+.type .sub_title{text-align:center;}
+.container{width:1200px;}
+.introduce .inner .left{float:left;}		
+.introduce .inner .right{float:right;}	
+.introduce .carousel-inner>.item{width:100%;height:410px;}	
+.type .inner{overflow:hidden;}
+.center ul{float:left;margin-left:35px;}
+.center .inner>ul:first-child{margin:0;}
+.center ul li{margin-bottom:35px;width:290px;overflow:hidden;}
+.center ul li:hover img{transform:scale(1.1,1.1);-moz-transform:scale(1.1,1.1);-ms-transform:scale(1.1,1.1);-webkit-transform:scale(1.1,1.1);}
+.center ul li img{/*max-width:100%*/;transition:all .5s;}
+.center ul.unique li{width:225px;}
+.center .inner{margin-top:50px;}
+.center .link{text-align:center;margin:30px 0;}
+.service ul{overflow:hidden;}
+.service li{float:left;width:25%;margin-bottom:70px;}
+.service li a{display:block;padding-top:76px;background:url("../images/furniture/png/01.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/01.png*/ no-repeat top center;text-align:center;transition:all .3s;}
+.service li a em,.service li a p{display:block;font-size:16px;color:#000;line-height:28px;}
+.service li a em{margin-top:10px;}
+.service .inner{margin-top:100px;
+margin-top:10px;}
+.mt_120{margin-top:120px;}
+.service .inner ul li:nth-child(2) a{background-image:url("../images/furniture/png/02.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/02.png*/;}
+.service .inner ul li:nth-child(3) a{background-image:url("../images/furniture/png/03.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/03.png*/;}
+.service .inner ul li:nth-child(4) a{background-image:url("../images/furniture/png/04.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/04.png*/;}
+.service .inner ul li:nth-child(5) a{background-image:url("../images/furniture/png/05.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/05.png*/;}
+.service .inner ul li:nth-child(6) a{background-image:url("../images/furniture/png/06.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/06.png*/;}
+.service .inner ul li:nth-child(7) a{background-image:url("../images/furniture/png/07.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/07.png*/;}
+.service .inner ul li:nth-child(8) a{background-image:url("../images/furniture/png/08.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/08.png*/;}
+.service .inner ul li:nth-child(1):hover a{background-image:url("../images/furniture/png/1.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/1.png*/;}
+.service .inner ul li:nth-child(2):hover a{background-image:url("../images/furniture/png/2.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/2.png*/;}
+.service .inner ul li:nth-child(3):hover a{background-image:url("../images/furniture/png/3.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/3.png*/;}
+.service .inner ul li:nth-child(4):hover a{background-image:url("../images/furniture/png/4.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/4.png*/;}
+.service .inner ul li:nth-child(5):hover a{background-image:url("../images/furniture/png/5.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/5.png*/;}
+.service .inner ul li:nth-child(6):hover a{background-image:url("../images/furniture/png/6.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/6.png*/;}
+.service .inner ul li:nth-child(7):hover a{background-image:url("../images/furniture/png/7.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/7.png*/;}
+.service .inner ul li:nth-child(8):hover a{background-image:url("../images/furniture/png/8.png")/*tpa=http://www.chuangyesan.com/images/furniture/png/8.png*/;}
+#myCarouse2 .carousel-control{opacity:0;}
+.type.case  .inner{overflow:visible;}
+#myCarouse2 .carousel-indicators{bottom:-20px;padding-top:7px;}
+#myCarouse2 .carousel-indicators li{border:2px solid #b5b5b5;}
+#myCarouse2 .carousel-indicators li.active{border:2px solid #000;background-color:#FFF;margin-top:0;}
+#myCarouse2 .carousel-indicators{left:56%;width:44%;margin-left:0;}
+#myCarouse2 .carousel-indicators{border-top:1px solid #b5b5b5;}
+.type.brand .inner{padding:60px;}
+.m_t_b_85{margin:85px 0;}
+.type.brand .inner li{padding:10px;float:left;}
+.type.brand .inner li a{display:block;width:196px;height:92px;background:url("../images/furniture/logo/01.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/01.jpg*/ no-repeat;transition:all .3s;border-radius: 12px;}
+.type.brand .inner li:nth-child(2) a{background-image:url("../images/furniture/logo/02.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/02.jpg*/;}
+.type.brand .inner li:nth-child(3) a{background-image:url("../images/furniture/logo/03.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/03.jpg*/;}
+.type.brand .inner li:nth-child(4) a{background-image:url("../images/furniture/logo/04.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/04.jpg*/;}        .type.brand .inner li:nth-child(5) a{background-image:url("../images/furniture/logo/05.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/05.jpg*/;}
+.type.brand .inner li:nth-child(6) a{background-image:url("../images/furniture/logo/06.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/06.jpg*/;}                                 .type.brand .inner li:nth-child(7) a{background-image:url("../images/furniture/logo/07.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/07.jpg*/;}
+.type.brand .inner li:nth-child(8) a{background-image:url("../images/furniture/logo/08.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/08.jpg*/;}                                 .type.brand .inner li:nth-child(9) a{background-image:url("../images/furniture/logo/09.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/09.jpg*/;}
+.type.brand .inner li:nth-child(10) a{background-image:url("../images/furniture/logo/010.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/010.jpg*/;}
+.type.brand .inner li:nth-child(11) a{background-image:url("../images/furniture/logo/011.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/011.jpg*/;}                                                                  .type.brand .inner li:nth-child(12) a{background-image:url("../images/furniture/logo/012.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/012.jpg*/;}
+.type.brand .inner li:nth-child(13) a{background-image:url("../images/furniture/logo/013.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/013.jpg*/;}                                 .type.brand .inner li:nth-child(14) a{background-image:url("../images/furniture/logo/014.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/014.jpg*/;}
+.type.brand .inner li:nth-child(15) a{background-image:url("../images/furniture/logo/015.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/015.jpg*/;}                                 .type.brand .inner li:nth-child() a{background-image:url("../images/furniture/logo/015.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/015.jpg*/;}
+.type.brand .inner li:nth-child(1):hover a{background-image:url("../images/furniture/logo/1.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/1.jpg*/; }                           
+.type.brand .inner li:nth-child(2):hover a{background-image:url("../images/furniture/logo/2.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/2.jpg*/; }                           
+.type.brand .inner li:nth-child(3):hover a{background-image:url("../images/furniture/logo/3.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/3.jpg*/; }                           
+.type.brand .inner li:nth-child(4):hover a{background-image:url("../images/furniture/logo/4.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/4.jpg*/; }                           
+.type.brand .inner li:nth-child(5):hover a{background-image:url("../images/furniture/logo/5.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/5.jpg*/; }                           
+.type.brand .inner li:nth-child(6):hover a{background-image:url("../images/furniture/logo/6.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/6.jpg*/; }                           
+.type.brand .inner li:nth-child(7):hover a{background-image:url("../images/furniture/logo/7.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/7.jpg*/; }                           
+.type.brand .inner li:nth-child(8):hover a{background-image:url("../images/furniture/logo/8.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/8.jpg*/; }                           
+.type.brand .inner li:nth-child(9):hover a{background-image:url("../images/furniture/logo/9.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/9.jpg*/; }                           
+.type.brand .inner li:nth-child(10):hover a{background-image:url("../images/furniture/logo/10.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/10.jpg*/; }                           
+.type.brand .inner li:nth-child(11):hover a{background-image:url("../images/furniture/logo/11.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/11.jpg*/; }                           
+.type.brand .inner li:nth-child(12):hover a{background-image:url("../images/furniture/logo/12.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/12.jpg*/; }                           
+.type.brand .inner li:nth-child(13):hover a{background-image:url("../images/furniture/logo/13.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/13.jpg*/; }                           
+.type.brand .inner li:nth-child(14):hover a{background-image:url("../images/furniture/logo/14.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/14.jpg*/; }                           
+.type.brand .inner li:nth-child(15):hover a{background-image:url("../images/furniture/logo/15.jpg")/*tpa=http://www.chuangyesan.com/images/furniture/logo/15.jpg*/; }
+
+
+
+/*furniture*/
+.banner2{position:relative;overflow:hidden;height:100%;}
+.banner2 .container{overflow:hidden;}
+.banner2 .text{float:left;height:781px;width:476px;position:relative;overflow:hidden;}
+.banner2 .photo{float:left;height:781px;position:relative;width:724px;overflow:hidden;}
+.banner2 li{height:100%;}
+.banner2 li a{display:block;}
+.banner2 .photo .go_l{display:block;position:absolute;top:50%;background:url("../images/furniture/arrow_03.png")/*tpa=http://www.chuangyesan.com/images/furniture/arrow_03.png*/ left center no-repeat;left:0;margin-top:-24px;cursor:pointer;}
+.banner2 .photo .go_r{display:block;position:absolute;right:0;top:50%;margin-top:-26px;background:url("../images/furniture/arrow_05.png")/*tpa=http://www.chuangyesan.com/images/furniture/arrow_05.png*/ right center no-repeat;cursor:pointer;}
+.banner2 .text li{display:none;margin-top:100px;opacity:0;}
+.banner2 .text li.cur{display:block;}
+.banner2 .photo li{float:left;}
+.banner2 .photo ul{width:9000px;position:absolute;left:0;top:0;}
+.bg_grey{background-color:#f1f1f1;}
+.title{text-align:center;}
+.overview .left{float:left;}
+.overview .container{overflow:hidden;}
+.overview .right{float:left;width:60%;}
+.overview .left{float:left;width:40%;text-align:center;}
+.overview .left img{max-width:100%;}
+.m_t_b_70{margin:70px 0;}
+.type form {margin-top:55px;}
+.overview .right>em{display:block;
+font-size:24px;
+color:#000;
+margin-bottom:20px;
+}
+.overview .inner .right>p{font-size:14px;line-height:26px;color:#797979;}
+.mb_40{margin-bottom:40px;}
+/*form*/
+.overview form dt,.overview form label,.overview form p span{width:10%;font-weight:normal;margin-right:5%;text-align:right;padding-top:9px;font-size:14px;color:#5b5b5b;}
+.overview form  select{width:40%;}
+.overview form  div.form-group select:last-child{margin-left:5%;}
+.overview form  div.form-group,.overview form dl,.overview form p{width:100%;overflow:hidden;}
+.overview form  div.form-group>*,.overview form dt{float:left;}
+.overview form dd{width:110px;height:35px;background-color:#ccc;float:left;margin-left:2px;line-height:35px;text-align:center;}
+.overview form dd a{display:block;color:#fff;}
+.overview form dd.cur {background-color:#4e627b;}
+.overview form p span{float:left;margin-top:7px;}
+.overview form p>a{float: left;
+line-height: 30px;
+border: 1px solid #666;
+padding: 0 15px;
+font-size: 14px;
+color: #666;
+margin-top: 10px;
+margin-right:10px;}
+.overview form p em{float:left;font-size:36px;color:#f3565d;}
+.overview form p u{text-decoration:none;font-style:normal;float:left;font-size:36px;color:#f3565d;}
+.overview form  .checkbox label{width:100%;text-align:left;margin-left:15%;color:#000;}
+.overview form  .checkbox label span{color:#559b0d;}
+.overview form .choose {margin-top:40px;margin-left:15%;overflow:hidden;}
+.overview form  .choose a {float:left;width:196px;height:40px;border-radius:20px;text-align:center;line-height:40px;margin-right:20px;background-color:#f3565d;color:#fff;}
+.overview form  .choose a:last-child{background-color:#559b0d;}
+.overview form>*{margin-bottom:16px;}
+
+
+
+.overview form dd a span.glyphicon-ok{padding-right:5px;display:none;}
+.overview form dd.cur a span.glyphicon-ok{display:inline-block;}
+.overview form dd a{position:relative;}
+.overview form dd a>div>p {position:absolute;left:77%;top:-15px;display:block;white-space:nowrap;height:24px;padding:0 6px;display:block;float:none;white-space:nowrap;margin:0;line-height:24px;font-size:12px;color:#fff;background-color:#f3565d;z-index:110;border-radius:4px;overflow:visible;width:auto;display:none;}
+.overview form dd a>div>p:first-child{display:block;}
+ .overview form dl{overflow:visible;clear:both;height:35px;}
+.overview form dd a p:before{content:'';position:absolute;top:80%;left:6%;    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #f3565d;
+    border-bottom: 5px solid transparent;z-index:120;}
+.overview form dd.cur a> p{display:block;}
+.overview form dd input{ width:100%; height:100%; display:block; border:none; color:#FFF; padding:0 15px; background:none;outline:none;}
+.overview form dd.cur input{background:url("../images/carve/right_03.jpg")/*tpa=http://www.chuangyesan.com/images/carve/right_03.jpg*/ left center no-repeat;}
+
+/**/
+.overview .sum>*{float:left;}
+.overview .sum .form-group{width:300px;}
+.overview .sum .form-group input[type='button']{width:35px;height:30px;}
+.overview .sum .form-group input[type='text']{width:80px;height:30px;text-align:center;}
+
+.overview .inner .right>div.card{margin-bottom:40px;overflow:hidden;}
+div.card a{display:block;margin-right:20px;float:left;}
+div.card a.cur{/*border:3px solid #4e627b;*/position:relative;}
+div.card a.cur:after{content:'';position:absolute;bottom:1px;right:1px;width:20px;height:20px;color:#4e627b;background:#FFF url("../images/furniture/select1.png")/*tpa=http://www.chuangyesan.com/images/furniture/select1.png*/ no-repeat;background-size:contain;display:block;z-index:100;opacity:1;}
+
+
+
+

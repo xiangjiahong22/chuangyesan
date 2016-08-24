@@ -1,0 +1,28 @@
+.banner{height:450px;background:url("../images/xingfushebao/xingfushebao.jpg")/*tpa=http://www.chuangyesan.com/images/xingfushebao/xingfushebao.jpg*/ center center no-repeat;}
+.neirong {height:300px;background-color:#FFED97; }
+.a {float:left;margin-top:50px;margin-left:36%;  vertical-align:top;}
+.b {float:left;  margin-left:10px;margin-top:65px;width:500px; height:150px; vertical-align:top;}
+.neirong ul li  {height:18px; float:left ; margin-top:25px;  margin-left:10px;}
+.neirong p {line-height:30px;}
+.neirong ul li img {height:18px; margin:auto}
+.chanpin {height:570px;background-color:	#F0F0F0;}
+.image {float:left;margin-top:30px;margin-left:40%;  vertical-align:top;}
+.baoxian {float:left; margin-top:50px;margin-left:20px;width:300px; height:480px; vertical-align:top;}
+.baoxian  p {line-height:30px;}
+.form-group input{width:250px; background-color:#F0F0F0;height:30px; border-radius: 4px;border:1px solid #ccc;}
+.goumai a {float:left; width:196px;height:40px;border-radius:20px;text-align:center; line-height:40px;margin-right:20px;background-color:#FF9224;color:#fff;}
+.liucheng{height:300px;background-color:#73BF00;}
+.lianjie {margin-top:65px;margin-left:-110px; width:900px;}
+.c {width:964px;height:164px;margin:0 auto; padding-top:60px;}
+.bt {margin-left:350px;}
+.d {width:964px;height:30px;margin:0 auto; }
+.liucheng ul li {float:left;margin-left:88px; width:96px;height:30px; line-height:30px;color:#fff; }
+.why {height:450px;background-color:	#F0F0F0;}
+.why p {margin-left:810px; padding-top:50px;}
+.why img {margin:0 34%;}
+.cy {height:300px;background-color:#73BF00;}
+.cy p {margin-left:770px; padding-top:50px; color:#fff;}
+.cy img {margin:0 34%;}
+.xq {height:300px;background-color:	#4F637D;}
+.xq img {margin:0 34%;}
+.xq p {margin-left:840px; padding-top:50px; color:#fff;}

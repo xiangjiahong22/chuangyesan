@@ -1,0 +1,208 @@
+.navs .control {display:none;}
+.wrap{background-color:#f7f7f7;margin-top:1px;}
+dl.navigation{margin-top:40px;overflow:hidden;}
+dl.navigation dt,dl.navigation dd,dl.navigation dd a{float:left;font-size:12px;color:#7e7e7e;font-family:'å®‹ä½“';font-weight:normal;line-height:20px;}
+dl.navigation dt {padding-left:25px;background:url("../images/financial/financial_03.png")/*tpa=http://www.chuangyesan.com/images/financial/financial_03.png*/ 3% center no-repeat;}
+dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
+dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
+dl.navigation dd:last-child a:before{display:none;}
+dl.navigation dd.cur a{color:#559b0d;}
+div.main{padding-top:50px;overflow:hidden;}
+.navs{height:51px;}
+.servie{overflow:hidden;}
+.service .left{width:892px;float:left;}
+.service .title{padding:25px 20px;border-left:2px solid #559b0d;overflow:hidden;}
+.service .right{float:left;width:310px;margin-left:20px;background-color:#FFF;}
+.service .title{background-color:#FFF;border:1px solid #dbdcdd;overflow:hidden;}
+.service .title>div:first-child{float:left;padding:5px;border:1px solid #e5e5e5;}
+.service .title>div:last-child{float:left;padding-left:25px;width:75%;box-sizing:border-box;}
+.service .title>div:last-child>div:first-child{overflow:hidden;margin-bottom:12px;}
+.service .title>div:last-child>div:first-child p{font-size:24px;color:#559b0d;float:left;}
+.service .title>div:last-child>div:first-child dl{float:right;}
+.service .title>div:last-child>div:first-child dl>*{float:left;font-size:12px;color:#000;color:#909090;}
+.service .title>div:last-child>div:first-child dl dd{padding:0 30px;background:url("../images/carve/carve_03.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve_03.jpg*/ 0 center no-repeat;}
+.service .title>div:last-child>div:first-child dl dd:last-child{background-image:url("../images/carve/carve_05.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve_05.jpg*/;}
+.service .title>div:last-child p{font-size:14px;line-height:24px;color:#909090;}
+.service .title>div:last-child ul{overflow:hidden;margin-top:15px;}
+.service .title>div:last-child ul li{float:left;font-size:14px;color:#2c2c2c;padding:0 30px;background:url("../images/carve/carve1_03.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve1_03.jpg*/ 0 center no-repeat;}
+.service .title>div:last-child ul li:nth-child(2){background-image:url("../images/carve/carve_003.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve_003.jpg*/;}
+.service .title>div:last-child ul li:nth-child(3){background-image:url("../images/carve/carve1_05.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve1_05.jpg*/;}
+.service .inner{margin-top:20px;padding:45px 120px;background-color:#FFF;border:1px solid #dbdcdd;}
+.service form dt,.service form label,.service form p span{width:10%;font-weight:normal;margin-right:5%;text-align:right;padding-top:9px;font-size:14px;color:#5b5b5b;}
+.service form  select{width:40%;}
+.service form  div.form-group select:last-child{margin-left:5%;}
+.service form  div.form-group,.service form dl,.service form p{width:100%;overflow:hidden;}
+.service form  div.form-group>*,.service form dt{float:left;}
+.service form dd{width:110px;height:35px;background-color:#ccc;float:left;margin-left:2px;line-height:35px;text-align:center;}
+.service form dd a{display:block;color:#fff;}
+.service form dd.cur {background-color:#4e627b;}
+.service form p span{float:left;margin-top:7px;}
+.service form p>a{float: left;
+line-height: 30px;
+border: 1px solid #666;
+padding: 0 15px;
+font-size: 14px;
+color: #666;
+margin-top: 10px;
+margin-right:10px;}
+.service form p em{float:left;font-size:36px;color:#f3565d;}
+.service form  .checkbox label{width:100%;text-align:left;margin-left:15%;color:#000;}
+.service form  .checkbox label span{color:#559b0d;}
+.service form .choose {margin-top:40px;margin-left:15%;overflow:hidden;}
+.service form  .choose a {float:left;width:196px;height:40px;border-radius:20px;text-align:center;line-height:40px;margin-right:20px;background-color:#f3565d;color:#fff;}
+.service form  .choose a:last-child{background-color:#559b0d;}
+.service form>*{margin-bottom:16px;}
+.service .right{padding:25px 15px;padding-bottom:44px;}
+.service .right p:first-child{font-size:24px;color:#292929;margin-bottom:15px;}
+.service .right{border:1px solid #dbdcdd;}
+.service .right a{font-size:14px;line-height:44px;color:#676767;display:block;}
+.service .right img{margin-bottom:20px;}
+.nav{margin-top:28px;box-shadow:0px 1px 1px 0px #ccc;background-color:#FFF;width:100%;}
+.nav ul{border-right:1px solid #eaeaea;}
+.nav ul li{height:55px;width:180px;border-left:1px solid #eaeaea;float:left;position:relative;}
+.nav ul li:last-child{border-right:1px solid #eaeaea;}
+.nav li a {display:block;text-align:center;font-size:18px;color:#7f7f7f;line-height:55px;}
+.nav li.cur a:before{content:'';position:absolute;top:0;left:0;height:3px;width:100%;background-color:#559b0d;}
+.nav li.cur a:after{display:none;content:'';position:absolute;top:1px;left:48%;width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #559b0d;}
+.nav>.container>a{width:196px;height:40px;border-radius:20px;text-align:center;line-height:40px;margin-right:20px;background-color:#559b0d;margin-top:8px;color:#fff;float:right;}
+.content .container{padding:0px 70px 0px 30px;padding-top:100px;padding-bottom:50px;}
+.content .container>img{float:right;}
+.content .container>div{float:left;width:60%;}
+.content em{text-align:left;font-size:40px;color:#353535;display:block;padding-bottom:60px;float:left;width:100%;}
+.content p{font-size:16px;line-height:36px;color:#373737;}
+.translation{background-color:#f5f6f7;padding-top:100px;}
+.translation .container{margin-top:50px;background-color:#FFF;padding-bottom:50px;overflow:hidden;border-top:2px solid #559b0d;width:1100px;}
+.translation .container>*{float:left;}
+.translation .container .left{width:270px;height:390px;background:url("../images/carve/carve_22.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve_22.jpg*/ 0 0 no-repeat;padding-top:65px;}
+.translation .container .left p{font-size:40px;text-align:center;color:#fff;}
+
+.translation .container .left p:last-child{padding-top:110px;}
+.translation .container .left p:last-child span{width:190px;height:50px;text-align:center;font-size:20px;line-height:50px;float:right;background-color:#FFF;display:block;color:#559b0d;}
+.translation .container>em{padding:75px 30px;font-size:16px;color:#373737;display:block;}
+.translation .container>img{float:right;margin-top:114px;}
+.step .container{padding:90px 0;text-align:center;}
+.step .container em{font-size:40px;text-align:center;color:#353535;display:block;}
+.step .container>p{margin-top:100px;font-size:16px;}
+.why{background:#f5f6f7 url("../images/carve/carve3_02.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve3_02.jpg*/ center  0 no-repeat;height:1320px;}
+.why ul{overflow:hidden;width:1024px;margin:auto;}
+.why .container li{float:left;width:33.333%;padding:25px;box-sizing:border-box;}
+.why .container li a{display:block;font-size:18px;color:#6eaa31;border:1px solid #6eaa31;border-radius:4px;font-size:18px;padding-top:30px;padding-bottom:40px;text-align:center;margin-top:20px;}
+.why em{font-size:40px;color:#6ba82d;margin-top:60px;display:block;text-align:center;}
+.why .container >p{margin-bottom:100px;font-size:40px;color:#6ba82d;margin:50px 0;text-align:center;}
+.vs.container .v,.vs.container .s{width:440px;background-color:#FFF;border-radius:4px;box-shadow:0px 1px 1px 0px #ccc;}
+.v>p:first-child,.s>p:first-child{padding-top:38px;padding-bottom:25px;font-size:36px;font-weight:bold;background-color:#6ba82d;border-radius:8px;box-shadow:0px 1px 1px 0px #ccc;padding-right:0;color:#fff;padding-left:60px;border-radius:8xpx;border-bottom-left-radius:0;border-bottom-right-radius:0;margin:0;border:none;}
+.v p,.s p{margin:0 60px ;padding-bottom:0px;padding-top:20px;font-size:14px;padding-bottom:0px;color:#565656;border-bottom:1px solid #f0f0f0;}
+.v p span,.s p span{display:block;font-size:18px;margin-bottom:0px;position:relative;}
+.v p span:before,.s p span:before{content:'';width:19px;height:17px;background:url("../images/carve/carve_14.png")/*tpa=http://www.chuangyesan.com/images/carve/carve_14.png*/ 0 0;position:absolute;top:5px;left:-28px;}
+.s p span:before{width:25px;height:16px;background-image:url("../images/carve/carve_17.png")/*tpa=http://www.chuangyesan.com/images/carve/carve_17.png*/;}
+.vs.container .s{float:right;}
+.v{width:440px;height:490px;border-radius:8px;background-color:#FFF;box-shadow:0px 1px 1px 0px #ccc;border:1px solid #ccc;}
+.s{width:500px;height:550px;position:absolute;left:430px;top:-21px;border-radius:8px;background-color:#FFF;box-shadow:0px 1px 1px 0px #ccc;border:1px solid #ccc;}
+.vs{position:relative;height:600px;margin-left:183px;}
+.v p b,.s p b{float:right;font-size:120px;font-weight:bold;margin-top:-56px;}
+.s p b{float:left;margin-left:-89px;}
+.s>p:first-child{padding-top:59px;padding-left:83px;}
+.charge .container{width:1100px;}
+.charge em{padding:75px 0;font-size:40px;text-align:center;color:#4f4f4f;display:block;}
+.score .left{width:20%;float:left;padding-left:20px;box-sizing:border-box;}
+.score .left p{font-size:40px;font-weight:bold;color:#f3565d;text-align:center;}
+.score .left  span{display:block;color:#595757;font-size:16px;text-align:center;}
+.score .right{width:80%;float:left;box-sizing:border-box;padding-left:20px;border-left:1px dashed #dddddd;overflow:hidden;}
+.score{overflow:hidden;}
+.score .right p{font-size:12px;width:20px;color:#ccc;float:left;}
+.score .right ul{overflow:hidden;float:left;width:97%;padding-left:20px;box-sizing:border-box;border-left:1px solid #dddddd;}
+.score .right li{float:left;margin-bottom:15px;}
+.score .right li a{width:110px;height:20px;margin-right:20px;display:block;border:1px solid #ffd7dd;text-align:center;line-height:20px;font-size:12px;border-radius:2px;color:#b10000;borx-shadow:0px 1px 1px 1px #ffd7dd;}
+
+.charge thead>tr{height:60px;background-color:#f2f2f2;line-height:60px;}
+.charge table{border:1px solid #dadada;width:100%;margin-top:40px;}
+.charge tr>th:first-child,.charge tr>td:first-child{width:60%;}
+.charge tr>th:nth-child(2),.charge tr>td:nth-child(2){width:20%;text-align:center;}
+.charge tr>th:last-child,.charge tr>td:last-child{width:20%;text-align:center;}
+.charge thead>tr>th{font-size:18px;color:#4f4f4f;}
+.charge tr>th:first-child{padding-left:50px;}
+.charge tr>td:first-child{padding:21px 30px;padding-bottom:30px;}
+.charge tr>td:first-child p:first-child{font-size:14px;color:#c7c7c7;font-family:'Arial';}
+.charge tr>td:first-child p{font-size:14px;color:#777777;padding-bottom:15px;}
+.charge tr>td:first-child ul{overflow:hidden;}
+.charge tr>td:first-child ul li{float:left;}
+.charge tr>td:first-child ul li a{display:block;width:110px;height:20px;margin-right:20px;display:block;border:1px solid #ffd7dd;text-align:center;line-height:20px;font-size:12px;border-radius:2px;color:#b10000;borx-shadow:0px 1px 1px 1px #ffd7dd;}
+.charge tr{border-bottom:1px solid #eaeaea;height:170px;}
+.charge tr>td:last-child img{margin-right:15px;}
+/*.charge tr:last-child,.charge tr:last-child>td:first-child{width:100%;width:1100px;}*/
+/*goods-comm-stars style*/
+.goods-comm{height:41px;position:relative;z-index:7;}
+.goods-comm-stars{margin-left:39px;line-height:25px;padding-left:12px;height:41px;position:absolute;top:0px;left:0;/*width:400px;*/}
+.goods-comm-stars .star_l{float:left;display:inline-block;margin-right:5px;display:inline;}
+.goods-comm-stars .star_choose{float:left;display:inline-block;}
+/* rater star */
+.rater-star{position:relative;list-style:none;margin:0;padding:0;background-repeat:repeat-x;background-position:left top;float:left;}
+.rater-star-item, .rater-star-item-current, .rater-star-item-hover{position:absolute;top:0;left:0;background-repeat:repeat-x;}
+.rater-star-item{background-position: -100% -100%;}
+.rater-star-item-hover{background-position:0 -48px;cursor:pointer;}
+.rater-star-item-current{background-position:0 -48px;cursor:pointer;}
+.rater-star-item-current.rater-star-happy{background-position:0 -25px;}
+.rater-star-item-hover.rater-star-happy{background-position:0 -25px;}
+.rater-star-item-current.rater-star-full{background-position:0 -72px;}
+/* popinfo */
+.rater-click-tips{position:absolute;top:35px;left:7px;}
+
+.page{height:90px;padding-right:20px;border:1px solid #dadada;border-top:0;}
+.page ul{float:right;margin-top:30px;}
+.page li{padding-right:5px;float:left;}
+.page li a {display:block;padding:8px 15px;background-color:#f6f6f6;border:1px solid #ddd;}
+.page li.cur a {background:0;border:none;}
+
+.problem{margin-top:40px;background-color:#f5f6f7;padding-bottom:70px;}
+.problem em{display:block;font-size:40px;color:#4f4f4f;padding-top:80px;padding-bottom:40px;text-align:center;}
+.problem ul{width:1100px;margin:0 auto;overflow:hidden;}
+.problem li{float:left;width:50%;min-height:180px;}
+.problem li a {display:block;padding:25px 60px;background:url("../images/carve/carve_033.png")/*tpa=http://www.chuangyesan.com/images/carve/carve_033.png*/ 8px 20px no-repeat;padding-bottom:10px;}
+.problem li p:first-child{font-size:18px;color:#559b0d;margin-bottom:10px;}
+.problem li p{font-size:14px;color:#7a7a7a;margin-bottom:10px;}
+
+
+ul.process {padding:0 30px;}
+ul.process li{width:96px;float:left;}
+ul.process0 li{width:96px!important;}
+.content ul.process0 li img {margin:0;float:none;}
+.content ul.process0{float:none;}
+ul.process{overflow:hidden;width:796px;margin:auto;margin-top:80px;}
+ul.process li div{width:90px;height:90px;background-color:#f9fff8;border:1px solid #559b0d;border-radius:50%;text-align:center;padding-top:14px;}
+ul.process span{display:block;font-size:12px;line-height:26px;color:#559b0d;}
+ul.process b{display:block;font-weight:normal;font-size:16px;line-height:40px;text-align:center;}
+ul.process li:nth-child(odd){width:110px;position:relative;height:120px;}
+ul.process li:nth-child(odd):before{content:'';position:absolute;top:41%;left:10%;width:80%;height:1px;background-color:#559b0d;}
+ul.process li:nth-child(odd):after{content:'';top:38%;right:8%;position:absolute;width:10px;height:1px;background-color:#559b0d;-webkit-transform:rotate(45deg);transform:rotate(45deg);-moz-transform:rotate(45deg);}
+ul.process li:first-child:after,ul.process li:last-child:after{display:none;}
+ul.process li:first-child:before,ul.process li:last-child:before{background-color:#FFF;border-bottom:1px dashed #559b0d;top:40%;}
+
+.service form dd a span.glyphicon-ok{padding-right:5px;display:none;}
+.service form dd.cur a span.glyphicon-ok{display:inline-block;}
+/*2015.11.17*/
+.service form dd a{position:relative;}
+.service form dd a>div>p {position:absolute;left:77%;top:-15px;display:block;white-space:nowrap;height:24px;padding:0 6px;display:block;float:none;white-space:nowrap;margin:0;line-height:24px;font-size:12px;color:#fff;background-color:#f3565d;z-index:110;border-radius:4px;overflow:visible;width:auto;display:none;}
+.service form dd a>div>p:first-child{display:block;}
+ .service form dl{overflow:visible;clear:both;height:35px;}
+.service form dd a p:before{content:'';position:absolute;top:80%;left:6%;    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid #f3565d;
+    border-bottom: 5px solid transparent;z-index:120;}
+.service form dd.cur a> p{display:block;}
+
+
+.left.type{width:100%;float:none;}
+.type .inner{margin-top:0;}
+.service .type form select{width:30%;}
+.type form p{margin-bottom:0;}
+.service .type form .choose{margin-left:30%;}
+.feed{text-align:center;margin:100px 0;}
+
+/*2015.11.25*/
+.service form dd input{ width:100%; height:100%; display:block; border:none; color:#FFF; padding:0 15px; background:none;outline:none;}
+.service form dd.cur input{background:url("../images/carve/right_03.jpg")/*tpa=http://www.chuangyesan.com/images/carve/right_03.jpg*/ left center no-repeat;}
