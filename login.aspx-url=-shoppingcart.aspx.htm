@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bs/css/bootstrap.min.css" tppabs="http://www.chuangyesan.com/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" tppabs="http://www.chuangyesan.com/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/head_and_foot.css" tppabs="http://www.chuangyesan.com/css/head_and_foot.css">
+     <script type="text/javascript">
+    function getUrlParam(name) {
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+        var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+        if (r != null) return unescape(r[2]); return null; //返回参数值
+    }
+    function browserRedirect() {
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        //var bIsIpad= sUserAgent.match(/ipad/i) == "ipad";  
+        var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+        var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+        var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+        var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+        var bIsAndroid = sUserAgent.match(/android/i) == "android";
+        var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+        var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+        var bIsWP = sUserAgent.match(/windows phone/i) == "windows phone";
+        var desktopVersion = getUrlParam('device');
+        if (desktopVersion == 'desktop') {
+            return false;
+        }
+        if (bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM || bIsWP) {
+            var url = window.location.href;
+            var index = url.indexOf("www.");
+            if (index > 0) {
+                url = url.replace(/http\:\/\/www/, "http://m/")
+            }
+            else {
+                url = url.replace(/http\:\/\//, "http://m./")
+
+            }
+            //url = url.replace("www", "m")
+            window.location.href = url;
+        } else {
+            return false;
+        }
+    }
+    browserRedirect();  
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/login.css" tppabs="http://www.chuangyesan.com/css/login.css" />
+    <title>用户登录-创业伞</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+
+</head>
+<body>
+    <div class="head">
+        <div class="container">
+            <div class="logo">
+               <a href="index.aspx.htm" tppabs="http://www.chuangyesan.com/index.aspx"> <img src="images/index/logo.png" tppabs="http://www.chuangyesan.com/images/index/logo.png"></a></div>
+            <p id="p_title">
+                欢迎登陆</p>
+        </div>
+    </div>
+    
+    <div class="wrap">
+        <div class="container">
+            <div class="left">
+                <img src="images/login/login1_03.png" tppabs="http://www.chuangyesan.com/images/login/login1_03.png" width="140" height="33">
+                <p>
+                    让企业解决创业路上安全、便捷、透明</p>
+            </div>
+            <div class="right">
+                <div class="title">
+                    <span>创业伞会员</span><a href="registered.aspx.htm" tppabs="http://www.chuangyesan.com/registered.aspx">免费注册</a></div>
+                <form name="aspnetForm" method="post" action="http://www.chuangyesan.com/login.aspx?url=%2fshoppingcart.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3ODU1NDA3ODRkZJtkltQxZQLF41YdApQy5B1zUI1S0QuzhPkrn9Yd3WL4" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="C2EE9ABB" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAVjkierpRW9wRv01rN+jM2kPFvfEyl6eRan/2II6IvuRNzTu0j17IuaJ3sepGe9Y8rlBfns6BLigz3nRV+5F7NWdckiLy4fH+GE8pZhEAiPo12051sv7MGkwPKEzelaU46KDS8MgEpMFQGLF8j2pQqh" />
+</div>
+                <input type="hidden" name="ctl00$ContentPlaceMain$of" id="ctl00_ContentPlaceMain_of" />
+                
+                <input name="ctl00$ContentPlaceMain$txtLMobile" type="text" id="ctl00_ContentPlaceMain_txtLMobile" class="form-control" placeholder="手机号码" />
+                <input name="ctl00$ContentPlaceMain$txtLPassword" type="password" id="ctl00_ContentPlaceMain_txtLPassword" class="form-control" placeholder="密码" />
+                <div class="choice">
+                    <label style="display: none;">
+                        <input type="checkbox">
+                        下次自动登陆
+                    </label>
+                    <a href="forgetpassword.aspx.htm" tppabs="http://www.chuangyesan.com/forgetpassword.aspx">忘记密码？</a>
+                </div>
+                <input type="submit" name="ctl00$ContentPlaceMain$BtnLogin" value="立即登陆" id="ctl00_ContentPlaceMain_BtnLogin" class="registered_input" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+       <div class="footer">
+        <div class="container">
+        	<table>
+             <thead>
+               <tr>
+               	<th><a href="javascript:void(0)">关于我们</a></th>
+               	<th><a href="javascript:void(0)">公司注册</a></th>
+               	<th><a href="javascript:void(0)">财税服务</a></th>
+               	<th><a href="javascript:void(0)">银行账户</a></th>
+               	<th><a href="javascript:void(0)">公司转让</a></th>
+               	<th><a href="javascript:void(0)">公司网站建设</a></th>
+               	<th><a href="javascript:void(0)">特需类企业 </a></th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+               	<td valign="top">
+                    <table>
+                       <tbody><tr>
+                       	<td><a href="about_us.aspx.htm" tppabs="http://www.chuangyesan.com/about_us.aspx">关于我们	</a></td>
+                       </tr>
+                       <tr>
+                       	<td><a href="news.aspx.htm" tppabs="http://www.chuangyesan.com/news.aspx">最新动态</a></td>
+                       </tr>
+                       <tr>
+                       	<td><a href="about_us.aspx.htm#linkUs" tppabs="http://www.chuangyesan.com/about_us.aspx#linkUs">联系我们</a></td>
+                       </tr>
+                       <tr style=" display:none;">
+                       	<td><a href="#">加入我们</a></td>
+                       </tr>
+                       <tr>
+                       	<th><a href="legal_services.aspx.htm" tppabs="http://www.chuangyesan.com/legal_services.aspx">法律服务</a></th>
+                       </tr>
+                       <tr>
+                       	<th style="padding-top:10px;"><a href="furniture.aspx.htm" tppabs="http://www.chuangyesan.com/furniture.aspx">办公定制化</a></th>
+                       </tr>
+                    </tbody></table>
+                </td>
+               	<td valign="top">
+                   <table>
+                   	<tbody><tr>
+                   		<td><a href="company-register.aspx.htm" tppabs="http://www.chuangyesan.com/company-register.aspx">内资注册</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="company-change.aspx.htm" tppabs="http://www.chuangyesan.com/company-change.aspx">内资变更</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="foreign-company-register.aspx.htm" tppabs="http://www.chuangyesan.com/foreign-company-register.aspx">外资注册</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="foreign-company-change.aspx.htm" tppabs="http://www.chuangyesan.com/foreign-company-change.aspx">外资变更</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="company-close.aspx.htm" tppabs="http://www.chuangyesan.com/company-close.aspx">内资注销</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="foreign-company-close.aspx.htm" tppabs="http://www.chuangyesan.com/foreign-company-close.aspx">外资注销</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="3in1.aspx.htm" tppabs="http://www.chuangyesan.com/3in1.aspx">三证合一</a></td>
+                   	</tr>
+                   <!--	<tr>
+                   		<td><a href="/stamp.aspx">刻章服务</a></td>
+                   	</tr>-->
+                   </tbody></table>
+                </td>
+               	<td valign="top">
+                   <table>
+                   	<tbody><tr>
+                   		<td><a href="tax-type.aspx.htm" tppabs="http://www.chuangyesan.com/tax-type.aspx">核定税种</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="tax-gerenal.aspx.htm" tppabs="http://www.chuangyesan.com/tax-gerenal.aspx">申请一般纳税人</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="bookkeeping.aspx.htm" tppabs="http://www.chuangyesan.com/bookkeeping.aspx">代理记账</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="invoice.aspx.htm" tppabs="http://www.chuangyesan.com/invoice.aspx">发票服务</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="tax-rebate.aspx.htm" tppabs="http://www.chuangyesan.com/tax-rebate.aspx">出口退税</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="tax-income.aspx.htm" tppabs="http://www.chuangyesan.com/tax-income.aspx">所得税汇算清缴</a></td>
+                   	</tr>
+                   	<tr style="display:none">
+                   		<td><a href="capital-verify.aspx.htm" tppabs="http://www.chuangyesan.com/capital-verify.aspx">验资审计</a></td>
+                   	</tr>
+                   </tbody></table>
+                </td>
+               	<td valign="top">
+                    <table>
+                   	<tbody><tr>
+                   		<td><a href="account-basic.aspx.htm" tppabs="http://www.chuangyesan.com/account-basic.aspx">基本户开户</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="account-capital.aspx.htm" tppabs="http://www.chuangyesan.com/account-capital.aspx">资本金账户开户</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="account-foreign.aspx.htm" tppabs="http://www.chuangyesan.com/account-foreign.aspx">外币结算户开户</a></td>
+                   	</tr>
+                    <tr>
+                    	<th><a href="#">社保公积金 </a></th>
+                    </tr>
+                    <tr>
+                    	<td><a href="javascript:if(confirm('https://www.xingfushebao.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='https://www.xingfushebao.com/'" tppabs="https://www.xingfushebao.com/"  target="_blank">社保</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="#" style="display:none">人事</a></td>
+                    </tr>
+                   </tbody></table>
+                </td>
+
+               	<td valign="top">
+                    <table>
+                   	<tbody><tr>
+                   		<td><a href="javascript:void(0)"> 交易大厅 </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="javascript:void(0)">转让公司</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="javascript:void(0)">求购公司</a></td>
+                   	</tr>
+                    <tr>
+                    	<th><a href="javascript:void(0)"> 400电话</a></th>
+                    </tr>
+                    <tr>
+                    	<td><a href="400.aspx.htm" tppabs="http://www.chuangyesan.com/400.aspx">免费400</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="400-customer.aspx.htm" tppabs="http://www.chuangyesan.com/400-customer.aspx">自费400</a></td>
+                    </tr>
+                   </tbody></table>
+                </td>
+               	<td valign="top">
+                    <table>
+                   	<tbody><tr>
+                   		<td><a href="website.aspx.htm" tppabs="http://www.chuangyesan.com/website.aspx"> 网站建设 </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="wap.aspx.htm" tppabs="http://www.chuangyesan.com/wap.aspx">微官网建设</a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="web_customize.aspx.htm" tppabs="http://www.chuangyesan.com/web_customize.aspx">网站定制</a></td>
+                   	</tr>
+                    <tr>
+                    	<th><a href="javascript:void(0)">知识产权 </a></th>
+                    </tr>
+                    <tr>
+                    	<td><a href="trademark-check.aspx.htm" tppabs="http://www.chuangyesan.com/trademark-check.aspx">商标查询</a></td>
+                    </tr>
+                    <tr>
+                    	<td><a href="trademark-register.aspx.htm" tppabs="http://www.chuangyesan.com/trademark-register.aspx">商标注册</a></td>
+                    </tr>
+                   </tbody></table>
+                </td>
+               	<td valign="top">
+                    <table>
+                   	<tbody><tr>
+                   		<td><a href="finance-leasing.aspx.htm" tppabs="http://www.chuangyesan.com/finance-leasing.aspx"> 融资租赁公司   </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="commercial-factoring.aspx.htm" tppabs="http://www.chuangyesan.com/commercial-factoring.aspx">   商业保理公司 </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="private-equity.aspx.htm" tppabs="http://www.chuangyesan.com/private-equity.aspx">  私募基金公司  </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="insurance-economy.aspx.htm" tppabs="http://www.chuangyesan.com/insurance-economy.aspx"> 保险经纪公司   </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="hazardous-licence.aspx.htm" tppabs="http://www.chuangyesan.com/hazardous-licence.aspx"> 危化品许可证   </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="employment-agency.aspx.htm" tppabs="http://www.chuangyesan.com/employment-agency.aspx">  人才中介许可证  </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="property-management.aspx.htm" tppabs="http://www.chuangyesan.com/property-management.aspx">  物业管理三级资质  </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a  href="labor-dispatching.aspx.htm" tppabs="http://www.chuangyesan.com/labor-dispatching.aspx">劳务派遣许可证    </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="medical-equipment.aspx.htm" tppabs="http://www.chuangyesan.com/medical-equipment.aspx">医疗器械许可证    </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="road-transport.aspx.htm" tppabs="http://www.chuangyesan.com/road-transport.aspx"> 道路运输许可证   </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="food-circulation.aspx.htm" tppabs="http://www.chuangyesan.com/food-circulation.aspx"> 食品流通许可证   </a></td>
+                   	</tr>
+                   	<tr>
+                   		<td><a href="pawnshop-licence.aspx.htm" tppabs="http://www.chuangyesan.com/pawnshop-licence.aspx"> 典当行经营许可证   </a></td>
+                   	</tr>
+                   </tbody></table>
+                </td>
+                
+               </tr>
+             </tbody>
+            </table>
+             <div class="link">
+            <div class="code"><img src="images/index/index5_03.png" tppabs="http://www.chuangyesan.com/images/index/index5_03.png" width="93" height="92"></div>
+            <div class="phone">
+              <p>客户服务热线</p>  
+                <p>400-808-2340</p>
+               <a href="#">在线客服</a>
+            </div>
+            </div>
+      </div>				
+    </div>
+    <script>
+// GA
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','../www.google-analytics.com/analytics.js'/*tpa=http://www.google-analytics.com/analytics.js*/,'ga');
+  //ga(‘set’, ‘&uid’, {{'UA-67842177-1'}});
+  ga('create', 'UA-67842177-1', 'auto');
+  ga('send', 'pageview');
+
+// Baidu
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "../hm.baidu.com/hm.js-200c0034b756ae5af62a890b43f2a532"/*tpa=http://hm.baidu.com/hm.js?200c0034b756ae5af62a890b43f2a532*/;
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script src="bs/js/jquery-1.11.2.min.js" tppabs="http://www.chuangyesan.com/bs/js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.cookie.js" tppabs="http://www.chuangyesan.com/js/jquery.cookie.js"></script>
+<script src="bs/js/bootstrap.min.js" tppabs="http://www.chuangyesan.com/bs/js/bootstrap.min.js"></script>
+
+    <script src="js/lunbo.js" tppabs="http://www.chuangyesan.com/js/lunbo.js"></script>
+    <script src="js/js2.js" tppabs="http://www.chuangyesan.com/js/js2.js"></script>
+    <script src="js/lunbo2.js" tppabs="http://www.chuangyesan.com/js/lunbo2.js"></script>
+
+</body>
+</html>
