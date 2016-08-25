@@ -9,10 +9,10 @@ $('.fix .form_top li').click(function () {
     $(this).addClass('cur').siblings().removeClass();
     $('.form_bottom li').eq($(this).index()).show().siblings().hide();
 });
-$('http://www.chuangyesan.com/js/.navs .left').mouseenter(function () {
+$('.navs .left').mouseenter(function () {
     $('.navs .control').stop(true, true).slideDown();
 })
-$('http://www.chuangyesan.com/js/.navs .left').mouseleave(function () {
+$('.navs .left').mouseleave(function () {
     $('.navs .control').stop(true, true).slideUp();
 })
 
