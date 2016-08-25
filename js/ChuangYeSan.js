@@ -9,10 +9,10 @@ $('.fix .form_top li').click(function () {
     $(this).addClass('cur').siblings().removeClass();
     $('.form_bottom li').eq($(this).index()).show().siblings().hide();
 });
-$('http://www.chuangyesan.com/js/.navs .left').mouseenter(function () {
+$('.navs .left').mouseenter(function () {
     $('.navs .control').stop(true, true).slideDown();
 })
-$('http://www.chuangyesan.com/js/.navs .left').mouseleave(function () {
+$('.navs .left').mouseleave(function () {
     $('.navs .control').stop(true, true).slideUp();
 })
 
@@ -33,7 +33,7 @@ $(window).scroll(function () {
     var $column4 = 0;
     if ($('#problem').offset() != undefined) { $column4 = parseInt($('#problem').offset().top - 10); }
     if ($height >= 660) {
-        $('.nav ').css({ 'position': 'fixed',
+        $('.nav ').css({ 'position': 'fixed',
             'top': 0,
             'left': $nav_x,
             'margin-top': 0,

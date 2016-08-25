@@ -13,7 +13,7 @@ $(document).ready(function () {
     $(".inner .choose>a:eq(1),.container>a:eq(0)").bind("click", function () { cityProductPrice.AddToCart(0); });
     //初始化评论
     cityProductPrice.InitComment();
-    $("http://www.chuangyesan.com/js/.top .left").bind("click", function () { history.go(-1); });
+    $(".top .left").bind("click", function () { history.go(-1); });
     cityProductPrice.SetLinkQQ();
 });
 var productId;
@@ -39,7 +39,7 @@ var cityProductPrice = {
     //拿到城市价格数据
     data: function () {
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/ProductHandler.ashx',
+            url: 'Ajax/ProductHandler.ashx',
             data: { type: 1, id: productId },
             type: 'post',
             async: false,
@@ -51,7 +51,7 @@ var cityProductPrice = {
     //拿到当前定位的用户IPcookies
     iphelper: function () {
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/IpHandler.ashx',
+            url: 'Ajax/IpHandler.ashx',
             data: {},
             type: 'post',
             async: false,
@@ -68,7 +68,7 @@ var cityProductPrice = {
     //初始化省数据
     initProvince: function () {
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/ProvinceCityHandler.ashx',
+            url: 'Ajax/ProvinceCityHandler.ashx',
             data: { d: 1, pid: productId },
             type: 'post',
             async: false,
@@ -99,7 +99,7 @@ var cityProductPrice = {
         var temp = "<span class=\"shore-list-tag pull-left\"><em class=\"ml15 pl5 pr5 pull-left\" data-id={1}>{0}</em></span>";
         var proviceId = $("#itemLocation").attr("data-id");
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/ProvinceCityHandler.ashx',
+            url: 'Ajax/ProvinceCityHandler.ashx',
             data: { d: proviceId, pid: productId },
             type: 'post',
             async: false,
@@ -139,13 +139,13 @@ var cityProductPrice = {
     CheckLogin: function () {
         var msg = "false";
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/CheckLoginHandler.ashx',
+            url: 'Ajax/CheckLoginHandler.ashx',
             type: 'post',
             async: false,
             success: function (data) {
                 if (data == "0") {
                     msg = "false";
-                    window.location.href = 'http://www.chuangyesan.com/login.aspx?url=' + location.href;
+                    window.location.href = '/login.aspx?url=' + location.href;
                 }
                 else
                     msg = "true";
@@ -180,7 +180,7 @@ var cityProductPrice = {
                     if (acc == undefined)
                         acc = "";
                     $.ajax({
-                        url: 'http://www.chuangyesan.com/Ajax/AddToCartHanlder.ashx',
+                        url: 'Ajax/AddToCartHanlder.ashx',
                         data: { pid: buyId, cityId: cityId, countType: countType, num: num, acc: acc },
                         type: 'post',
                         async: false,
@@ -188,7 +188,7 @@ var cityProductPrice = {
                             if (type == 0) {
                                 if (data > 0) {
                                     // alert("加入购物车成功。");
-                                    location.href = "http://www.chuangyesan.com/login.aspx?url=/shoppingcart.aspx";
+                                    location.href = "/shoppingcart.aspx";
                                 }
                                 else {
                                     alert("加入购物车失败，请重试。");
@@ -196,7 +196,7 @@ var cityProductPrice = {
                             }
                             else {
                                 if (data > 0) {
-                                    location.href = "http://www.chuangyesan.com/checkout.aspx";
+                                    location.href = "/checkout.aspx";
                                 }
                                 else {
                                     alert("立即购买失败，请重试。");
@@ -216,7 +216,7 @@ var cityProductPrice = {
     },
     InitComment: function () {
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/CommentHandler.ashx',
+            url: 'Ajax/CommentHandler.ashx',
             data: { pid: productId },
             type: 'post',
             async: false,
@@ -236,7 +236,7 @@ var cityProductPrice = {
         var url = location.href;
         var title = encodeURI($(document).attr("title"));
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/BrowseHistoryHandler.ashx',
+            url: 'Ajax/BrowseHistoryHandler.ashx',
             data: { pi: productId, pu: url, pt: title },
             type: 'post',
             async: false
@@ -244,7 +244,7 @@ var cityProductPrice = {
     },
     GetCarvedChapter: function () {
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/ProductHandler.ashx',
+            url: 'Ajax/ProductHandler.ashx',
             data: { type: 1, id: productId },
             type: 'post',
             async: false,
@@ -256,7 +256,7 @@ var cityProductPrice = {
     GetRecommentSetData: function () {
         SetData = null;
         //        $.ajax({
-        //            url: 'http://www.chuangyesan.com/Ajax/RecommentSetHandler.ashx',
+        //            url: 'Ajax/RecommentSetHandler.ashx',
         //            data: { id: productId, t: 1 },
         //            type: 'post',
         //            async: false,
@@ -280,7 +280,7 @@ var cityProductPrice = {
         //honey 修改2016.06.24
         var cityId = $("#itemLocation").attr("data-id");
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/GetProductCityDetailHandlerV1.ashx',
+            url: 'Ajax/GetProductCityDetailHandlerV1.ashx',
             data: { id: pid, cityId: cityId},
             type: 'post',
             async: false,
@@ -291,7 +291,7 @@ var cityProductPrice = {
     },
     SetLinkQQ: function () {
         $.ajax({
-            url: 'http://www.chuangyesan.com/Ajax/GetProductLinkWay.ashx',
+            url: 'Ajax/GetProductLinkWay.ashx',
             data: { pid: productId },
             type: 'post',
             async: false,
