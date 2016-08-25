@@ -13,7 +13,7 @@ $(document).ready(function () {
     $(".inner .choose>a:eq(1),.container>a:eq(0)").bind("click", function () { cityProductPrice.AddToCart(0); });
     //初始化评论
     cityProductPrice.InitComment();
-    $("http://www.chuangyesan.com/js/.top .left").bind("click", function () { history.go(-1); });
+    $(".top .left").bind("click", function () { history.go(-1); });
     cityProductPrice.SetLinkQQ();
 });
 var productId;
