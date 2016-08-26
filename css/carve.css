@@ -172,7 +172,7 @@ ul.process0 li{width:96px!important;}
 .content ul.process0 li img {margin:0;float:none;}
 .content ul.process0{float:none;}
 ul.process{overflow:hidden;width:796px;margin:auto;margin-top:80px;}
-ul.process li div{width:90px;height:90px;background-color:#f9fff8;border:1px solid #0087d2;border-radius:50%;text-align:center;padding-top:14px;}
+ul.process li div{width:90px;height:90px;background-color:#fff;border:1px solid #0087d2;border-radius:50%;text-align:center;padding-top:14px;}
 ul.process span{display:block;font-size:12px;line-height:26px;color:#0087d2;}
 ul.process b{display:block;font-weight:normal;font-size:16px;line-height:40px;text-align:center;}
 ul.process li:nth-child(odd){width:110px;position:relative;height:120px;}
