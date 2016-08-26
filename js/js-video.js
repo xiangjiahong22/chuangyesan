@@ -20,9 +20,9 @@ $(window).resize(function () {
     $('.vedio .poa-f .carousel').css({ 'width': 1000, 'height': 667 })
     $('.carousel ul.imageslist li img').css({ 'width': '100%', 'height': '100%' })
     /*$('.floor1 .banners').css({'width':$h,'height':$h})
-    var $wrod_h=$('http://www.chuangyesan.com/js/.floor1 .word').height();
+    var $wrod_h=$('.floor1 .word').height();
     $('.floor1 .banners').css({'width':$w*0.6,'height':$h})
-    $('http://www.chuangyesan.com/js/.floor1 .word').css({'widht':$w*0.4,'margin-top':($h-$wrod_h)/2})
+    $('.floor1 .word').css({'widht':$w*0.4,'margin-top':($h-$wrod_h)/2})
     $('.floor1 .banners img').css({'width':$w*0.6,'height':$h});
     /*$('.floor1 .banner').css('top',-$h);*/
     $('.floor1:before').css({ 'top': 0 });
@@ -36,7 +36,7 @@ $(window).resize(function () {
         })
     }
 
-    var $padding_top = $('http://www.chuangyesan.com/js/.floor3 .date').css('padding-top');
+    var $padding_top = $('.floor3 .date').css('padding-top');
     $('.floor3 .bottom .message').css({ 'top': $padding_top });
     setTimeout(down, 1500)
 
@@ -66,8 +66,8 @@ window.onload = function () {
 
     $('.floor1 .banner').css('top', -$h);
     $('.floor1:before').css({ 'top': 0 });
-    var $wrod_h = $('http://www.chuangyesan.com/js/.floor1 .word').height();
-    $('http://www.chuangyesan.com/js/.floor1 .word').css({ 'margin-top': ($h - $wrod_h) / 2 });
+    var $wrod_h = $('.floor1 .word').height();
+    $('.floor1 .word').css({ 'margin-top': ($h - $wrod_h) / 2 });
     /* $('.vedio .poa-f .carousel ul.imageslist').css({'height':1000})*/
     var $control_h = $('.product-item .control').height();
     $('.product-item .control').css({ 'padding-top': ($h - $control_h) / 2 })
@@ -83,9 +83,9 @@ window.onload = function () {
     $('.link_to li.tex p').html('影片<br/>详细');
 
     /*$('.floor1 .banners').css({'width':$h,'height':$h})
-    $('http://www.chuangyesan.com/js/.floor1 .word').css({'widht':$w-$h})*/
+    $('.floor1 .word').css({'widht':$w-$h})*/
     $('.floor1 .banners').css({ 'width': $w * 0.6, 'height': $h })
-    $('http://www.chuangyesan.com/js/.floor1 .word').css({ 'widht': $w * 0.4, 'margin-top': ($h - $wrod_h) / 2 })
+    $('.floor1 .word').css({ 'widht': $w * 0.4, 'margin-top': ($h - $wrod_h) / 2 })
     $('.floor1 .banners img').css({ 'width': $w * 0.6, 'height': $h });
 
     $('.carousel ul.imageslist li img').css({ 'width': '100%', 'height': '100%' })
@@ -98,7 +98,7 @@ window.onload = function () {
             $('.floor1 .content').animate({ 'left': '8%', 'opacity': 1 }, 1000, $.easie(0.584, 0.692, 0.654, 0.761))
         })
     }
-    var $padding_top = $('http://www.chuangyesan.com/js/.floor3 .date').css('padding-top');
+    var $padding_top = $('.floor3 .date').css('padding-top');
     $('.floor3 .bottom .message').css({ 'top': $padding_top });
     setTimeout(down, 1500)
 
@@ -129,7 +129,7 @@ window.onload = function () {
         $fl3 = $('.floor3 .bottom').offset().top;
     var $fl4 = 0;
     if ($('.floor4').offset() != undefined)
-        $fl4 = $('http://www.chuangyesan.com/js/.floor4 .wrap').offset().top;
+        $fl4 = $('.floor4 .wrap').offset().top;
     /*	$(document).mousewheel(function(event, delta) {	
     var $height = parseFloat($(document).scrollTop());
     if(delta===1){
@@ -157,16 +157,16 @@ window.onload = function () {
         /*setTimeout(opacity,500)*/
         if ($top > 0) {
             $('.navs').slideDown();
-            $('http://www.chuangyesan.com/js/.floor1 .logo').hide();
+            $('.floor1 .logo').hide();
         } else {
             $('.navs').slideUp();
-            $('http://www.chuangyesan.com/js/.floor1 .logo').show();
+            $('.floor1 .logo').show();
         }
 
         if ($top > $fl2 - ($('.floor2').height() / 2)) {
             /*if( $('.floor2').scrollTop()===0){*/
             $('.floor2 .big_img').addClass('mg_l ');
-            $('http://www.chuangyesan.com/js/.floor2 .text').addClass('mg_r  ');
+            $('.floor2 .text').addClass('mg_r  ');
         }
         if ($top > $fl3 - ($('.floor3 .bottom').height() - 200)) {
             /*$('.floor3 .bottom .message li').eq(0).find('em').animate({'margin-top':0,'opacity':1},1000,function(){
@@ -177,7 +177,7 @@ window.onload = function () {
             $('.floor3 .bottom .photo li ').addClass('go');
 
         }
-        if ($top > $fl4 - ($('http://www.chuangyesan.com/js/.floor4 .wrap').height() / 4)) {
+        if ($top > $fl4 - ($('.floor4 .wrap').height() / 4)) {
 
             $('.floor4 .wrap li').addClass('mg_l2 ');
         }
@@ -200,9 +200,9 @@ window.onload = function () {
         $('.floor3 .bottom .message ul.up li').find('em').css({ 'margin-top': 50, 'opacity': 0 });
         $('.floor3 .bottom .message  ul.up li').find('p').css({ 'margin-top': 50, 'opacity': 0 });
         $('.floor3 .bottom .message li').find('span').css({ 'opacity': 0 });
-        $('http://www.chuangyesan.com/js/.floor3 .bottom .message li.cur').find('em').animate({ 'margin-top': 0, 'opacity': 1 }, 1000, function () {
-            $('http://www.chuangyesan.com/js/.floor3 .bottom .message li.cur').find('p').animate({ 'margin-top': 0, 'opacity': 1 }, 800, 'easieEase')
-            $('http://www.chuangyesan.com/js/.floor3 .bottom .message li.cur').find('span').animate({ 'opacity': 1 }, 1000, 'easieEase')
+        $('.floor3 .bottom .message li.cur').find('em').animate({ 'margin-top': 0, 'opacity': 1 }, 1000, function () {
+            $('.floor3 .bottom .message li.cur').find('p').animate({ 'margin-top': 0, 'opacity': 1 }, 800, 'easieEase')
+            $('.floor3 .bottom .message li.cur').find('span').animate({ 'opacity': 1 }, 1000, 'easieEase')
         })
     }
 
@@ -238,9 +238,9 @@ window.onload = function () {
         $('.floor3 .bottom .message li').find('em').css({ 'margin-top': 50, 'opacity': 0 });
         $('.floor3 .bottom .message li').find('p').css({ 'margin-top': 50, 'opacity': 0 });
         $('.floor3 .bottom .message li').find('span').css({ 'opacity': 0 });
-        $('http://www.chuangyesan.com/js/.floor3 .bottom .message li.cur').find('em').animate({ 'margin-top': 0, 'opacity': 1 }, 1000, function () {
-            $('http://www.chuangyesan.com/js/.floor3 .bottom .message li.cur').find('p').animate({ 'margin-top': 0, 'opacity': 1 }, 800, 'easieEase')
-            $('http://www.chuangyesan.com/js/.floor3 .bottom .message li.cur').find('span').animate({ 'opacity': 1 }, 1000, 'easieEase')
+        $('.floor3 .bottom .message li.cur').find('em').animate({ 'margin-top': 0, 'opacity': 1 }, 1000, function () {
+            $('.floor3 .bottom .message li.cur').find('p').animate({ 'margin-top': 0, 'opacity': 1 }, 800, 'easieEase')
+            $('.floor3 .bottom .message li.cur').find('span').animate({ 'opacity': 1 }, 1000, 'easieEase')
         })
         index();
         img();
