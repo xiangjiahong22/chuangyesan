@@ -1129,7 +1129,6 @@ var _hmt = _hmt || [];
 
         //本页业务开始初始化
         $(document).ready(function () {
-        	 alert();
            // var obj = $(".company dd.cur>a");
           //  bookkeeping.company(obj); //选择规模数据
           
@@ -1203,25 +1202,21 @@ var _hmt = _hmt || [];
             //处理简单找逻辑
             bookkeeping.count();
             $(".company dd>a").bind("click", function () {
-            	alert();
                 $(this).parent().addClass("cur").siblings().removeClass("cur");
                 bookkeeping.company(this);
                 bookkeeping.control();
             });
             $(".model dd").on("click", function () {
-            	alert();
                 $(this).addClass("cur").siblings().removeClass("cur");
                 bookkeeping.model(this);
                 bookkeeping.control();
             });
             $(".pd dd").on("click", function () {
-            	alert();
                 $(this).addClass("cur").siblings().removeClass("cur");
                 bookkeeping.product(this);
                 bookkeeping.control();
             });
             $(".time dd").on("click", function () {
-            	alert();
                 $(this).addClass("cur").siblings().removeClass("cur");
                 bookkeeping.time(this);
                 bookkeeping.control();
@@ -1235,7 +1230,6 @@ var _hmt = _hmt || [];
         //本页业务初始化结束
          //levi 2015,12,12
 		$(function(){
-			alert();
 			$('.qa_i').on("mouseover",function(){
 				$(this).find('.qa_t_info').show();
 				});
