@@ -6,12 +6,12 @@
 .head form select{width:98px;-webkit-appearance:none;appearance:none;background-image:url("../images/index/index_1000.jpg")/*tpa=http://www.chuangyesan.com/images/index/index_1000.jpg*//*tpa=http://www.chuangyesan.com/images/index/index_1000.jpg*/;background-repeat:no-repeat;background-position:95% center;border-radius:0;}
 .head form>*{float:left;border-radius:0;height:100%;border:none;height:40px;}
 .head form{overflow:hidden;height:42px;border:2px solid #0087d2;}
-.head .search{width:45%;}
+.head .search{width:45%;margin-top: 12px}
 .head form input{width:292px;}
 .head form select{width:98px;border:none;border-right:1px solid #cdcdcd;box-shadow:none;color:#555;}
 .head form button[type='submit']{width:64px;margin-left:14px;height:40px;border-radius:0;border:none;background-color:#0087d2;color:#fff;}
 .head form{width:456px;margin-left:111px;margin-top:10px;}
-.head .login{float:right;}
+.head .login{float:right;margin-top: 12px}
 .head .login img{ width:330px; height:60px;}
 .head .login a,.head .login a:hover{color:#4f4f4f;}
 .head .login li{float:left;padding-left:20px;margin-left:20px;color:#4f4f4f;font-size:14px;margin-top:21px;background:url("../images/index/index_03.jpg")/*tpa=http://www.chuangyesan.com/images/index/index_03.jpg*//*tpa=http://www.chuangyesan.com/images/index/index_03.jpg*/ 0% center no-repeat;}
