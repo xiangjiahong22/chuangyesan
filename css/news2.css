@@ -15,10 +15,10 @@ p.dialogue{font-size:16px;line-height:32px;text-indent:28px;}
 .bg5581ab{background-color:#358000 ;}
 .divide{width:86%;height:2px;display:block;}
 .margin_y_50{margin:70px 7%;}
-.link li{font-size:14px;line-height:30px;color:#358000;margin:0 7%;}
+.link li{font-size:14px;line-height:30px;color:#0087d2;margin:0 7%;}
 .link li a{color:#358000 ;}
 .comeback{width:120px;height:30px;float:right;border-radius:4px;background-color:#949494;color:#fff;padding-left:40px;line-height:30px;margin:0 7%;background-image:url("../image/news_inner/news_inner_03.png")/*tpa=http://www.chuangyesan.com/image/news_inner/news_inner_03.png*/;background-repeat:no-repeat;background-position:80% center;font-size:14px;cursor:pointer;}
-.comeback:hover{background-color:#358000;color:#fff;}
+.comeback:hover{background-color:#0087d2;color:#fff;}
 .margin_y_double{margin-top:30px;margin-bottom:120px;}
 .daohang{
 padding-top: 70px;
@@ -32,7 +32,7 @@ dl.navigation dt {padding-left:25px;background:url("../images/financial/financia
 dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
 dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
 dl.navigation dd:last-child a:before{display:none;}
-dl.navigation dd.cur a{color:#559b0d;}
+dl.navigation dd.cur a{color:#0087d2;}
 @media (max-width: 1199px ){
 	.float_lf{width:100%;text-align:center;margin-bottom:50px;}
 	.float_rt{width:100%;}

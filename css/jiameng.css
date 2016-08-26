@@ -32,9 +32,9 @@ div.list>div  a p{font-size:16px;line-height:36px;color:#50980f;text-align:left;
 .jiameng {margin-top:30px;}
 /*form*/
 .xinxi_main {width: 500px;height: 430px;margin: 0 auto; border: 1px solid #ccc; margin-top:20px; margin-bottom:20px;}
-.tou p {font-family: 'Î¢ÈíÑÅºÚ';text-align:center;font-size: 33px;padding-bottom: 15px; color: #559b0d;border-bottom: 1px dashed #ccc;}
+.tou p {font-family: 'Î¢ÈíÑÅºÚ';text-align:center;font-size: 33px;padding-bottom: 15px; color: #0087d2;border-bottom: 1px dashed #ccc;}
 .xinxi {margin-left:7%; height:50px;margin-top:10px;}
-.xinxi label{ font-size:20px;color:#559b0d;min-width:130px; text-align:right;}
+.xinxi label{ font-size:20px;color:#0087d2;min-width:130px; text-align:right;}
 .xinxi label i { color:red;margin-right:1px;font-size:15px;}
 .xinxi  input {width:60%;height:30px;border-radius:4px;border: 1px solid #ccc; display:inline-block;}
 .form-control{ font-size:14px;}

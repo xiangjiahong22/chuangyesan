@@ -137,10 +137,10 @@ margin-right:10px;}
 .overview form p em{float:left;font-size:36px;color:#f3565d;}
 .overview form p u{text-decoration:none;font-style:normal;float:left;font-size:36px;color:#f3565d;}
 .overview form  .checkbox label{width:100%;text-align:left;margin-left:15%;color:#000;}
-.overview form  .checkbox label span{color:#559b0d;}
+.overview form  .checkbox label span{color:#0087d2;}
 .overview form .choose {margin-top:40px;margin-left:15%;overflow:hidden;}
 .overview form  .choose a {float:left;width:196px;height:40px;border-radius:20px;text-align:center;line-height:40px;margin-right:20px;background-color:#f3565d;color:#fff;}
-.overview form  .choose a:last-child{background-color:#559b0d;}
+.overview form  .choose a:last-child{background-color:#0087d2;}
 .overview form>*{margin-bottom:16px;}
 
 

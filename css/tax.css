@@ -17,7 +17,7 @@ form textarea.form-control{height:45px;width:80%;float:left;resize:none;}
 .tree .left p{text-align:right;margin-top:100px;}
 .tree .right p{text-align:left;}
 .tree .right{padding-left:35px;border-left:1px dashed #c1c1c1;margin-left:-1px;}
-.tree p:before{content:'';width:17px;height:17px;border:1px solid #fff;background-color:#559b0d;position:absolute;right:-44px;top:35%;border-radius:50%;}
+.tree p:before{content:'';width:17px;height:17px;border:1px solid #fff;background-color:#0087d2;position:absolute;right:-44px;top:35%;border-radius:50%;}
 .tree .right p:last-child:before{top:50%;}
 .tree .left p:last-child:before{top:50%;}
 .tree .left p:first-child:before{top:35%;}
@@ -30,10 +30,10 @@ ul.process{width:1020px!important;}
 .content ul:last-child li a{padding-left:25%;} 
 
 .material div.index{margin:0 auto;text-align:center;margin-bottom: 50px;margin-top: -20px;}
-.index li{padding:5px 15px;background-color:#FFF;border:1px solid #fff;font-size:20px;color:#559b0d;float:left;margin-right:10px;text-align:center;min-width:112px;cursor:pointer;}
+.index li{padding:5px 15px;background-color:#FFF;border:1px solid #fff;font-size:20px;color:#0087d2;float:left;margin-right:10px;text-align:center;min-width:112px;cursor:pointer;}
 .index ul{overflow:hidden;display:inline-block;} 
 .index li:last-child{margin:0;}
-.index li.cur{background-color:#559b0d;color:#fff;}
+.index li.cur{background-color:#0087d2;color:#fff;}
 .all li{width:1040px;/*overflow:hidden;height:520px;*/margin:auto;display:none;}
 .all li.cur{display:block;}
 .all li>div{float:left;width:50%;/*height:100%;*/}
@@ -43,7 +43,7 @@ ul.process{width:1020px!important;}
 .all li .left p{text-align:right;margin-top:100px;}
 .all li .right p{text-align:left;}
 .all li .right{padding-left:35px;margin-left:-1px;}
-.all li p:before{content:'';width:17px;height:17px;border:1px solid #fff;background-color:#559b0d;position:absolute;right:-44px;top:35%;border-radius:50%;}
+.all li p:before{content:'';width:17px;height:17px;border:1px solid #fff;background-color:#0087d2;position:absolute;right:-44px;top:35%;border-radius:50%;}
 .all li .left p:first-child{margin-top:-11px;}
 .all li .right p:before{left:-43px;}
 .all li .right p{margin-top:100px;}

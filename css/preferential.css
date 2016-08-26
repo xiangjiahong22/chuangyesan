@@ -6,7 +6,7 @@ dl.navigation dt {padding-left:25px;background:url("../images/financial/financia
 dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
 dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
 dl.navigation dd:last-child a:before{display:none;}
-dl.navigation dd.cur a{color:#559b0d;}
+dl.navigation dd.cur a{color:#0087d2;}
 ul.main{padding-top:50px;overflow:hidden;}
 
 .main li{float:left;width:595px;height:428px;padding:32px 30px;background-color:#FFF;border:1px solid #ccc;margin-bottom:36px;transition:all .3s;}

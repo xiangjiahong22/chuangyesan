@@ -15,6 +15,6 @@
 .translate img{padding:15px;}
 .translate p{font-size:22px;line-height:36px;text-align:center;color:#373737;}
 .translate li:hover{background:url("../images/basic/basic_42.jpg")/*tpa=http://www.chuangyesan.com/images/basic/basic_42.jpg*/ ;}
-.translate li:hover p,.translate li:hover span{color:#559b0d;}
+.translate li:hover p,.translate li:hover span{color:#0087d2;}
 .translate span{font-size:14px;display:block;text-align:center;}
 ul.process{width:1000px;}

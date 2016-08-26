@@ -28,7 +28,7 @@ em{display:block;}
 		.carousel ul.imageslist li{float: left;}
 	 .num{overflow:hidden;width:126px;margin:auto;height:100px;margin-top:90px;}
  .num span{float: left; margin-right: 6px; width: 25px; height: 25px; border-radius:50%;border:2px solid #fff; cursor:pointer;}
-	.num span.cur{background: #559b0d;}
+	.num span.cur{background: #0087d2;}
 .carousel ol li{width:250px;float:left;box-sizing:border-box;}
 .carousel ol li a{display:block;height:275px;border:1px solid #94e2ff;box-shadow:0px 1px 1px 1px #94e2ff;margin-right:40px;text-align:center;padding-top:70px;}
 .carousel ol li a p{font-size:24px;text-align:center;margin-top:30px;color:#fff;}

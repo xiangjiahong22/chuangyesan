@@ -6,7 +6,7 @@ dl.navigation dt {padding-left:25px;background:url("../images/financial/financia
 dl.navigation dd a{display:block;float:none;padding:0 12px;position:relative;}
 dl.navigation dd a:before{content:'>';position:absolute;right:0;top:0;}
 dl.navigation dd:last-child a:before{display:none;}
-dl.navigation dd.cur a{color:#559b0d;}
+dl.navigation dd.cur a{color:#0087d2;}
 ul.main{padding-top:50px;overflow:hidden;}
 
 div.big_img{height:547px;width:100%;background: url("../images/web/website_02.jpg")/*tpa=http://www.chuangyesan.com/images/web/website_02.jpg*/ center center no-repeat;}
@@ -36,7 +36,7 @@ div.big_img{height:547px;width:100%;background: url("../images/web/website_02.jp
 .service li:nth-child(5):hover a{background-image:url("../images/web/icon5.png")/*tpa=http://www.chuangyesan.com/images/web/icon5.png*/;} 
 .service li:nth-child(6) a{background-image:url("../images/web/icon6-6.png")/*tpa=http://www.chuangyesan.com/images/web/icon6-6.png*/;} 
 .service li:nth-child(6):hover a{background-image:url("../images/web/icon6.png")/*tpa=http://www.chuangyesan.com/images/web/icon6.png*/;} 
-.service li:hover a{background:#559b0d url("../images/web/icon1.png")/*tpa=http://www.chuangyesan.com/images/web/icon1.png*/ center center no-repeat;color:#fff;} 
+.service li:hover a{background:#0087d2 url("../images/web/icon1.png")/*tpa=http://www.chuangyesan.com/images/web/icon1.png*/ center center no-repeat;color:#fff;} 
 .solution ul{overflow:hidden;padding:0 25px;padding-top:50px;}
 .solution ul li{float:left;width:16.666%;height:155px;background:url("../images/web/bg-nowness.jpg")/*tpa=http://www.chuangyesan.com/images/web/bg-nowness.jpg*/ center center no-repeat;}
 .solution ul li a{background:rgba(0,0,0,0.8);color:#707070;font-size:16px;line-height:155px;text-align:center;display:block;transition:all .3s;}

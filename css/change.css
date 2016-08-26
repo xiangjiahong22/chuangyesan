@@ -1,7 +1,7 @@
 .service form dt{height:100px;}
 .service form dd {margin-right:1px;margin-bottom:10px;width:auto;/*padding:0 15px;*/padding:0 8px;}
 .translation .container{padding-bottom:0;margin-bottom:50px;background:#FFF url("../images/carve/carve_25.jpg")/*tpa=http://www.chuangyesan.com/images/carve/carve_25.jpg*/ 100% 100% no-repeat;}
-.translation .container .left{background-color:#559b0d;background-image:none;}
+.translation .container .left{background-color:#0087d2;background-image:none;}
 .translation .container .left em {
 display:block;
 font-size: 40px;
@@ -21,7 +21,7 @@ border:1px solid #fff;color:#fff;	}
 height: 390px;}
 .translation .middle li{padding: 0 30px;padding-top:40px;display:none;}
 .translation .middle li.cur{display:block;}
-.translation li em{font-size:20px;display:block;padding-bottom:30px;color:#559b0d;}
+.translation li em{font-size:20px;display:block;padding-bottom:30px;color:#0087d2;}
 .translation li p{font-size:16px;line-height:30px;color:#353535;}
 .translation .container .left p:last-child{padding:0;float:right;}
 .translation .container .right p:last-child{padding:0;float:left;}

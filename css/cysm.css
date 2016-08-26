@@ -6,7 +6,7 @@
 .service form dd.no_style{ background-color:transparent;}
 .sale_txt{ height:20px; line-height:20px; padding:0 6px; margin:8px 0 0 5px; background-color:#f3565d; border-radius:2px; color:#fff; font-size:12px;}
 .qa_t_info > b{ padding-top:5px; display:block; position:relative; border-bottom:1px solid #fff;}
-.qa_t_info > b:before{ content:''; display:block; height:14px; background-color:#559b0d; width:3px; float:left; margin-right:5px; margin-top:5px;}
+.qa_t_info > b:before{ content:''; display:block; height:14px; background-color:#0087d2; width:3px; float:left; margin-right:5px; margin-top:5px;}
 
 .qa_t_info > p.dl_list{ line-height:24px; font-family:宋体; padding-left:10px; padding-bottom:10px;}
 
@@ -23,7 +23,7 @@
 .error .container> em b{font-size:24px;display:inline-block;padding-right:5px;}
 .error .link{text-align:center;margin-top:100px;}
 .error .link li:last-child{border:none;}
-.error .link li:hover a{color:#559b0d;font-weight:bold;}
+.error .link li:hover a{color:#0087d2;font-weight:bold;}
 .error .link  ul{height:20px;overflow:hidden;}
 .nav0.navs{height:56px!important;padding-bottom:7px;}
 
